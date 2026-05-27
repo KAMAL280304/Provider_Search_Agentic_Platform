@@ -17,6 +17,7 @@ from google.adk.sessions import InMemorySessionService
 from google.adk.tools import FunctionTool
 from google.genai.types import Content, Part
 
+from app.controller.controller import handle_tool_response
 from app.services.user_service import UserService
 from app.services.storage_service import storage
 from app.services.calendar_service import (
@@ -1080,7 +1081,46 @@ When you act (notify, search, book), tell {user.first_name} what you did and wha
 Emergency symptoms → tell {user.first_name} to call 911 immediately. Don't search for providers."""
 
 
+# ── Helper: recommend_care_type ──────────────────────────────────────────────
+def recommend_care_type(specialty: str, reason: str) -> str:
+    """
+    Return the recommended consultation type based on specialty and reason.
+    Returns "In-Person" or "Telehealth". Defaults to "In-Person".
+    """
+    _combined = f"{specialty} {reason}".lower()
+    _in_person_kws  = {"mri", "ct", "x-ray", "injury", "fever", "pain", "orthopedic", "radiology"}
+    _telehealth_kws = {"follow-up", "consultation", "mental health", "medication", "anxiety", "depression"}
+    if any(kw in _combined for kw in _in_person_kws):
+        return "In-Person"
+    if any(kw in _combined for kw in _telehealth_kws):
+        return "Telehealth"
+    return "In-Person"
+
+
+# ── Helper: check_booking_network_impact ─────────────────────────────────────
+def check_booking_network_impact(user_id: str, new_plan_id: str) -> list:
+    """
+    For each existing booking, check whether the provider is in-network
+    under new_plan_id. Returns a list of impact records.
+    """
+    bookings = storage.get_bookings(user_id)
+    impact = []
+    for b in bookings:
+        npi  = b.get("npi", "")
+        net  = _fhir_tool.validate_network(npi, new_plan_id) if npi else "unknown"
+        impact.append({
+            "provider_name":    b.get("provider_name", ""),
+            "npi":              npi,
+            "date":             b.get("date", ""),
+            "new_network_status": net,
+            "action_needed":    net != "in_network",
+        })
+    return impact
+
+
 # ── Tool 1: find_providers ────────────────────────────────────────────────────
+from app.utils.response import create_response, ReasonCodes, Actions
+
 def find_providers(
     user_id: str,
     specialty: str,
@@ -1105,12 +1145,80 @@ def find_providers(
     if not specialty:
         return {"error": "specialty is required"}
 
-    # ── Imaging / Radiology prior-auth gate ───────────────────────────────────
-    # If the member has an MRI prescription on file and prior auth is NOT approved,
-    # we still return providers (so the agent can show options) but we inject a
-    # hard gate flag that tells the agent to block booking and send notify_provider.
-    _IMAGING_KWS = {"radiology", "diagnostic radiology", "imaging", "mri", "ct scan", "pet scan", "nuclear medicine"}
+    _IMAGING_KWS       = {"radiology", "diagnostic radiology", "imaging", "mri", "ct scan", "pet scan", "nuclear medicine"}
+    _PCP_SPECIALTIES   = {"family medicine", "internal medicine", "general practice", "primary care", "pediatrics"}
     _is_imaging_search = any(kw in specialty.lower() for kw in _IMAGING_KWS)
+    _is_pcp_search     = any(ps in specialty.lower() for ps in _PCP_SPECIALTIES)
+
+    # ── 1. Emergency gate ─────────────────────────────────────────────────────
+    if urgency == "emergency":
+        return create_response(
+            allowed=False,
+            blocked=True,
+            reason_code=ReasonCodes.EMERGENCY_CASE,
+            next_action=Actions.NONE,
+            data={"message": "Emergency - seek immediate help"},
+        )
+
+    # ── 2. MRI prescription gate ──────────────────────────────────────────────
+    # If a prescription already exists for a body part matching this specialty,
+    # the clinical journey is past the "see a doctor" stage.
+    if not _is_imaging_search and not doctor_name:
+        try:
+            _mri_rx = storage.get_mri_prescription(user_id)
+            if _mri_rx and _mri_rx.get("prescription_mri"):
+                _body_part     = (_mri_rx.get("body_part") or "").lower()
+                _spec_lc       = specialty.lower()
+                _mri_kws       = {w for w in _body_part.split() if len(w) > 3}
+                _spec_kws      = {w for w in _spec_lc.split()   if len(w) > 3}
+                if _mri_kws & _spec_kws:
+                    _prescribed_by = _mri_rx.get("prescribed_by", {})
+                    _prescribing_doc = (
+                        _prescribed_by.get("name") if isinstance(_prescribed_by, dict) else str(_prescribed_by)
+                    ) or "the prescribing doctor"
+                    return create_response(
+                        allowed=False,
+                        blocked=True,
+                        reason_code=ReasonCodes.MRI_PRESCRIPTION_EXISTS,
+                        next_action=Actions.NOTIFY_PROVIDER,
+                        data={
+                            "body_part":          _mri_rx.get("body_part"),
+                            "prescribing_doctor": _prescribing_doc,
+                        },
+                    )
+        except Exception:
+            pass
+
+    # ── 3. HMO referral gate ──────────────────────────────────────────────────
+    # Fires only when: HMO plan + no approved referral + not PCP/imaging + no doctor_name.
+    if not _is_pcp_search and not _is_imaging_search and not doctor_name:
+        try:
+            _plan_rules = _get_plan_rules(user.insurance_plan)
+            if _plan_rules.get("requires_referral"):
+                _ref = storage.get_referral(user_id)
+                if not (_ref and _ref.get("status") == "approved"):
+                    _pcp       = user.assigned_pcp or {}
+                    _is_travel = bool(travel_city.strip() and travel_city.strip().lower() != user.default_city.lower())
+                    _cur_loc   = f"{travel_city}, {travel_state}" if _is_travel else f"{user.default_city}, {user.default_state}"
+                    return create_response(
+                        allowed=False,
+                        blocked=True,
+                        reason_code=ReasonCodes.HMO_REFERRAL_REQUIRED,
+                        next_action=Actions.BOOK_PCP,
+                        data={
+                            "blocked_specialty":             specialty,
+                            "pcp_npi":                       _pcp.get("npi", ""),
+                            "pcp_name":                      _pcp.get("name", ""),
+                            "is_traveling":                  _is_travel,
+                            "home_city":                     user.default_city,
+                            "current_location":              _cur_loc,
+                            "consultation_type_recommended": "Telehealth" if _is_travel else "In-Person",
+                        },
+                    )
+        except Exception:
+            pass
+
+    # ── Imaging prior-auth gate state (used in response below) ───────────────
     _imaging_gate_status = None
     _imaging_gate_doc    = ""
     if _is_imaging_search:
@@ -1125,69 +1233,6 @@ def find_providers(
                 ) or "the prescribing doctor"
         except Exception:
             pass
-
-    if urgency == "emergency":
-        return {
-            "emergency": True,
-            "message": "This is a medical emergency. Please call 911 or go to the nearest ER immediately.",
-            "providers": [],
-        }
-
-    # ── HMO Gate: redirect to PCP before any specialist search ───────────────
-    # Only fires when ALL of these are true:
-    #   1. Plan requires referral (HMO)
-    #   2. No approved referral on file
-    #   3. doctor_name is empty (not a specific known doctor lookup)
-    #   4. Specialty is not PCP/primary care
-    #   5. Specialty is not imaging/radiology (separate gate handles that)
-    # Everything else (PPO, referral approved, doctor_name lookup, imaging) passes through untouched.
-    _PCP_SPECIALTIES_GATE = {"family medicine", "internal medicine", "general practice", "primary care", "pediatrics"}
-    _is_pcp_search_gate   = any(ps in specialty.lower() for ps in _PCP_SPECIALTIES_GATE)
-    _is_imaging_gate      = any(kw in specialty.lower() for kw in _IMAGING_KWS)
-    if not _is_pcp_search_gate and not _is_imaging_gate and not doctor_name:
-        try:
-            _plan_rules_gate = _get_plan_rules(user.insurance_plan)
-            if _plan_rules_gate.get("requires_referral"):
-                _ref_gate = storage.get_referral(user_id)
-                if not (_ref_gate and _ref_gate.get("status") == "approved"):
-                    _pcp       = user.assigned_pcp or {}
-                    _pcp_name  = _pcp.get("name", "")
-                    _pcp_npi   = _pcp.get("npi", "")
-                    _is_travel = bool(travel_city.strip() and travel_city.strip().lower() != user.default_city.lower())
-                    _cur_loc   = f"{travel_city}, {travel_state}" if _is_travel else f"{user.default_city}, {user.default_state}"
-                    return {
-                        "hmo_gate":         True,
-                        "blocked_specialty": specialty,
-                        "providers":        [],
-                        "count":            0,
-                        "pcp_name":         _pcp_name,
-                        "pcp_npi":          _pcp_npi,
-                        "is_traveling":     _is_travel,
-                        "home_city":        user.default_city,
-                        "current_location": _cur_loc,
-                        "instruction": (
-                            f"⛔ HMO_GATE: DO NOT search for {specialty}. DO NOT show specialist cards. "
-                            f"IMMEDIATELY call find_providers with specialty='Primary Care' and doctor_name='{_pcp_name}', then call check_availability. "
-                            + (
-                                f"MANDATORY RESPONSE — weave ALL of these naturally into one warm reply: "
-                                f"1) Show genuine empathy about the leg pain — acknowledge it sounds uncomfortable and you are on it. "
-                                f"2) Explain the plan rule simply and warmly: 'With your plan, a specialist needs a referral from your primary care doctor first — that is just how your coverage works, but I have got you covered.' "
-                                f"3) Proactively acknowledge the location change — you already know {user.first_name} is in {_cur_loc}, away from home in {user.default_city}. Say it naturally: 'I can see you are currently in {_cur_loc}, which is quite a distance from your PCP Dr. {_pcp_name} who is based in {user.default_city}.' "
-                                f"4) Offer Telehealth as the smart solution: 'So instead of making you travel all the way back, I have pulled up Telehealth slots with Dr. {_pcp_name} — you can do this from wherever you are right now.' "
-                                f"5) Show the Telehealth slots and ask which time works. "
-                                f"Tone: warm, proactive, human — like a knowledgeable friend who already read the file before {user.first_name} walked in. NOT robotic. NOT clinical."
-                                if _is_travel else
-                                f"MANDATORY RESPONSE — weave ALL of these naturally into one warm reply: "
-                                f"1) Show genuine empathy about the pain. "
-                                f"2) Explain simply: 'With your plan, the first step is to see your primary care doctor Dr. {_pcp_name} — they will assess it and refer you to the right specialist if needed. I have already pulled up their availability.' "
-                                f"3) Show the slots and ask which time works. "
-                                f"Tone: warm, proactive, human."
-                            )
-                        ),
-                    }
-        except Exception:
-            pass
-    # ─────────────────────────────────────────────────────────────────────────
 
     # Use travel location if member is away from home
     city  = travel_city.strip() if travel_city.strip() else user.default_city
@@ -1220,7 +1265,14 @@ def find_providers(
                 }
                 break
         if fhir_match:
-            return {"found": True, "providers": [fhir_match], "count": 1}
+            return create_response(
+                allowed=True,
+                blocked=False,
+                reason_code=ReasonCodes.SUCCESS,
+                next_action=Actions.CHECK_AVAILABILITY,
+                data={"providers": [fhir_match], "top_provider": fhir_match, "count": 1,
+                      "recommended_consultation_type": recommend_care_type(specialty, "")},
+            )
         # Fallback: NPPES name search
         last_name = doctor_name.replace("Dr.", "").replace("dr.", "").strip().split()[-1]
         name_parts = doctor_name.replace("Dr.", "").replace("dr.", "").strip().split()
@@ -1239,16 +1291,21 @@ def find_providers(
             p_dict["network_status"] = net
             p_dict["in_network"]     = net == "in_network"
             matches.append(p_dict)
-        return {"found": bool(matches), "providers": matches, "count": len(matches)}
+        return create_response(
+            allowed=True,
+            blocked=False,
+            reason_code=ReasonCodes.SUCCESS,
+            next_action=Actions.CHECK_AVAILABILITY,
+            data={"providers": matches, "top_provider": matches[0] if matches else None, "count": len(matches),
+                  "recommended_consultation_type": recommend_care_type(specialty, "")},
+        )
 
     fhir_providers = _fhir_tool.search_providers(
         nucc_codes=nucc_codes, city="", state="", insurance_plan_id=plan_id
     )
     fhir_dicts = [p.to_dict() for p in fhir_providers]
     for p in fhir_dicts:
-       # p["network_status"] = "in_network"
-        p["source"]         = "FHIR"
-        #p["in_network"]     = True
+        p["source"] = "FHIR"
 
     seen_npis = {p.get("npi") for p in fhir_dicts if p.get("npi")}
 
@@ -1264,7 +1321,6 @@ def find_providers(
             nppes_providers = _nppes_tool.search(
                 specialty=alt_specialty, zipcode="", city=city, state=state, limit=20
             )
-        # Also try broader search — drop city, search by state only
         if not nppes_providers:
             nppes_providers = _nppes_tool.search(
                 specialty=alt_specialty, zipcode="", city="", state=state, limit=20
@@ -1292,7 +1348,13 @@ def find_providers(
     all_providers = fhir_dicts + nppes_dicts
 
     if not all_providers:
-        return {"providers": [], "count": 0, "message": f"No {specialty} providers found."}
+        return create_response(
+            allowed=False,
+            blocked=True,
+            reason_code="NO_PROVIDERS_FOUND",
+            next_action=None,
+            data={},
+        )
 
     ranked = _ranking_tool.rank(
         providers         = all_providers,
@@ -1330,24 +1392,18 @@ def find_providers(
         })
 
     # Distance filtering with auto-expand: 10 → 25 → 50 miles
-    # Providers with distance_miles=None are kept only as a last resort (unknown distance)
     def _within(providers, max_miles):
         return [p for p in providers if p.get("distance_miles") is not None and p.get("distance_miles") <= max_miles]
 
-    # ── In-network first pass ─────────────────────────────────────────────────
-    # Always prefer in-network providers. Only show out-of-network as a last
-    # resort when NO in-network options exist within any reasonable radius.
-    in_net_slim  = [p for p in slim if p.get("in_network")]
-    oon_slim     = [p for p in slim if not p.get("in_network")]
+    in_net_slim = [p for p in slim if p.get("in_network")]
+    oon_slim    = [p for p in slim if not p.get("in_network")]
 
-    filtered     = _within(in_net_slim, 10);  radius_used = 10
+    filtered    = _within(in_net_slim, 10);  radius_used = 10
     if len(filtered) < 3:
         filtered = _within(in_net_slim, 25);  radius_used = 25
     if len(filtered) < 3:
         filtered = _within(in_net_slim, 50);  radius_used = 50
     if len(filtered) < 3:
-        # Last resort in-network: include unknown-distance in-network providers
-        # whose address contains the city/state name
         seen_npis_filtered = {p.get("npi") for p in filtered}
         for p in in_net_slim:
             if p.get("npi") not in seen_npis_filtered:
@@ -1359,8 +1415,7 @@ def find_providers(
                 break
         radius_used = None
 
-    # ── Out-of-network fallback — only when NO in-network providers found ────
-    # If in-network search yielded nothing, fall back to OON and flag it clearly
+    # ── Out-of-network fallback — only when NO in-network providers found ─────
     oon_fallback = False
     if not filtered:
         oon_fallback = True
@@ -1385,35 +1440,74 @@ def find_providers(
     if filtered and not filtered[0].get("top_pick"):
         filtered[0]["top_pick"] = True
 
-    _imaging_gate_note = ""
-    if _imaging_gate_status in ("none", "pending"):
-        _imaging_gate_note = (
-            f"⛔ PRIOR_AUTH_GATE: prior_auth.status='{_imaging_gate_status}'. "
-            f"DO NOT call check_availability. DO NOT call book_appointment. "
-            f"{'Call notify_provider(prior_auth_request) targeting ' + _imaging_gate_doc + ' immediately. ' if _imaging_gate_status == 'none' else 'Prior auth already submitted — do NOT re-notify. '}"
-            f"Tell the member their insurance needs a quick sign-off before the scan can be scheduled. "
-            f"Show these imaging centers so they are ready the moment approval comes through."
+    # ── Imaging prior-auth gate ───────────────────────────────────────────────
+    if _is_imaging_search and _imaging_gate_status is not None:
+        _img_action = (
+            Actions.CHECK_AVAILABILITY if _imaging_gate_status == "approved"
+            else Actions.NOTIFY_PROVIDER if _imaging_gate_status == "none"
+            else Actions.NONE
         )
-    elif _imaging_gate_status == "approved":
-        _imaging_gate_note = "✅ PRIOR_AUTH_APPROVED: Prior auth is approved. Proceed normally: check_availability → book_appointment."
+        return create_response(
+            allowed=True,
+            blocked=False,
+            reason_code=ReasonCodes.PRIOR_AUTH_REQUIRED,
+            next_action=_img_action,
+            data={
+                "providers":          filtered,
+                "top_provider":       filtered[0] if filtered else None,
+                "count":              len(filtered),
+                "specialty":          specialty,
+                "urgency":            urgency,
+                "radius_miles":       radius_used,
+                "searched_city":      city,
+                "is_travel_search":   is_traveling,
+                "prior_auth_status":  _imaging_gate_status,
+                "prescribing_doctor": _imaging_gate_doc,
+                "recommended_consultation_type": recommend_care_type(specialty, ""),
+            },
+        )
 
-    return {
-        "providers":        filtered,
-        "count":            len(filtered),
-        "specialty":        specialty,
-        "urgency":          urgency,
-        "top_pick":         filtered[0] if filtered else None,
-        "radius_miles":     radius_used,
-        "searched_city":    city,
-        "is_travel_search": is_traveling,
-        "imaging_prior_auth_gate": _imaging_gate_note,
-        "oon_fallback":     oon_fallback,
-        "oon_fallback_note": (
-            "⚠️ No in-network providers found. These are out-of-network options — "
-            f"member will pay full out-of-pocket costs (~{_PLAN_RULES.get(plan_name.lower().strip(), {}).get('oop_max','see plan')} OOP max). "
-            "Mention this clearly before showing results."
-        ) if oon_fallback else "",
-    }
+    # ── 5. Out-of-network fallback ────────────────────────────────────────────
+    if oon_fallback:
+        top_5_oon = filtered[:5]
+        return create_response(
+            allowed=True,
+            blocked=False,
+            reason_code=ReasonCodes.OON_FALLBACK,
+            next_action=Actions.CHECK_AVAILABILITY,
+            data={
+                "providers":        top_5_oon,
+                "top_provider":     top_5_oon[0] if top_5_oon else None,
+                "count":            len(filtered),
+                "specialty":        specialty,
+                "urgency":          urgency,
+                "radius_miles":     radius_used,
+                "searched_city":    city,
+                "is_travel_search": is_traveling,
+                "oop_max":          _PLAN_RULES.get(plan_name.lower().strip(), {}).get("oop_max", "see plan"),
+                "recommended_consultation_type": recommend_care_type(specialty, ""),
+            },
+        )
+
+    # ── 4. Normal flow ────────────────────────────────────────────────────────
+    top_5 = filtered[:5]
+    return create_response(
+        allowed=True,
+        blocked=False,
+        reason_code=ReasonCodes.SUCCESS,
+        next_action=Actions.CHECK_AVAILABILITY,
+        data={
+            "providers":        top_5,
+            "top_provider":     top_5[0] if top_5 else None,
+            "count":            len(filtered),
+            "specialty":        specialty,
+            "urgency":          urgency,
+            "radius_miles":     radius_used,
+            "searched_city":    city,
+            "is_travel_search": is_traveling,
+            "recommended_consultation_type": recommend_care_type(specialty, ""),
+        },
+    )
 
 # ── Tool 5: request_plan_change ───────────────────────────────────────────────
 def request_plan_change(
@@ -1451,14 +1545,19 @@ def request_plan_change(
     for k in [k for k in _runners if k.startswith(f"{user_id}|")]:
         _runners.pop(k, None)
 
-    return {
-        "status":         "submitted",
-        "previous_plan":  previous_plan,
-        "new_plan":       new_plan,
-        "effective_note": "Plan change request submitted to Cigna (the payer) for approval. Once approved, the new plan takes effect immediately.",
-        "next_step":      "A Cigna representative will review and approve the request. On your next login after approval, you will be notified of the confirmed plan change.",
-        "network_note":   "Doctors in-network under your previous plan may not be in-network under your new plan.",
-    }
+    impacted_bookings = check_booking_network_impact(user_id, new_plan_id)
+    return create_response(
+        allowed=True,
+        blocked=False,
+        reason_code=ReasonCodes.SUCCESS,
+        next_action=Actions.NONE,
+        data={
+            "plan_updated":      True,
+            "previous_plan":     previous_plan,
+            "new_plan":          new_plan,
+            "impacted_bookings": impacted_bookings,
+        },
+    )
 
 
 # ── Tool 2: notify_provider ────────────────────────────────────────────
@@ -1470,35 +1569,72 @@ def notify_provider(
 ) -> dict:
     """
     Send a notification to a provider's office on behalf of the member.
-    Use this when prior auth needs to be initiated, referral follow-up needed,
-    or any care coordination task needs to be flagged to the provider.
-    notification_type examples: "prior_auth_request", "referral_request", "follow_up_reminder"
-    message: what to communicate to the provider's office
+    Valid notification_type values: "prior_auth_request", "follow_up_reminder".
+    "referral_request" and "prior_auth_submission" are blocked — see reason codes.
     """
+    # ── 1. PPO: referral not required — block before generic referral check ───
+    try:
+        _plan_rules = _get_plan_rules(_users.get_user(user_id).insurance_plan)
+        if not _plan_rules.get("requires_referral") and notification_type == "referral_request":
+            return create_response(
+                allowed=False,
+                blocked=True,
+                reason_code=ReasonCodes.PPO_REFERRAL_NOT_REQUIRED,
+                next_action=Actions.NONE,
+                data={},
+            )
+    except Exception:
+        pass
+
+    # ── 2. Block referral creation (HMO — referrals come from PCP after visit) ─
+    if notification_type == "referral_request":
+        return create_response(
+            allowed=False,
+            blocked=True,
+            reason_code=ReasonCodes.REFERRAL_NOT_ALLOWED,
+            next_action=Actions.NONE,
+            data={},
+        )
+
+    # ── 3. Block prior auth submission (specialist's office submits, not app) ──
+    if notification_type == "prior_auth_submission":
+        return create_response(
+            allowed=False,
+            blocked=True,
+            reason_code=ReasonCodes.PRIOR_AUTH_SUBMISSION_NOT_ALLOWED,
+            next_action=Actions.NONE,
+            data={},
+        )
+
+    # ── 4. Valid notification — save and audit ────────────────────────────────
     try:
         user = _users.get_user(user_id)
         member_name = f"{user.first_name} {user.last_name}"
     except Exception:
         member_name = user_id
 
-    notification = {
+    storage.save_notification({
         "member_id":         user_id,
         "member_name":       member_name,
         "provider_name":     provider_name,
         "notification_type": notification_type,
         "message":           message,
-    }
-    storage.save_notification(notification)
+    })
     audit_logger.log_event("PROVIDER_NOTIFIED", user_id, {
         "provider":          provider_name,
         "notification_type": notification_type,
     })
-    return {
-        "sent":     True,
-        "provider": provider_name,
-        "type":     notification_type,
-        "summary":  f"Notification sent to {provider_name}'s office: {message[:100]}",
-    }
+    return create_response(
+        allowed=True,
+        blocked=False,
+        reason_code=ReasonCodes.SUCCESS,
+        next_action=Actions.NONE,
+        data={
+            "sent":              True,
+            "provider":          provider_name,
+            "notification_type": notification_type,
+        },
+    )
 
 
 # ── Tool 3: check_availability ────────────────────────────────────────────────
@@ -1541,7 +1677,7 @@ def book_appointment(
     consultation_type must be "In-Person" or "Telehealth".
     time_slot must exactly match a slot shown in check_availability results.
     appointment_date must match exactly what was shown in check_availability.
-    reason: brief description of what the appointment is for (e.g. "MRI scan", "fever", "GERD follow-up")
+    reason: brief description of what the appointment is for.
     """
     try:
         user        = _users.get_user(user_id)
@@ -1551,39 +1687,48 @@ def book_appointment(
         city        = "Unknown"
         member_city = ""
 
-    # ── Hard gate 1: Prior auth for imaging ───────────────────────────────────
-    _IMAGING_KWS_BOOK = {"radiology", "imaging", "mri", "ct", "scan", "pet", "nuclear"}
-    _reason_lc        = (reason or "").lower()
-    _prov_lc          = (provider_name or "").lower()
-    _is_imaging_book  = any(kw in _reason_lc or kw in _prov_lc for kw in _IMAGING_KWS_BOOK)
-    if _is_imaging_book:
+    _IMAGING_KWS  = {"radiology", "imaging", "mri", "ct", "scan", "pet", "nuclear"}
+    _PCP_SPECS    = {"family medicine", "internal medicine", "general practice", "primary care", "pediatrics"}
+    _reason_lc    = (reason or "").lower()
+    _prov_lc      = (provider_name or "").lower()
+    _is_imaging   = any(kw in _reason_lc or kw in _prov_lc for kw in _IMAGING_KWS)
+
+    # ── 1. Validate time_slot ─────────────────────────────────────────────────
+    if not time_slot or not time_slot.strip():
+        return create_response(
+            allowed=False,
+            blocked=True,
+            reason_code="INVALID_TIME_SLOT",
+            next_action=Actions.NONE,
+            data={},
+        )
+
+    # ── 2. Prior auth gate (imaging) ──────────────────────────────────────────
+    if _is_imaging:
         try:
-            _pa_check = storage.get_prior_auth(user_id)
-            _pa_status_book = (_pa_check or {}).get("status", "none")
-            if _pa_status_book in ("none", "pending"):
-                _rx_check = storage.get_mri_prescription(user_id)
-                _doc_check = ""
-                if _rx_check and isinstance(_rx_check.get("prescribed_by"), dict):
-                    _doc_check = _rx_check["prescribed_by"].get("name", "")
-                return {
-                    "status":  "blocked",
-                    "reason":  "prior_auth_required",
-                    "message": (
-                        f"⛔ BOOKING BLOCKED — prior authorization status is '{_pa_status_book}'. "
-                        f"Cigna must approve the prior auth before this imaging appointment can be booked. "
-                        + (f"Notify {_doc_check}'s office to submit the prior auth request. " if _pa_status_book == "none" and _doc_check else "")
-                        + "Do NOT attempt to book. Show imaging providers and tell the member you'll book the moment auth is approved."
-                    ),
-                }
+            _pa       = storage.get_prior_auth(user_id)
+            _pa_status = (_pa or {}).get("status", "none")
+            if _pa_status in ("none", "pending"):
+                _rx  = storage.get_mri_prescription(user_id)
+                _doc = ""
+                if _rx and isinstance(_rx.get("prescribed_by"), dict):
+                    _doc = _rx["prescribed_by"].get("name", "")
+                return create_response(
+                    allowed=False,
+                    blocked=True,
+                    reason_code=ReasonCodes.PRIOR_AUTH_REQUIRED,
+                    next_action=Actions.NOTIFY_PROVIDER if _pa_status == "none" else Actions.NONE,
+                    data={
+                        "prior_auth_status":  _pa_status,
+                        "prescribing_doctor": _doc,
+                    },
+                )
         except Exception:
             pass
 
-    # ── Hard gate 2: Specialist referral for HMO plans ────────────────────────
+    # ── 3. HMO referral gate (specialist only — PCP always allowed) ───────────
     try:
-        _user_gate = _users.get_user(user_id)
-        _plan_rules_gate = _get_plan_rules(_user_gate.insurance_plan)
-        _pcp_specialties = {"family medicine", "internal medicine", "general practice", "primary care", "pediatrics"}
-        # Determine if this booking is for a specialist (not PCP/imaging)
+        _plan_rules = _get_plan_rules(user.insurance_plan)
         _spec_lc = (
             next(
                 (
@@ -1593,35 +1738,32 @@ def book_appointment(
                     for sp in role.get("specialty", [])
                     for s in sp.get("coding", [])
                 ),
-                ""
+                "",
             )
         )
-        _is_pcp_booking   = any(ps in _spec_lc for ps in _pcp_specialties) or any(ps in _reason_lc for ps in _pcp_specialties)
-        _is_imaging_booking = _is_imaging_book
-        if _plan_rules_gate.get("requires_referral") and not _is_pcp_booking and not _is_imaging_booking:
-            # Check if referral is approved for this specialist
-            _ref_gate = storage.get_referral(user_id)
-            _ref_approved = _ref_gate and _ref_gate.get("status") == "approved"
-            if not _ref_approved:
-                _pcp_name = _user_gate.assigned_pcp.get("name", "") if _user_gate.assigned_pcp else ""
-                return {
-                    "status":  "blocked",
-                    "reason":  "referral_required",
-                    "message": (
-                        f"⛔ BOOKING BLOCKED — {_user_gate.insurance_plan} requires a PCP referral before booking a specialist. "
-                        f"Referral status: {'not yet approved' if not _ref_gate else _ref_gate.get('status','none')}. "
-                        f"DO NOT show specialist cards again. DO NOT re-list the specialist providers. "
-                        f"INSTEAD: immediately call find_providers with specialty='Primary Care' and doctor_name='{_pcp_name}' to book the PCP. "
-                        f"If the member is traveling, use consultation_type='Telehealth' so distance is not a barrier. "
-                        f"Tell the member naturally that their plan needs a PCP visit first and you are booking that now."
-                    ),
-                }
+        _is_pcp = any(ps in _spec_lc for ps in _PCP_SPECS) or any(ps in _reason_lc for ps in _PCP_SPECS)
+        if _plan_rules.get("requires_referral") and not _is_pcp and not _is_imaging:
+            _ref = storage.get_referral(user_id)
+            if not (_ref and _ref.get("status") == "approved"):
+                _pcp_name = (user.assigned_pcp or {}).get("name", "")
+                return create_response(
+                    allowed=False,
+                    blocked=True,
+                    reason_code=ReasonCodes.HMO_REFERRAL_REQUIRED,
+                    next_action=Actions.BOOK_PCP,
+                    data={
+                        "pcp_name":           _pcp_name,
+                        "pcp_npi":            (user.assigned_pcp or {}).get("npi", ""),
+                        "blocked_specialty":  _spec_lc or reason,
+                    },
+                )
     except Exception:
         pass
 
     if consultation_type not in ("In-Person", "Telehealth"):
         consultation_type = "In-Person"
 
+    # ── 4. Delegate to calendar layer ─────────────────────────────────────────
     result = book_provider_appointment(
         npi=npi,
         provider_name=provider_name,
@@ -1634,7 +1776,30 @@ def book_appointment(
         member_id=user_id,
     )
 
-    if result.get("status") == "confirmed":
+    cal_status = result.get("status")
+
+    # ── 4a. Slot already booked — return nearest alternatives ─────────────────
+    if cal_status == "unavailable":
+        return create_response(
+            allowed=False,
+            blocked=True,
+            reason_code="SLOT_UNAVAILABLE",
+            next_action=Actions.NONE,
+            data={"nearest_available": result.get("nearest_available", [])},
+        )
+
+    # ── 4b. Invalid slot / consultation mode mismatch ─────────────────────────
+    if cal_status == "error":
+        return create_response(
+            allowed=False,
+            blocked=True,
+            reason_code="INVALID_TIME_SLOT",
+            next_action=Actions.NONE,
+            data={},
+        )
+
+    # ── 5. Confirmed — post-booking side effects + structured response ─────────
+    if cal_status == "confirmed":
         audit_logger.log_event("BOOKING_CONFIRMED", user_id, {
             "provider": provider_name,
             "date":     appointment_date,
@@ -1642,16 +1807,13 @@ def book_appointment(
             "type":     consultation_type,
             "reason":   reason,
         })
-        # Store reason in the booking record
-        result["reason"] = reason
-        # ── MRI prescription update: sync booked imaging provider ────────────
+
+        # ── MRI prescription sync: update ordering physician when imaging booked
         try:
             from datetime import datetime as _dt
             _IMAGING_SPECIALTIES = {
-                "Radiology",
-                "Diagnostic Radiology",
-                "Vascular & Interventional Radiology",
-                "Imaging",
+                "Radiology", "Diagnostic Radiology",
+                "Vascular & Interventional Radiology", "Imaging",
             }
             mri_rx = storage.get_mri_prescription(user_id)
             if mri_rx and mri_rx.get("prescription_mri"):
@@ -1672,9 +1834,9 @@ def book_appointment(
                             "name":      provider_name,
                             "specialty": booked_specialty,
                         },
-                        "procedure":        mri_rx.get("procedure") or "MRI Scan",
-                        "reason":           mri_rx.get("reason") or "Specialist recommended MRI",
-                        "date":             _dt.now().strftime("%Y-%m-%d"),
+                        "procedure": mri_rx.get("procedure") or "MRI Scan",
+                        "reason":    mri_rx.get("reason") or "Specialist recommended MRI",
+                        "date":      _dt.now().strftime("%Y-%m-%d"),
                     })
                     pa = storage.get_prior_auth(user_id)
                     if pa:
@@ -1682,12 +1844,41 @@ def book_appointment(
                         storage.save_prior_auth(user_id, pa)
         except Exception:
             pass
-        # Invalidate all runners for this user (any travel variant)
+
+        # Invalidate cached runners so system prompt rebuilds with new booking
         for k in [k for k in _runners if k.startswith(f"{user_id}|")]:
             _runners.pop(k, None)
 
+        return create_response(
+            allowed=True,
+            blocked=False,
+            reason_code=ReasonCodes.SUCCESS,
+            next_action=Actions.NONE,
+            data={
+                "status":             "confirmed",
+                "provider":           result.get("provider_name", provider_name),
+                "npi":                result.get("npi", npi),
+                "date":               result.get("date", appointment_date),
+                "time":               result.get("time_start", time_slot),
+                "time_end":           result.get("time_end", ""),
+                "timezone":           result.get("timezone", ""),
+                "consultation_type":  result.get("consultation_type", consultation_type),
+                "reason":             reason,
+                **(
+                    {"member_time": result["member_time"]}
+                    if "member_time" in result else {}
+                ),
+            },
+        )
 
-    return result
+    # ── Fallback: unexpected status from calendar layer ────────────────────────
+    return create_response(
+        allowed=False,
+        blocked=True,
+        reason_code="BOOKING_FAILED",
+        next_action=Actions.NONE,
+        data={},
+    )
 
 
 # ── Reasoning trace helpers ───────────────────────────────────────────────────
@@ -1902,6 +2093,32 @@ def _get_runner(user_id: str, travel_city: str = "", travel_state: str = "") -> 
             session_service = _session_service,
         )
     return _runners[runner_key]
+
+
+MAX_STEPS = 5
+
+_TOOL_MAP = {
+    "find_providers":     find_providers,
+    "check_availability": check_availability,
+    "notify_provider":    notify_provider,
+    "book_appointment":   book_appointment,
+}
+
+
+def _call_controller_tool(tool_name: str, params: dict, user_id: str, current_response: dict = None) -> dict:
+    """Invoke a tool by name, injecting user_id into params.
+    Returns current_response unchanged if tool_name is not in _TOOL_MAP.
+    """
+    fn = _TOOL_MAP.get(tool_name)
+    if not fn:
+        return current_response  # guard: unknown tool — pass through unchanged
+    params = {**params, "user_id": user_id}
+    # check_availability expects npi + provider_name from top_provider dict
+    if tool_name == "check_availability" and "provider" in params:
+        prov = params.pop("provider")
+        params.setdefault("npi",           prov.get("npi", ""))
+        params.setdefault("provider_name", prov.get("name", ""))
+    return fn(**{k: v for k, v in params.items() if k in fn.__code__.co_varnames})
 
 
 # ── Public API ────────────────────────────────────────────────────────────────
@@ -2157,126 +2374,157 @@ Do NOT mention this trigger text. Respond naturally as if you noticed this yours
         "partial_texts": [],
     }
 
+    _labels = {
+        "find_providers":      "🏥 Finding providers…",
+        "notify_provider":     "📨 Notifying provider's office…",
+        "check_availability":  "📅 Checking availability…",
+        "book_appointment":    "✅ Booking appointment…",
+        "request_plan_change": "🔄 Updating insurance plan…",
+    }
+
+    def _update_state(tool_name: str, raw: dict) -> None:
+        if tool_name == "find_providers":
+            if raw.get("emergency"):
+                state["emergency"] = True
+            if raw.get("providers"):
+                state["providers"] = raw["providers"]
+            audit_logger.log_event("PROVIDER_SEARCH", user_id, {
+                "count":     raw.get("count", 0),
+                "specialty": raw.get("specialty", ""),
+            })
+        elif tool_name == "check_availability":
+            state["availability"] = raw
+        elif tool_name == "book_appointment" and raw.get("status") == "confirmed":
+            state["booking"] = raw
+
+    def _build_final_result(final_text: str) -> dict:
+        if state["emergency"]:
+            return {"type": "emergency", "message": final_text, "providers": []}
+        if state["booking"]:
+            return {"type": "booking_confirmation", "booking": state["booking"], "message": final_text}
+        if state["availability"]:
+            return {"type": "availability", "availability": state["availability"], "message": final_text}
+        if state["providers"]:
+            top = next((p for p in state["providers"] if p.get("top_pick")), state["providers"][0])
+            return {"type": "provider_results", "providers": state["providers"], "top_pick": top, "message": final_text}
+        return {"type": "chat", "explanation": final_text}
+
     try:
         async with asyncio.timeout(120):
-          async for event in runner.run_async(
-            user_id=user_id, session_id=adk_session_id, new_message=user_content,
-          ):
-            if not event.is_final_response() and event.content and event.content.parts:
-                partial = "".join(
-                    p.text for p in event.content.parts if hasattr(p, "text") and p.text
-                )
-                if partial.strip():
-                    state["partial_texts"].append(partial)
-                    yield {"type": "partial_text", "text": partial}
+            step             = 0
+            current_response = None
+            final_text       = ""
 
-            if event.get_function_calls():
-                for fc in event.get_function_calls():
-                    labels = {
-                        "find_providers":      "🏥 Finding providers…",
-                        "notify_provider":     "📨 Notifying provider's office…",
-                        "check_availability":  "📅 Checking availability…",
-                        "book_appointment":    "✅ Booking appointment…",
-                        "request_plan_change": "🔄 Updating insurance plan…",
-                    }
-                    args = dict(fc.args) if fc.args else {}
-
-                    # ── Rich reasoning: WHY is the agent calling this tool? ──────
-                    thought = _build_tool_thought(fc.name, args, state)
-
-                    yield {
-                        "type":   "tool_call",
-                        "tool":   fc.name,
-                        "input":  args,
-                        "label":  labels.get(fc.name, fc.name),
-                        "thought": thought,
-                    }
-
-            if event.get_function_responses():
-                for fr in event.get_function_responses():
-                    raw = fr.response
-                    if isinstance(raw, str):
-                        try:    raw = json.loads(raw)
-                        except Exception:
-                            try:
-                                import ast
-                                raw = ast.literal_eval(raw)
-                            except Exception:
-                                raw = {"_raw": raw}
-                    if not isinstance(raw, dict):
-                        raw = {"_data": raw}
-
-                    if fr.name == "find_providers":
-                        if raw.get("emergency"):
-                            state["emergency"] = True
-                        if raw.get("providers"):
-                            state["providers"] = raw["providers"]
-                        audit_logger.log_event("PROVIDER_SEARCH", user_id, {
-                            "count":     raw.get("count", 0),
-                            "specialty": raw.get("specialty", ""),
-                        })
-
-                    elif fr.name == "check_availability":
-                        state["availability"] = raw
-
-                    elif fr.name == "book_appointment":
-                        if raw.get("status") == "confirmed":
-                            state["booking"] = raw
-
-                    # ── Rich reasoning: WHAT did the agent learn/decide? ─────────
-                    decision = _build_tool_decision(fr.name, raw)
-
-                    yield {"type": "tool_result", "tool": fr.name, "output": raw, "decision": decision}
-
-            if event.is_final_response():
-                final_text = ""
-                if event.content and event.content.parts:
-                    final_text = "".join(
+            # ── ADK event loop (LLM picks first tool + streams explanation) ──
+            async for event in runner.run_async(
+                user_id=user_id, session_id=adk_session_id, new_message=user_content,
+            ):
+                if not event.is_final_response() and event.content and event.content.parts:
+                    partial = "".join(
                         p.text for p in event.content.parts if hasattr(p, "text") and p.text
                     )
-                # Fallback: LLM streamed the text as partials but the final event
-                # has empty content (common after tool calls like request_plan_change).
-                # Reconstruct from accumulated partial stream.
-                if not final_text.strip() and state["partial_texts"]:
-                    final_text = "".join(state["partial_texts"])
+                    if partial.strip():
+                        state["partial_texts"].append(partial)
+                        yield {"type": "partial_text", "text": partial}
 
-                if state["emergency"]:
-                    result = {"type": "emergency", "message": final_text, "providers": []}
+                if event.get_function_calls():
+                    for fc in event.get_function_calls():
+                        args    = dict(fc.args) if fc.args else {}
+                        thought = _build_tool_thought(fc.name, args, state)
+                        yield {
+                            "type":    "tool_call",
+                            "tool":    fc.name,
+                            "input":   args,
+                            "label":   _labels.get(fc.name, fc.name),
+                            "thought": thought,
+                        }
 
-                elif state["booking"]:
-                    result = {
-                        "type":    "booking_confirmation",
-                        "booking": state["booking"],
-                        "message": final_text,
-                    }
+                if event.get_function_responses():
+                    for fr in event.get_function_responses():
+                        raw = fr.response
+                        if isinstance(raw, str):
+                            try:    raw = json.loads(raw)
+                            except Exception:
+                                try:
+                                    import ast
+                                    raw = ast.literal_eval(raw)
+                                except Exception:
+                                    raw = {"_raw": raw}
+                        if not isinstance(raw, dict):
+                            raw = {"_data": raw}
 
-                elif state["availability"]:
-                    result = {
-                        "type":         "availability",
-                        "availability": state["availability"],
-                        "message":      final_text,
-                    }
+                        _update_state(fr.name, raw)
+                        decision = _build_tool_decision(fr.name, raw)
+                        yield {"type": "tool_result", "tool": fr.name, "output": raw, "decision": decision}
 
-                elif state["providers"]:
-                    top = next(
-                        (p for p in state["providers"] if p.get("top_pick")),
-                        state["providers"][0]
-                    )
-                    result = {
-                        "type":      "provider_results",
-                        "providers": state["providers"],
-                        "top_pick":  top,
-                        "message":   final_text,
-                    }
+                        # ── Controller loop: LLM tool result → controller → next step ──
+                        current_response = raw
+                        while step < MAX_STEPS and current_response is not None:
+                            controller_output = handle_tool_response(current_response)
+                            c_type = controller_output.get("type")
+                            print(f"[LOOP] step={step}, action={c_type}")
 
-                else:
-                    result = {"type": "chat", "explanation": final_text}
+                            if c_type == "explain":
+                                reason_code = controller_output.get("reason_code", "")
+                                print(f"[EXPLAIN] reason={reason_code}")
+                                yield {
+                                    "type":   "partial_text",
+                                    "text":   reason_code,
+                                    "source": "controller",
+                                }
+                                break  # explain is terminal — do not increment step
 
-                if message not in ("__plan_change_greeting__", "__location_change__"):
-                    storage.save_turn(user_id, "user", message)
-                storage.save_turn(user_id, "assistant", final_text)
+                            elif c_type == "call_tool":
+                                tool_name = controller_output.get("tool", "")
+                                params    = controller_output.get("params") or {}
+                                thought   = _build_tool_thought(tool_name, params, state)
+                                yield {
+                                    "type":    "tool_call",
+                                    "tool":    tool_name,
+                                    "input":   params,
+                                    "label":   _labels.get(tool_name, tool_name),
+                                    "thought": thought,
+                                    "source":  "controller",
+                                }
+                                new_response = _call_controller_tool(tool_name, params, user_id, current_response)
+                                _update_state(tool_name, new_response)
+                                decision = _build_tool_decision(tool_name, new_response)
+                                yield {
+                                    "type":     "tool_result",
+                                    "tool":     tool_name,
+                                    "output":   new_response,
+                                    "decision": decision,
+                                    "source":   "controller",
+                                }
+                                # prevent infinite loop if tool returns identical response
+                                if new_response == current_response:
+                                    break
+                                current_response = new_response
+                                step += 1  # only incremented on a real tool call
 
-                yield {"type": "final", "response": result}
+                            else:  # "final" or unknown — terminal
+                                break
+
+                        print(f"[LOOP EXIT] step={step}")
+
+                        # Safety fallback: max steps reached — emit final and stop
+                        if step >= MAX_STEPS:
+                            yield {"type": "final", "response": _build_final_result("")}
+                            return
+
+                if event.is_final_response():
+                    if event.content and event.content.parts:
+                        final_text = "".join(
+                            p.text for p in event.content.parts if hasattr(p, "text") and p.text
+                        )
+                    if not final_text.strip() and state["partial_texts"]:
+                        final_text = "".join(state["partial_texts"])
+
+                    if message not in ("__plan_change_greeting__", "__location_change__"):
+                        storage.save_turn(user_id, "user", message)
+                    storage.save_turn(user_id, "assistant", final_text)
+
+                    yield {"type": "final", "response": _build_final_result(final_text)}
 
     except asyncio.TimeoutError:
         yield {"type": "error", "message": "Request timed out — Vertex AI unreachable or GCP credentials expired. Run: gcloud auth application-default login"}
