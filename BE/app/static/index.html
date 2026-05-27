@@ -1,0 +1,629 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Provider Search</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;background:#0f1117;color:#e2e8f0;height:100vh;display:flex;flex-direction:column}
+header{background:#1a1d27;border-bottom:1px solid #2d3148;padding:12px 20px;display:flex;align-items:center;justify-content:space-between}
+header h1{font-size:15px;font-weight:600;color:#a78bfa}
+#badge{font-size:12px;background:#1e2235;border:1px solid #2d3148;border-radius:20px;padding:4px 12px;color:#94a3b8}
+#badge b{color:#a78bfa}
+#loc-select{font-size:11px;background:#1e2235;border:1px solid #2d3148;border-radius:20px;padding:3px 10px;color:#94a3b8;cursor:pointer;outline:none}
+#loc-select:focus{border-color:#a78bfa}
+#loc-select option{background:#1a1d27}
+#plan-select{font-size:11px;background:#1e2235;border:1px solid #f59e0b;border-radius:20px;padding:3px 10px;color:#fbbf24;cursor:pointer;outline:none}
+#plan-select:focus{border-color:#f59e0b}
+#plan-select option{background:#1a1d27}
+
+
+
+
+/* login */
+#login{flex:1;display:flex;align-items:center;justify-content:center}
+.card{background:#1a1d27;border:1px solid #2d3148;border-radius:14px;padding:36px;width:360px;text-align:center}
+.card h2{font-size:18px;margin-bottom:6px}
+.card p{font-size:13px;color:#64748b;margin-bottom:24px}
+.ubtn{display:block;width:100%;background:#1e2235;border:1px solid #2d3148;border-radius:10px;padding:11px 14px;cursor:pointer;text-align:left;color:#e2e8f0;margin-bottom:8px}
+.ubtn:hover{border-color:#a78bfa}
+.ubtn .uid{font-size:11px;color:#64748b}
+.ubtn .plan{font-size:11px;color:#a78bfa}
+
+/* app */
+#app{flex:1;display:none;overflow:hidden}
+#app.on{display:flex}
+#chat{flex:1;display:flex;flex-direction:column;min-width:0}
+#msgs{flex:1;overflow-y:auto;padding:18px;display:flex;flex-direction:column;gap:14px}
+.msg{display:flex;gap:8px;max-width:80%}
+.msg.u{align-self:flex-end;flex-direction:row-reverse}
+.msg.b{align-self:flex-start}
+.av{width:30px;height:30px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:14px;flex-shrink:0}
+.msg.u .av{background:#4f46e5}
+.msg.b .av{background:#1e2235;border:1px solid #2d3148}
+.bub{padding:10px 14px;border-radius:12px;font-size:14px;line-height:1.6}
+.msg.u .bub{background:#4f46e5;color:#fff;border-bottom-right-radius:3px}
+.msg.b .bub{background:#1a1d27;border:1px solid #2d3148;border-bottom-left-radius:3px}
+#bar{padding:14px 18px;border-top:1px solid #2d3148;display:flex;gap:8px;background:#1a1d27}
+#inp{flex:1;background:#0f1117;border:1px solid #2d3148;border-radius:8px;padding:9px 12px;color:#e2e8f0;font-size:14px;font-family:inherit;resize:none;height:42px;outline:none}
+#inp:focus{border-color:#4f46e5}
+#sbtn{background:#4f46e5;border:none;border-radius:8px;padding:0 18px;color:#fff;cursor:pointer;font-size:14px;font-weight:500}
+#sbtn:disabled{opacity:0.5;cursor:not-allowed}
+
+/* trace */
+#trace{width:340px;background:#13151f;border-left:1px solid #2d3148;display:flex;flex-direction:column;flex-shrink:0}
+#th{padding:12px 16px;border-bottom:1px solid #2d3148;font-size:12px;color:#64748b;display:flex;align-items:center;gap:8px}
+#dot{width:7px;height:7px;border-radius:50%;background:#2d3148;flex-shrink:0}
+#dot.on{background:#22c55e;animation:pulse 1s infinite}
+@keyframes pulse{50%{opacity:.4}}
+#tb{flex:1;overflow-y:auto;padding:14px}
+.te{margin-bottom:10px;font-size:12px;color:#94a3b8;background:#1a1d27;border:1px solid #2d3148;border-radius:8px;padding:8px 10px}
+.te b{color:#a78bfa}
+
+/* provider card */
+.pc{background:#1e2235;border:1px solid #2d3148;border-radius:10px;padding:10px 12px;margin-bottom:8px}
+.pc .pn{font-weight:600;font-size:14px}
+.pc .pm{font-size:12px;color:#94a3b8;margin-top:3px}
+.pc .pa{font-size:11px;color:#64748b;margin-top:2px}
+.pill{display:inline-block;font-size:10px;padding:1px 6px;border-radius:5px;margin-right:3px}
+.fhir{background:#14532d;color:#86efac}
+.nppes{background:#1e3a5f;color:#93c5fd}
+.inet{background:#14532d;color:#86efac}
+.urg-e{color:#ef4444;font-weight:700}
+.urg-u{color:#f59e0b;font-weight:700}
+.urg-r{color:#34d399}
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Provider Search / Agentic Platform</h1>
+  <div style="display:flex;align-items:center;gap:8px">
+    <div id="badge">Not logged in</div>
+    <select id="loc-select" style="display:none" onchange="onLocationChange(this.value)">
+      <option value="Los Angeles|CA">Los Angeles, CA</option>
+      <option value="New York|NY">New York, NY</option>
+      <option value="Miami|FL">Miami, FL</option>
+      <option value="Chicago|IL">Chicago, IL</option>
+      <option value="Houston|TX">Houston, TX</option>
+      <option value="Seattle|WA">Seattle, WA</option>
+      <option value="Dallas|TX">Dallas, TX</option>
+      <option value="Austin|TX">Austin, TX</option>
+    </select>
+    <select id="plan-select" style="display:none" onchange="onPlanChange(this.value)">
+    <option value="Cigna True Choice Medicare (PPO)|plan-cigna-gold">Cigna True Choice Medicare (PPO)</option>
+    <option value="Cigna True Choice Access Medicare (PPO)|plan-bcbs-platinum">Cigna True Choice Access Medicare (PPO)</option>
+    <option value="Cigna Total Care Plus (HMO D-SNP)|plan-star-gold">Cigna Total Care Plus (HMO D-SNP)</option>
+    <option value="Cigna Total Care (HMO D-SNP)|plan-aetna-gold">Cigna Total Care (HMO D-SNP)</option>
+    <option value="Cigna Preferred Medicare (HMO)|plan-united-platinum">Cigna Preferred Medicare (HMO)</option>
+  </select>
+
+  </div>
+</header>
+
+<div id="login">
+  <div class="card">
+    <h2>Select a Test User</h2>
+    <p>Each user has a different city and insurance plan.</p>
+    <div id="ulist"></div>
+  </div>
+</div>
+
+<div id="app">
+  <div id="chat">
+    <div id="msgs">
+      <div class="msg b">
+        <div class="av">🤖</div>
+        <div class="bub">Hi! Tell me your symptoms and I'll find the right provider.</div>
+      </div>
+    </div>
+    <div id="bar">
+      <textarea id="inp" placeholder="Describe your symptoms…"></textarea>
+      <button id="sbtn">Send</button>
+    </div>
+  </div>
+  <div id="trace">
+    <div id="th"><div id="dot"></div>⚡ Agent Trace</div>
+    <div id="tb"><div style="color:#2d3148;text-align:center;margin-top:30px;font-size:12px">Steps will appear here</div></div>
+  </div>
+</div>
+
+<script>
+const USERS=[
+  {id:"MEM-10001",name:"Alex Johnson",    city:"Los Angeles, CA", plan:"Cigna True Choice Medicare (PPO)",    pwd:"10001"},
+  {id:"MEM-10002",name:"Sarah Anne Mitchell",city:"Los Angeles, CA", plan:"Cigna True Choice Access Medicare (PPO)",pwd:"10002"},
+  {id:"MEM-10003",name:"James Williams",  city:"New York, NY",    plan:"Cigna Total Care Plus (HMO D-SNP)",   pwd:"10003"},
+  {id:"MEM-10004",name:"Sofia Martinez",  city:"Miami, FL",       plan:"Cigna Total Care (HMO D-SNP)",       pwd:"10004"},
+  {id:"MEM-10005",name:"David Chen",      city:"Chicago, IL",     plan:"Cigna Preferred Medicare (HMO)",     pwd:"10005"},
+  {id:"MEM-10006",name:"Priya Patel",     city:"Seattle, WA",     plan:"Cigna True Choice Access Medicare (PPO)",pwd:"10006"},
+];
+
+let currentUserId=null, currentUser=null, busy=false;
+let travelCity='', travelState='', homeCity='', homeState='';
+
+const CITY_STATE_MAP={
+  'Los Angeles|CA':'CA','New York|NY':'NY','Miami|FL':'FL','Chicago|IL':'IL',
+  'Houston|TX':'TX','Seattle|WA':'WA','Dallas|TX':'TX','Austin|TX':'TX'
+};
+
+// function onLocationChange(val){
+//   const [city, state] = val.split('|');
+//   const wasTravel = travelCity !== '' && travelCity !== homeCity;
+//   travelCity  = (city === homeCity && state === homeState) ? '' : city;
+//   travelState = (city === homeCity && state === homeState) ? '' : state;
+//   const isNowTravel = travelCity !== '';
+//   // Show travel notice in chat only when switching TO a travel city
+//   if(isNowTravel && !wasTravel){
+//     const loc = travelCity + ', ' + travelState;
+//     addMsg('bot',
+//       `<div style="background:#1a2e1a;border:1px solid #22c55e;border-radius:8px;padding:8px 12px;font-size:13px;color:#86efac">` +
+//       `📍 You're now searching in <b>${esc(loc)}</b> — different from your home in <b>${esc(homeCity)}</b>. ` +
+//       `Providers will be searched near this location.` +
+//       `</div>`
+//     );
+//   } else if(!isNowTravel && wasTravel){
+//     addMsg('bot',
+//       `<div style="background:#1e2235;border:1px solid #2d3148;border-radius:8px;padding:8px 12px;font-size:13px;color:#94a3b8">` +
+//       `🏠 Back to your home location: <b>${esc(homeCity)}</b>.` +
+//       `</div>`
+//     );
+//   }
+// }
+
+async function onLocationChange(val){
+  const [city, state] = val.split('|');
+  const wasTravel = travelCity !== '' && travelCity !== homeCity;
+  travelCity  = (city === homeCity && state === homeState) ? '' : city;
+  travelState = (city === homeCity && state === homeState) ? '' : state;
+  const isNowTravel = travelCity !== '';
+
+  if(isNowTravel && !wasTravel){
+    const loc = travelCity + ', ' + travelState;
+    addMsg('bot',
+      `<div style="background:#1a2e1a;border:1px solid #22c55e;border-radius:8px;padding:8px 12px;font-size:13px;color:#86efac">` +
+      `📍 You're now searching in <b>${esc(loc)}</b> — different from your home in <b>${esc(homeCity)}</b>. ` +
+      `Providers will be searched near this location.` +
+      `</div>`
+    );
+
+    if(!busy){
+      busy = true;
+      document.getElementById("sbtn").disabled = true;
+      document.getElementById("dot").classList.add("on");
+      const bub = addMsg("bot", `<span style="color:#64748b">Checking your upcoming appointments…</span>`);
+      const ctx = {};
+      try{
+        const resp = await fetch("/chat/stream", {
+          method: "POST",
+          headers: {"Content-Type": "application/json"},
+          body: JSON.stringify({
+            message: "__location_change__",
+            user_id: currentUserId,
+            travel_city: travelCity,
+            travel_state: travelState
+          })
+        });
+        if(resp.ok){
+          const reader = resp.body.getReader();
+          const dec = new TextDecoder();
+          let buf = "";
+          while(true){
+            const{done,value} = await reader.read();
+            if(done) break;
+            buf += dec.decode(value, {stream:true});
+            const lines = buf.split("\n");
+            buf = lines.pop();
+            for(const line of lines){
+              if(!line.startsWith("data: ")) continue;
+              const raw = line.slice(6).trim();
+              if(raw === "[DONE]") break;
+              try{ handleEvent(JSON.parse(raw), bub, ctx); }catch{}
+            }
+          }
+        }
+      }catch(e){
+        bub.closest(".msg")?.remove();
+      }
+      busy = false;
+      document.getElementById("sbtn").disabled = false;
+      document.getElementById("dot").classList.remove("on");
+    }
+
+  } else if(!isNowTravel && wasTravel){
+    addMsg('bot',
+      `<div style="background:#1e2235;border:1px solid #2d3148;border-radius:8px;padding:8px 12px;font-size:13px;color:#94a3b8">` +
+      `🏠 Back to your home location: <b>${esc(homeCity)}</b>.` +
+      `</div>`
+    );
+  }
+}
+
+
+
+async function onPlanChange(val) {
+  const [newPlan, newPlanId] = val.split('|');
+  const currentPlan = currentUser.insurance_plan;
+  if (newPlan === currentPlan) return;
+
+  const r = await fetch("/update-plan", {
+    method: "POST",
+    headers: {"Content-Type": "application/json"},
+    body: JSON.stringify({user_id: currentUserId, new_plan: newPlan, new_plan_id: newPlanId, reason: "Member requested plan change via UI"})
+  });
+  if (!r.ok) { alert("Plan update failed"); return; }
+
+  currentUser.insurance_plan = newPlan;
+  const firstName = currentUser.first_name || currentUser.name?.split(' ')[0];
+  document.getElementById("badge").innerHTML = `Logged in as <b>${esc(firstName)} ${esc(currentUser.last_name||'')}</b> · ${esc(newPlan)}`;
+  addMsg('bot',
+    `<div style="background:#1a2e1a;border:1px solid #f59e0b;border-radius:8px;padding:8px 12px;font-size:13px;color:#fbbf24">` +
+    `🔄 Plan updated to <b>${esc(newPlan)}</b>. Your next login will reflect the new plan benefits and network.` +
+    `</div>`
+  );
+}
+
+
+
+function esc(s){return String(s||"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]))}
+
+// ── Login ──────────────────────────────────────────────────────────────────
+document.getElementById("ulist").innerHTML=USERS.map(u=>`
+  <button class="ubtn" onclick="login('${u.id}','${u.name}','${u.plan}','${u.pwd}')">
+    <div style="font-weight:600">${esc(u.name)}</div>
+    <div class="uid">${u.id} · ${esc(u.city)}</div>
+    <div class="plan">${esc(u.plan)}</div>
+  </button>`).join("");
+
+async function login(id,name,plan,pwd){
+  if(currentUserId){
+    await fetch("/logout",{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify({user_id:currentUserId})});
+    currentUserId=null;
+    currentUser=null;
+  }
+  const r=await fetch("/login",{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify({member_id:id,password:pwd})});
+  if(!r.ok){alert("Login failed: "+r.status);return;}
+  const d=await r.json();
+  currentUserId=id;
+  currentUser=d.member;
+  travelCity  = d.member.travel_city  || '';
+  travelState = d.member.travel_state || '';
+  homeCity    = d.member.city   || '';
+  homeState   = d.member.state  || '';
+
+  // Set up location dropdown
+  const sel = document.getElementById('loc-select');
+  sel.style.display = 'inline-block';
+  // Select the current city (travel override or home)
+  const planSel = document.getElementById('plan-select');
+  planSel.style.display = 'inline-block';
+  const currentPlan = d.member.insurance_plan;
+  for(let i=0;i<planSel.options.length;i++){
+    if(planSel.options[i].value.startsWith(currentPlan+'|')){ planSel.selectedIndex=i; break; }
+  }
+
+
+  const currentCity  = travelCity  || homeCity;
+  const currentState = travelState || homeState;
+  const targetVal = currentCity + '|' + currentState;
+  for(let i=0;i<sel.options.length;i++){
+    if(sel.options[i].value===targetVal){ sel.selectedIndex=i; break; }
+  }
+
+  document.getElementById("badge").innerHTML=`Logged in as <b>${esc(name)}</b> · ${esc(plan)}`;
+  document.getElementById("login").style.display="none";
+  document.getElementById("app").classList.add("on");
+  const firstName = (d.member && d.member.first_name) || name.split(' ')[0];
+  document.querySelector('#msgs .bub').innerHTML = `Hi ${esc(firstName)}! I\'m here to help you find the right care. What\'s on your mind today?`;
+  document.getElementById("inp").focus();
+
+
+  if(d.plan_change_detected){
+    // Replace static greeting with agent's proactive plan-change message
+    const greetBub = document.querySelector('#msgs .bub');
+    greetBub.innerHTML = `<span style="color:#64748b">Reviewing your plan change…</span>`;
+    busy = true;
+    document.getElementById("sbtn").disabled = true;
+    document.getElementById("dot").classList.add("on");
+    try {
+      const resp = await fetch("/chat/stream", {
+        method: "POST",
+        headers: {"Content-Type": "application/json"},
+        body: JSON.stringify({
+          message: "__plan_change_greeting__",
+          user_id: currentUserId,
+          travel_city: travelCity,
+          travel_state: travelState
+        })
+      });
+      if(resp.ok){
+        const reader = resp.body.getReader();
+        const dec = new TextDecoder();
+        let buf = "";
+        const ctx = {};
+        while(true){
+          const{done,value} = await reader.read();
+          if(done) break;
+          buf += dec.decode(value, {stream:true});
+          const lines = buf.split("\n");
+          buf = lines.pop();
+          for(const line of lines){
+            if(!line.startsWith("data: ")) continue;
+            const raw = line.slice(6).trim();
+            if(raw === "[DONE]") break;
+            try{
+            const evt = JSON.parse(raw);
+            // For plan change greeting: suppress provider cards, only show text
+            if(evt.type === "final" && evt.response?.type === "provider_results"){
+                evt.response.type = "chat";
+                evt.response.explanation = evt.response.message || "";
+              }
+              handleEvent(evt, greetBub, ctx);
+            }catch{}
+          }
+        }
+      }
+    } catch(e) {
+      greetBub.innerHTML = `Hi ${esc(firstName)}! I'm here to help you find the right care. What's on your mind today?`;
+    }
+    busy = false;
+    document.getElementById("sbtn").disabled = false;
+    document.getElementById("dot").classList.remove("on");
+  } else {
+    document.querySelector('#msgs .bub').innerHTML = `Hi ${esc(firstName)}! I'm here to help you find the right care. What's on your mind today?`;
+  }
+
+  // Show travel notice if override was active at login
+  if(travelCity){
+    const loc = travelCity + (travelState ? ', '+travelState : '');
+    addMsg('bot',
+      `<div style="background:#1a2e1a;border:1px solid #22c55e;border-radius:8px;padding:8px 12px;font-size:13px;color:#86efac">` +
+      `📍 You're currently in <b>${esc(loc)}</b> — different from your home in <b>${esc(homeCity)}</b>. ` +
+      `Providers will be searched near your current location.` +
+      `</div>`
+    );
+  }
+  
+}
+
+// ── Chat ───────────────────────────────────────────────────────────────────
+function addMsg(role,html){
+  const w=document.getElementById("msgs");
+  const d=document.createElement("div");
+  d.className="msg "+(role==="user"?"u":"b");
+  d.innerHTML=`<div class="av">${role==="user"?"👤":"🤖"}</div><div class="bub">${html}</div>`;
+  w.appendChild(d);
+  w.scrollTop=w.scrollHeight;
+  return d.querySelector(".bub");
+}
+
+function addTrace(html){
+  const tb=document.getElementById("tb");
+  if(tb.querySelector("[data-ph]"))tb.innerHTML="";
+  const d=document.createElement("div");
+  d.className="te";d.innerHTML=html;
+  tb.appendChild(d);tb.scrollTop=tb.scrollHeight;
+}
+
+function renderText(text){
+  if(!text)return'';
+  return esc(text).replace(/\*\*(.+?)\*\*/g,'<b>$1</b>').replace(/\n/g,'<br>');
+}
+
+function selectSlot(time){
+  document.getElementById('inp').value='Book the '+time+' slot';
+  document.getElementById('inp').focus();
+}
+
+function urgBadge(u){
+  if(u==="emergency")return`<span class="urg-e">EMERGENCY</span>`;
+  if(u==="urgent")   return`<span class="urg-u">URGENT</span>`;
+  return`<span class="urg-r">Routine</span>`;
+}
+
+function renderExplanation(text){
+  if(!text)return"";
+  const html=esc(text)
+    .replace(/\*\*(.+?)\*\*/g,"<b>$1</b>")
+    .replace(/\n/g,"<br>");
+  return`<div style="margin-top:10px;font-size:13px;color:#94a3b8;border-top:1px solid #2d3148;padding-top:8px;line-height:1.8">${html}</div>`;
+}
+
+function renderFirstAid(steps){
+  return`<div style="background:#1a2e1a;border:1px solid #22c55e;border-radius:10px;padding:12px 14px;margin-bottom:12px">
+    <div style="color:#22c55e;font-weight:700;font-size:13px;margin-bottom:8px">🎧 Immediate First Aid — Do this now before seeing a doctor:</div>
+    <ol style="margin:0;padding-left:18px;color:#86efac;font-size:13px;line-height:1.8">
+      ${steps.map(s=>`<li>${esc(s)}</li>`).join("")}
+    </ol>
+  </div>`;
+}
+
+function renderProviders(list,urgency){
+  if(!list||!list.length)return"<i style='color:#64748b'>No providers found.</i>";
+  return list.slice(0,5).map((p,i)=>{
+    const urgentOON=p.urgent_recommended;
+    const border=urgentOON?"border:1px solid #f59e0b":"border:1px solid #2d3148";
+    const badge=urgentOON
+      ?`<span style="display:inline-block;font-size:10px;background:#451a03;color:#fbbf24;padding:2px 7px;border-radius:5px;margin-left:4px">⚡ Closest Available</span>`
+      :"";
+    return`<div class="pc" style="${border}">
+      <div class="pn">${i+1}. ${esc(p.name||p.practitioner_name||"Unknown")}${badge}</div>
+      <div class="pm">
+        ${esc(p.specialty||"")}
+        <span class="pill ${p.source==="FHIR"?"fhir":"nppes"}">${esc(p.source||"?")}</span>
+        ${p.in_network?`<span class="pill inet">In-Network</span>`:`<span class="pill" style="background:#1e3a5f;color:#fbbf24">Out-of-Network</span>`}
+        ${p.distance_km!=null?`· ${Number(p.distance_km).toFixed(1)} km`:""}
+      </div>
+      ${p.address?`<div class="pa">${esc(p.address)}</div>`:""}
+    </div>`;
+  }).join("");
+}
+
+function handleEvent(evt,bub,ctx){
+  const LABELS={
+    clarify_intent:"🔍 Clarifying intent…",
+    reason_clinically:"🧠 Clinical reasoning…",
+    discover_providers:"🏥 Discovering providers…",
+    navigate_care:"🧭 Navigating care…"
+  };
+
+    if(evt.type==="partial_text"){
+    const text=evt.text.trim();
+    if(!text)return;
+    bub.innerHTML=`<span style="color:#94a3b8">${esc(text)}</span>`;
+    bub.closest(".msg").scrollIntoView({block:"end"});
+  }
+
+
+  if(evt.type==="tool_call"){
+    const label = evt.label || evt.tool;
+    addTrace(`<b>${esc(label)}</b>`);
+  }
+
+  if(evt.type==="tool_result"){
+    const o=evt.output||{};
+    if(evt.tool==="find_providers"){
+      addTrace(`${o.count||0} providers found · top: <b>${esc(o.top_pick?.name||'')}</b>`);
+    } else if(evt.tool==="check_availability"){
+      addTrace(`${o.available_slot_count||0} slots available`);
+    } else if(evt.tool==="book_appointment"){
+      addTrace(o.status==="confirmed"?`Booked: <b>${esc(o.time_start)}</b>`:`Status: ${esc(o.status||'')}`);
+    } else {
+      addTrace("Done");
+    }
+  }
+
+  if(evt.type==="final"){
+    bub.closest(".msg")?.remove();
+    const r=evt.response;
+
+    if(r.type==="emergency"){
+      addMsg("bot",`<div style="background:#450a0a;border:1px solid #ef4444;border-radius:10px;padding:12px 14px"><div style="color:#ef4444;font-weight:700;font-size:15px;margin-bottom:6px">🚨 Medical Emergency</div><div style="color:#fca5a5;font-size:13px;margin-bottom:10px">${esc(r.message)}</div><a href="tel:911" style="display:inline-block;background:#ef4444;color:#fff;padding:8px 18px;border-radius:8px;text-decoration:none;font-weight:600">📞 Call 911</a></div>`);
+
+    } else if(r.type==="booking_confirmation"){
+      const b=r.booking||{};
+      addMsg("bot",`<div style="background:#1a2e1a;border:1px solid #22c55e;border-radius:10px;padding:12px 14px">
+        <div style="color:#22c55e;font-weight:700;margin-bottom:8px">✅ Appointment Confirmed!</div>
+        <div style="color:#86efac;font-size:13px">${esc(b.provider_name||'')} · ${esc(b.date||'')} at ${esc(b.time_start||'')} ${esc(b.timezone||'')}</div>
+        <div style="color:#86efac;font-size:13px">${esc(b.consultation_type||'')}${b.telehealth_link?` · <a href="${esc(b.telehealth_link)}" style="color:#4ade80">Join Meeting</a>`:''}</div>
+        ${b.visit_note?`<div style="color:#6ee7b7;font-size:12px;margin-top:6px">${esc(b.visit_note)}</div>`:''}
+      </div>`);
+      if(r.message) addMsg("bot", renderText(r.message));
+
+    } else if(r.type==="availability"){
+      const a=r.availability||{};
+      const slots=(a.available_slots||[]).slice(0,8);
+      const slotsHtml=slots.map(s=>`<span style="display:inline-block;background:#1e3a5f;color:#93c5fd;padding:3px 10px;border-radius:6px;margin:2px;font-size:12px;cursor:pointer" onclick="selectSlot('${esc(s.time_display)}')">${esc(s.time_display)}</span>`).join('');
+      addMsg("bot",`<div><div style="font-size:13px;color:#94a3b8;margin-bottom:8px">${esc(a.provider_name||'')} · ${esc(a.date||'')} · ${esc(a.shift_hours||'')} ${esc(a.timezone||'')}</div><div>${slotsHtml||'<i style="color:#64748b">No slots available</i>'}</div></div>`);
+      if(r.message) addMsg("bot", renderText(r.message));
+
+    } else if(r.type==="provider_results" && r.providers && r.providers.length){
+      // Show top pick prominently, then rest
+      const top=r.top_pick||r.providers[0];
+      // Fix: filter by npi so the top pick never appears in Other options
+      const topNpi=top&&top.npi;
+      const rest=r.providers.filter(p=>p.npi!==topNpi).slice(0,2);
+      let html='';
+      if(top){
+        html+=`<div style="background:#1e2235;border:2px solid #a78bfa;border-radius:10px;padding:12px 14px;margin-bottom:10px">
+          <div style="color:#a78bfa;font-size:11px;font-weight:700;margin-bottom:4px">⭐ TOP RECOMMENDATION</div>
+          <div style="font-weight:700;font-size:14px">${esc(top.name||'')}</div>
+          <div style="font-size:12px;color:#94a3b8;margin-top:3px">${esc(top.specialty||'')} · ${top.in_network?'<span style="color:#86efac">In-Network</span>':'<span style="color:#fbbf24">Out-of-Network</span>'}</div>
+          ${top.top_pick_reason?`<div style="font-size:12px;color:#a78bfa;margin-top:4px">${esc(top.top_pick_reason)}</div>`:''}
+          ${top.address?`<div style="font-size:11px;color:#64748b;margin-top:2px">${esc(top.address)}</div>`:''}
+          ${top.slots_today>0?`<div style="font-size:11px;color:#22c55e;margin-top:2px">${top.slots_today} slots available today</div>`:''}
+        </div>`;
+      }
+      if(rest.length){
+        html+=`<div style="font-size:11px;color:#64748b;margin-bottom:6px">Other options:</div>`;
+        html+=rest.map(p=>`<div class="pc"><div class="pn">${esc(p.name||'')}</div><div class="pm">${esc(p.specialty||'')} <span class="pill ${p.source==='FHIR'?'fhir':'nppes'}">${esc(p.source||'')}</span> ${p.in_network?'<span class="pill inet">In-Network</span>':''}</div>${p.address?`<div class="pa">${esc(p.address)}</div>`:''}</div>`).join('');
+      }
+      addMsg("bot", html);
+      // Split agent message on double newline into separate bubbles
+      if(r.message){
+        const parts=r.message.split(/\n\n+/).map(s=>s.trim()).filter(s=>s.length>0);
+        if(parts.length>1){
+          parts.forEach(p=>addMsg("bot",renderText(p)));
+        } else {
+          addMsg("bot",renderText(r.message));
+        }
+      }
+
+    } else {
+      const text=r.explanation||r.message||r.question||'';
+      if(text){
+        const parts=text.split(/\n\n+/).map(s=>s.trim()).filter(s=>s.length>0);
+        if(parts.length>1){
+          parts.forEach(p=>addMsg("bot",renderText(p)));
+        } else {
+          addMsg("bot",renderText(text));
+        }
+      }
+    }
+  }
+
+  if(evt.type==="error"){
+    bub.innerHTML=`<span style="color:#ef4444">⚠ ${esc(evt.message)}</span>`;
+  }
+}
+
+async function send(){
+  if(busy||!currentUserId)return;
+  const inp=document.getElementById("inp");
+  const text=inp.value.trim();
+  if(!text)return;
+  inp.value="";busy=true;
+  document.getElementById("sbtn").disabled=true;
+  document.getElementById("dot").classList.add("on");
+  document.getElementById("tb").innerHTML="";
+
+  addMsg("user",esc(text));
+  const bub=addMsg("bot",`<span style="color:#64748b">Let me help you with that...</span>`);
+  const ctx={lastPartial:null};
+
+  try{
+    const resp=await fetch("/chat/stream",{
+      method:"POST",
+      headers:{"Content-Type":"application/json"},
+            body:JSON.stringify({message:text,user_id:currentUserId,travel_city:travelCity,travel_state:travelState})
+
+    });
+
+    if(!resp.ok){
+      const err=await resp.json().catch(()=>({}));
+      bub.innerHTML=`<span style="color:#ef4444">Error ${resp.status}: ${esc(err.detail||"Unknown error")}</span>`;
+    } else {
+      const reader=resp.body.getReader();
+      const dec=new TextDecoder();
+      let buf="";
+      while(true){
+        const{done,value}=await reader.read();
+        if(done)break;
+        buf+=dec.decode(value,{stream:true});
+        const lines=buf.split("\n");
+        buf=lines.pop();
+        for(const line of lines){
+          if(!line.startsWith("data: "))continue;
+          const raw=line.slice(6).trim();
+          if(raw==="[DONE]")break;
+          try{handleEvent(JSON.parse(raw),bub,ctx);}catch{}
+        }
+      }
+    }
+  }catch(e){
+    bub.innerHTML=`<span style="color:#ef4444">⚠ ${esc(e.message)}</span>`;
+  }
+
+  busy=false;
+  document.getElementById("sbtn").disabled=false;
+  document.getElementById("dot").classList.remove("on");
+}
+
+document.getElementById("sbtn").addEventListener("click",send);
+document.getElementById("inp").addEventListener("keydown",e=>{
+  if(e.key==="Enter"&&!e.shiftKey){e.preventDefault();send();}
+});
+document.querySelector("#tb div")?.setAttribute("data-ph","1");
+</script>
+</body>
+</html>

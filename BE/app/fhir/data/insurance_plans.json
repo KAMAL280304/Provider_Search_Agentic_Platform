@@ -1,0 +1,114 @@
+{
+  "insurancePlans": [
+    {
+      "resourceType": "InsurancePlan",
+      "id": "plan-star-gold",
+      "name": "Star Health Gold Plan",
+      "type": [{"coding": [{"code": "medical", "display": "Medical"}]}],
+      "status": "active",
+      "period": {"start": "2024-01-01", "end": "2026-12-31"},
+      "ownedBy": {"display": "Star Health and Allied Insurance"},
+      "coverage": [{"type": {"coding": [{"code": "medical"}]}, "benefit": [{"type": {"coding": [{"code": "medical-care"}]}}]}],
+      "plan": [{"type": {"coding": [{"code": "gold", "display": "Gold"}]}, "specificCost": [{"category": {"coding": [{"code": "deductible"}]}, "benefit": [{"type": {"coding": [{"code": "deductible"}]}, "cost": [{"type": {"coding": [{"code": "individual"}]}, "value": {"value": 500, "unit": "USD"}}]}]}]}]
+    },
+    {
+      "resourceType": "InsurancePlan",
+      "id": "plan-star-silver",
+      "name": "Star Health Silver Plan",
+      "type": [{"coding": [{"code": "medical", "display": "Medical"}]}],
+      "status": "active",
+      "period": {"start": "2024-01-01", "end": "2026-12-31"},
+      "ownedBy": {"display": "Star Health and Allied Insurance"},
+      "coverage": [{"type": {"coding": [{"code": "medical"}]}, "benefit": [{"type": {"coding": [{"code": "medical-care"}]}}]}],
+      "plan": [{"type": {"coding": [{"code": "silver", "display": "Silver"}]}, "specificCost": [{"category": {"coding": [{"code": "deductible"}]}, "benefit": [{"type": {"coding": [{"code": "deductible"}]}, "cost": [{"type": {"coding": [{"code": "individual"}]}, "value": {"value": 1500, "unit": "USD"}}]}]}]}]
+    },
+    {
+      "resourceType": "InsurancePlan",
+      "id": "plan-star-bronze",
+      "name": "Star Health Bronze Plan",
+      "type": [{"coding": [{"code": "medical", "display": "Medical"}]}],
+      "status": "active",
+      "period": {"start": "2024-01-01", "end": "2026-12-31"},
+      "ownedBy": {"display": "Star Health and Allied Insurance"},
+      "coverage": [{"type": {"coding": [{"code": "medical"}]}, "benefit": [{"type": {"coding": [{"code": "medical-care"}]}}]}],
+      "plan": [{"type": {"coding": [{"code": "bronze", "display": "Bronze"}]}, "specificCost": [{"category": {"coding": [{"code": "deductible"}]}, "benefit": [{"type": {"coding": [{"code": "deductible"}]}, "cost": [{"type": {"coding": [{"code": "individual"}]}, "value": {"value": 4000, "unit": "USD"}}]}]}]}]
+    },
+    {
+      "resourceType": "InsurancePlan",
+      "id": "plan-bcbs-platinum",
+      "name": "BlueCross BlueShield Platinum PPO",
+      "type": [{"coding": [{"code": "medical", "display": "Medical"}]}],
+      "status": "active",
+      "period": {"start": "2024-01-01", "end": "2026-12-31"},
+      "ownedBy": {"display": "BlueCross BlueShield of Texas"},
+      "coverage": [{"type": {"coding": [{"code": "medical"}]}, "benefit": [{"type": {"coding": [{"code": "medical-care"}]}}]}],
+      "plan": [{"type": {"coding": [{"code": "platinum", "display": "Platinum"}]}, "specificCost": [{"category": {"coding": [{"code": "deductible"}]}, "benefit": [{"type": {"coding": [{"code": "deductible"}]}, "cost": [{"type": {"coding": [{"code": "individual"}]}, "value": {"value": 0, "unit": "USD"}}]}]}]}]
+    },
+    {
+      "resourceType": "InsurancePlan",
+      "id": "plan-bcbs-gold",
+      "name": "BlueCross BlueShield Gold PPO",
+      "type": [{"coding": [{"code": "medical", "display": "Medical"}]}],
+      "status": "active",
+      "period": {"start": "2024-01-01", "end": "2026-12-31"},
+      "ownedBy": {"display": "BlueCross BlueShield of Texas"},
+      "coverage": [{"type": {"coding": [{"code": "medical"}]}, "benefit": [{"type": {"coding": [{"code": "medical-care"}]}}]}],
+      "plan": [{"type": {"coding": [{"code": "gold", "display": "Gold"}]}, "specificCost": [{"category": {"coding": [{"code": "deductible"}]}, "benefit": [{"type": {"coding": [{"code": "deductible"}]}, "cost": [{"type": {"coding": [{"code": "individual"}]}, "value": {"value": 750, "unit": "USD"}}]}]}]}]
+    },
+    {
+      "resourceType": "InsurancePlan",
+      "id": "plan-aetna-gold",
+      "name": "Aetna Choice POS II Gold",
+      "type": [{"coding": [{"code": "medical", "display": "Medical"}]}],
+      "status": "active",
+      "period": {"start": "2024-01-01", "end": "2026-12-31"},
+      "ownedBy": {"display": "Aetna Health Inc"},
+      "coverage": [{"type": {"coding": [{"code": "medical"}]}, "benefit": [{"type": {"coding": [{"code": "medical-care"}]}}]}],
+      "plan": [{"type": {"coding": [{"code": "gold", "display": "Gold"}]}, "specificCost": [{"category": {"coding": [{"code": "deductible"}]}, "benefit": [{"type": {"coding": [{"code": "deductible"}]}, "cost": [{"type": {"coding": [{"code": "individual"}]}, "value": {"value": 1000, "unit": "USD"}}]}]}]}]
+    },
+    {
+      "resourceType": "InsurancePlan",
+      "id": "plan-aetna-silver",
+      "name": "Aetna Choice POS II Silver",
+      "type": [{"coding": [{"code": "medical", "display": "Medical"}]}],
+      "status": "active",
+      "period": {"start": "2024-01-01", "end": "2026-12-31"},
+      "ownedBy": {"display": "Aetna Health Inc"},
+      "coverage": [{"type": {"coding": [{"code": "medical"}]}, "benefit": [{"type": {"coding": [{"code": "medical-care"}]}}]}],
+      "plan": [{"type": {"coding": [{"code": "silver", "display": "Silver"}]}, "specificCost": [{"category": {"coding": [{"code": "deductible"}]}, "benefit": [{"type": {"coding": [{"code": "deductible"}]}, "cost": [{"type": {"coding": [{"code": "individual"}]}, "value": {"value": 2500, "unit": "USD"}}]}]}]}]
+    },
+    {
+      "resourceType": "InsurancePlan",
+      "id": "plan-cigna-gold",
+      "name": "Cigna Connect Gold HMO",
+      "type": [{"coding": [{"code": "medical", "display": "Medical"}]}],
+      "status": "active",
+      "period": {"start": "2024-01-01", "end": "2026-12-31"},
+      "ownedBy": {"display": "Cigna Health and Life Insurance"},
+      "coverage": [{"type": {"coding": [{"code": "medical"}]}, "benefit": [{"type": {"coding": [{"code": "medical-care"}]}}]}],
+      "plan": [{"type": {"coding": [{"code": "gold", "display": "Gold"}]}, "specificCost": [{"category": {"coding": [{"code": "deductible"}]}, "benefit": [{"type": {"coding": [{"code": "deductible"}]}, "cost": [{"type": {"coding": [{"code": "individual"}]}, "value": {"value": 800, "unit": "USD"}}]}]}]}]
+    },
+    {
+      "resourceType": "InsurancePlan",
+      "id": "plan-united-platinum",
+      "name": "UnitedHealthcare Choice Plus Platinum",
+      "type": [{"coding": [{"code": "medical", "display": "Medical"}]}],
+      "status": "active",
+      "period": {"start": "2024-01-01", "end": "2026-12-31"},
+      "ownedBy": {"display": "UnitedHealthcare of Texas"},
+      "coverage": [{"type": {"coding": [{"code": "medical"}]}, "benefit": [{"type": {"coding": [{"code": "medical-care"}]}}]}],
+      "plan": [{"type": {"coding": [{"code": "platinum", "display": "Platinum"}]}, "specificCost": [{"category": {"coding": [{"code": "deductible"}]}, "benefit": [{"type": {"coding": [{"code": "deductible"}]}, "cost": [{"type": {"coding": [{"code": "individual"}]}, "value": {"value": 0, "unit": "USD"}}]}]}]}]
+    },
+    {
+      "resourceType": "InsurancePlan",
+      "id": "plan-medicaid-tx",
+      "name": "Texas Medicaid",
+      "type": [{"coding": [{"code": "medicaid", "display": "Medicaid"}]}],
+      "status": "active",
+      "period": {"start": "2024-01-01", "end": "2026-12-31"},
+      "ownedBy": {"display": "Texas Health and Human Services"},
+      "coverage": [{"type": {"coding": [{"code": "medical"}]}, "benefit": [{"type": {"coding": [{"code": "medical-care"}]}}]}],
+      "plan": [{"type": {"coding": [{"code": "medicaid", "display": "Medicaid"}]}}]
+    }
+  ]
+}

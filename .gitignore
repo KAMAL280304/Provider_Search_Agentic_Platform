@@ -1,0 +1,25 @@
+# Node
+FE/node_modules/
+
+# Python
+venv/
+__pycache__/
+*.pyc
+
+# Zip
+*.zip
+
+# Build
+dist/
+build/
+
+# OS
+.DS_Store
+
+# Logs & runtime
+BE/logs/
+*.db
+
+# temp files
+*.sqlite3
+*.log

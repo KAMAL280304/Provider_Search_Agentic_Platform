@@ -1,0 +1,7816 @@
+{
+  "practitioners": [
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1326244724",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1326244724"
+        }
+      ],
+      "name": [
+        {
+          "family": "ABANG-HAYES",
+          "given": [
+            "SARAH"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1588895429",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1588895429"
+        }
+      ],
+      "name": [
+        {
+          "family": "ABDEL-REHIM",
+          "given": [
+            "MOHAMED"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1043660178",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1043660178"
+        }
+      ],
+      "name": [
+        {
+          "family": "ABDELLATIF",
+          "given": [
+            "SARAH"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1205418332",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1205418332"
+        }
+      ],
+      "name": [
+        {
+          "family": "ABRAHAM",
+          "given": [
+            "ALFRED"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1417535154",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1417535154"
+        }
+      ],
+      "name": [
+        {
+          "family": "ABRAHAM",
+          "given": [
+            "ASHA"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1437152048",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1437152048"
+        }
+      ],
+      "name": [
+        {
+          "family": "ABRAHAM",
+          "given": [
+            "ANN"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1417215757",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1417215757"
+        }
+      ],
+      "name": [
+        {
+          "family": "ABRAHAM",
+          "given": [
+            "MERLIN"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1619394558",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1619394558"
+        }
+      ],
+      "name": [
+        {
+          "family": "ADAMS",
+          "given": [
+            "ANNE"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1164688966",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1164688966"
+        }
+      ],
+      "name": [
+        {
+          "family": "ADETONA",
+          "given": [
+            "OLUTOLA"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1053405563",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1053405563"
+        }
+      ],
+      "name": [
+        {
+          "family": "ADU-GYAN",
+          "given": [
+            "HARRIET"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1821267477",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1821267477"
+        }
+      ],
+      "name": [
+        {
+          "family": "ABBAS",
+          "given": [
+            "SYED"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1477947455",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1477947455"
+        }
+      ],
+      "name": [
+        {
+          "family": "ABD ALLA",
+          "given": [
+            "MARWA"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1235219593",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1235219593"
+        }
+      ],
+      "name": [
+        {
+          "family": "ABDALLA",
+          "given": [
+            "NAGEEB"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1861062960",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1861062960"
+        }
+      ],
+      "name": [
+        {
+          "family": "ABDELGHANI",
+          "given": [
+            "EMAN"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1821357096",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1821357096"
+        }
+      ],
+      "name": [
+        {
+          "family": "ABDELHAMID",
+          "given": [
+            "NOHA"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1437533205",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1437533205"
+        }
+      ],
+      "name": [
+        {
+          "family": "ABDULLA",
+          "given": [
+            "AMER"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1790084929",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1790084929"
+        }
+      ],
+      "name": [
+        {
+          "family": "ABDULLAH",
+          "given": [
+            "KAZEEN"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1952306565",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1952306565"
+        }
+      ],
+      "name": [
+        {
+          "family": "ABDULLAH",
+          "given": [
+            "NABEEL"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1417952029",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1417952029"
+        }
+      ],
+      "name": [
+        {
+          "family": "ABOCHAMH",
+          "given": [
+            "DIA"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1083252332",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1083252332"
+        }
+      ],
+      "name": [
+        {
+          "family": "ABOU HASSAN",
+          "given": [
+            "OSSAMA"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1932307261",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1932307261"
+        }
+      ],
+      "name": [
+        {
+          "family": "ABIDE",
+          "given": [
+            "WILLIAM"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1326049230",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1326049230"
+        }
+      ],
+      "name": [
+        {
+          "family": "ABRAMS",
+          "given": [
+            "DAVID"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1790826923",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1790826923"
+        }
+      ],
+      "name": [
+        {
+          "family": "AL-AHMAD",
+          "given": [
+            "AMIN"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1306225784",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1306225784"
+        }
+      ],
+      "name": [
+        {
+          "family": "ALEXANDER",
+          "given": [
+            "STEVEN"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1114347770",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1114347770"
+        }
+      ],
+      "name": [
+        {
+          "family": "ALLISON",
+          "given": [
+            "JOHN"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1487948030",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1487948030"
+        }
+      ],
+      "name": [
+        {
+          "family": "ABBAS",
+          "given": [
+            "AAMIR"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1679528244",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1679528244"
+        }
+      ],
+      "name": [
+        {
+          "family": "ABREU",
+          "given": [
+            "RUBEN"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1538146022",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1538146022"
+        }
+      ],
+      "name": [
+        {
+          "family": "ACHARI",
+          "given": [
+            "ARUP"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1093722019",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1093722019"
+        }
+      ],
+      "name": [
+        {
+          "family": "ACHARYA",
+          "given": [
+            "SIDDHARTHA"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1497062681",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1497062681"
+        }
+      ],
+      "name": [
+        {
+          "family": "ADACHI",
+          "given": [
+            "IKI"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1881198588",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1881198588"
+        }
+      ],
+      "name": [
+        {
+          "family": "ABBOTT",
+          "given": [
+            "JORDAN"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1154379188",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1154379188"
+        }
+      ],
+      "name": [
+        {
+          "family": "ABRAMOVITS",
+          "given": [
+            "WILLIAM"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1891766903",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1891766903"
+        }
+      ],
+      "name": [
+        {
+          "family": "ABRAMSON",
+          "given": [
+            "LAWRENCE"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1255389102",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1255389102"
+        }
+      ],
+      "name": [
+        {
+          "family": "ACHTMAN",
+          "given": [
+            "DANIEL"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1457705295",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1457705295"
+        }
+      ],
+      "name": [
+        {
+          "family": "ACHTMAN",
+          "given": [
+            "JORDAN"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1245421429",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1245421429"
+        }
+      ],
+      "name": [
+        {
+          "family": "AHMED",
+          "given": [
+            "AMMAR"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1720615198",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1720615198"
+        }
+      ],
+      "name": [
+        {
+          "family": "ALDANA",
+          "given": [
+            "PAOLA"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1770945719",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1770945719"
+        }
+      ],
+      "name": [
+        {
+          "family": "ALVAREZ",
+          "given": [
+            "HELYN"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1902875453",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1902875453"
+        }
+      ],
+      "name": [
+        {
+          "family": "ARANDA",
+          "given": [
+            "JENNIFER"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1598261463",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1598261463"
+        }
+      ],
+      "name": [
+        {
+          "family": "ARFFA",
+          "given": [
+            "MATTHEW"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1710516497",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1710516497"
+        }
+      ],
+      "name": [
+        {
+          "family": "ADLER",
+          "given": [
+            "ALISSA"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1437396116",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1437396116"
+        }
+      ],
+      "name": [
+        {
+          "family": "AHMED",
+          "given": [
+            "ATIF"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1053414672",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1053414672"
+        }
+      ],
+      "name": [
+        {
+          "family": "ALDAMA",
+          "given": [
+            "STEPHANIE"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1144260217",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1144260217"
+        }
+      ],
+      "name": [
+        {
+          "family": "ALI",
+          "given": [
+            "ASRA"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1245723543",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1245723543"
+        }
+      ],
+      "name": [
+        {
+          "family": "ALKUL",
+          "given": [
+            "SUZANNE"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1770744112",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1770744112"
+        }
+      ],
+      "name": [
+        {
+          "family": "ABSALOM",
+          "given": [
+            "NICHOLAS"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1417243379",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1417243379"
+        }
+      ],
+      "name": [
+        {
+          "family": "ACORD",
+          "given": [
+            "STEPHANIE"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1790714145",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1790714145"
+        }
+      ],
+      "name": [
+        {
+          "family": "ACOSTA",
+          "given": [
+            "FERNANDO"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1801836143",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1801836143"
+        }
+      ],
+      "name": [
+        {
+          "family": "ADAMS",
+          "given": [
+            "QUENTIN"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1205129673",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1205129673"
+        }
+      ],
+      "name": [
+        {
+          "family": "ADHIKARI",
+          "given": [
+            "ISHAN"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1215434055",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1215434055"
+        }
+      ],
+      "name": [
+        {
+          "family": "ABDEL",
+          "given": [
+            "ABDELRAHIM"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1760445407",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1760445407"
+        }
+      ],
+      "name": [
+        {
+          "family": "ABOUMATAR",
+          "given": [
+            "SAMI"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1780018150",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1780018150"
+        }
+      ],
+      "name": [
+        {
+          "family": "ABRAMEIT",
+          "given": [
+            "DONNA"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1386176139",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1386176139"
+        }
+      ],
+      "name": [
+        {
+          "family": "ADESINA",
+          "given": [
+            "ADEBUSOLA"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1740035435",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1740035435"
+        }
+      ],
+      "name": [
+        {
+          "family": "ADLIS",
+          "given": [
+            "RACHEL"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1598152944",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1598152944"
+        }
+      ],
+      "name": [
+        {
+          "family": "AAMODT",
+          "given": [
+            "WHITLEY"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1902295793",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1902295793"
+        }
+      ],
+      "name": [
+        {
+          "family": "AAROE",
+          "given": [
+            "ASHLEY"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1417445677",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1417445677"
+        }
+      ],
+      "name": [
+        {
+          "family": "ABDELMOTILIB",
+          "given": [
+            "HISHAM"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1629007588",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1629007588"
+        }
+      ],
+      "name": [
+        {
+          "family": "ABID",
+          "given": [
+            "FARIDA"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1699847400",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1699847400"
+        }
+      ],
+      "name": [
+        {
+          "family": "AADALEN",
+          "given": [
+            "RICHARD"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1265662100",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1265662100"
+        }
+      ],
+      "name": [
+        {
+          "family": "ABBASCHIAN",
+          "given": [
+            "CYRUS"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1548558273",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1548558273"
+        }
+      ],
+      "name": [
+        {
+          "family": "ABEBE",
+          "given": [
+            "ERMIAS"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1811261985",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1811261985"
+        }
+      ],
+      "name": [
+        {
+          "family": "ACKLEY",
+          "given": [
+            "JOHN"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1669811485",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1669811485"
+        }
+      ],
+      "name": [
+        {
+          "family": "AGARWAL",
+          "given": [
+            "RASHMI"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1003235078",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1003235078"
+        }
+      ],
+      "name": [
+        {
+          "family": "ABBLITT",
+          "given": [
+            "WILLIAM"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1699262709",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1699262709"
+        }
+      ],
+      "name": [
+        {
+          "family": "ABDELAZIZ",
+          "given": [
+            "ABED"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1457353518",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1457353518"
+        }
+      ],
+      "name": [
+        {
+          "family": "ADAMS",
+          "given": [
+            "BRADLEY"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1528266863",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1528266863"
+        }
+      ],
+      "name": [
+        {
+          "family": "AMIS",
+          "given": [
+            "BENJAMIN"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1285814244",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1285814244"
+        }
+      ],
+      "name": [
+        {
+          "family": "ANDERSON",
+          "given": [
+            "CODY"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1558814277",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1558814277"
+        }
+      ],
+      "name": [
+        {
+          "family": "ABREU IRIZARRY",
+          "given": [
+            "RICARDO"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1881859015",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1881859015"
+        }
+      ],
+      "name": [
+        {
+          "family": "ACHOR",
+          "given": [
+            "TIMOTHY"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1770673428",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1770673428"
+        }
+      ],
+      "name": [
+        {
+          "family": "ADICKES",
+          "given": [
+            "MARK"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1740817881",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1740817881"
+        }
+      ],
+      "name": [
+        {
+          "family": "AFLATOONI",
+          "given": [
+            "JUSTIN"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1124480652",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1124480652"
+        }
+      ],
+      "name": [
+        {
+          "family": "AHMED",
+          "given": [
+            "ADIL"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1134188311",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1134188311"
+        }
+      ],
+      "name": [
+        {
+          "family": "ABRAHAM",
+          "given": [
+            "CHERIAN"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1033178223",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1033178223"
+        }
+      ],
+      "name": [
+        {
+          "family": "ABRAHAM",
+          "given": [
+            "SINDHU"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1912389370",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1912389370"
+        }
+      ],
+      "name": [
+        {
+          "family": "ADAMS",
+          "given": [
+            "ASHA"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1609132620",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1609132620"
+        }
+      ],
+      "name": [
+        {
+          "family": "ADAY",
+          "given": [
+            "ARIEL"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1548396211",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1548396211"
+        }
+      ],
+      "name": [
+        {
+          "family": "AGUIRRE",
+          "given": [
+            "VINCENT"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1508841180",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1508841180"
+        }
+      ],
+      "name": [
+        {
+          "family": "ADAMS",
+          "given": [
+            "FRANK"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1417174707",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1417174707"
+        }
+      ],
+      "name": [
+        {
+          "family": "AGRAWAL",
+          "given": [
+            "DEEPAK"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1295095081",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1295095081"
+        }
+      ],
+      "name": [
+        {
+          "family": "AL-ABBOODI",
+          "given": [
+            "YASIR"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1932184512",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1932184512"
+        }
+      ],
+      "name": [
+        {
+          "family": "ALCOCER",
+          "given": [
+            "ANGEL"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1134336662",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1134336662"
+        }
+      ],
+      "name": [
+        {
+          "family": "ALKHOURI",
+          "given": [
+            "NAIM"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1922419209",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1922419209"
+        }
+      ],
+      "name": [
+        {
+          "family": "AAMAR",
+          "given": [
+            "ALI"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1821230780",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1821230780"
+        }
+      ],
+      "name": [
+        {
+          "family": "ABIDI",
+          "given": [
+            "WASIF"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1578767166",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1578767166"
+        }
+      ],
+      "name": [
+        {
+          "family": "ABRAHAM",
+          "given": [
+            "BINCY"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1487141636",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1487141636"
+        }
+      ],
+      "name": [
+        {
+          "family": "ABRAHAM",
+          "given": [
+            "FIYINFOLUWA"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1801357793",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1801357793"
+        }
+      ],
+      "name": [
+        {
+          "family": "ABRAMS",
+          "given": [
+            "DANIELA"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1730615337",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1730615337"
+        }
+      ],
+      "name": [
+        {
+          "family": "ABDALI",
+          "given": [
+            "ARQAM"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1497288682",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1497288682"
+        }
+      ],
+      "name": [
+        {
+          "family": "ABDELRAHMAN",
+          "given": [
+            "AHMED"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1356964621",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1356964621"
+        }
+      ],
+      "name": [
+        {
+          "family": "ABDULLA",
+          "given": [
+            "FIRAS"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1437378999",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1437378999"
+        }
+      ],
+      "name": [
+        {
+          "family": "ABRAHAM",
+          "given": [
+            "AYODELE"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1013132885",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1013132885"
+        }
+      ],
+      "name": [
+        {
+          "family": "ADAIR",
+          "given": [
+            "MAUREEN"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1851897730",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1851897730"
+        }
+      ],
+      "name": [
+        {
+          "family": "ABASS",
+          "given": [
+            "JEFFREY"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1023139433",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1023139433"
+        }
+      ],
+      "name": [
+        {
+          "family": "ADMIRE",
+          "given": [
+            "JANE"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1487944682",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1487944682"
+        }
+      ],
+      "name": [
+        {
+          "family": "AGAN",
+          "given": [
+            "ASHLEY"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1659396661",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1659396661"
+        }
+      ],
+      "name": [
+        {
+          "family": "ALBRITTON",
+          "given": [
+            "FORD"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1134527153",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1134527153"
+        }
+      ],
+      "name": [
+        {
+          "family": "ALROQI",
+          "given": [
+            "AHMAD"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1316268410",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1316268410"
+        }
+      ],
+      "name": [
+        {
+          "family": "ARFFA",
+          "given": [
+            "RACHEL"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1629430772",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1629430772"
+        }
+      ],
+      "name": [
+        {
+          "family": "ABROL",
+          "given": [
+            "ANISH"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1881089845",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1881089845"
+        }
+      ],
+      "name": [
+        {
+          "family": "ACKALL",
+          "given": [
+            "FERAS"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1871791558",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1871791558"
+        }
+      ],
+      "name": [
+        {
+          "family": "ANTUNES",
+          "given": [
+            "MARCELO"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1487909990",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1487909990"
+        }
+      ],
+      "name": [
+        {
+          "family": "ATTRA",
+          "given": [
+            "JAMES"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1619150349",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1619150349"
+        }
+      ],
+      "name": [
+        {
+          "family": "AULL",
+          "given": [
+            "CODY"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1285215152",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1285215152"
+        }
+      ],
+      "name": [
+        {
+          "family": "ABU RAJAB ALTAMIMI",
+          "given": [
+            "ZAID"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1164656633",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1164656633"
+        }
+      ],
+      "name": [
+        {
+          "family": "AGBETOBA",
+          "given": [
+            "ABIB"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1962447326",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1962447326"
+        }
+      ],
+      "name": [
+        {
+          "family": "AGUILAR",
+          "given": [
+            "EUGENIO"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1770859944",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1770859944"
+        }
+      ],
+      "name": [
+        {
+          "family": "AHMAD",
+          "given": [
+            "FAISAL"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1821559527",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1821559527"
+        }
+      ],
+      "name": [
+        {
+          "family": "AHMAD",
+          "given": [
+            "JUMAH"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1326544529",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1326544529"
+        }
+      ],
+      "name": [
+        {
+          "family": "ABANA",
+          "given": [
+            "OLAEDO"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1730133190",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1730133190"
+        }
+      ],
+      "name": [
+        {
+          "family": "ABU-HIJLEH",
+          "given": [
+            "MUHANNED"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1346504719",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1346504719"
+        }
+      ],
+      "name": [
+        {
+          "family": "ADAMS",
+          "given": [
+            "TRACI"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1376886853",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1376886853"
+        }
+      ],
+      "name": [
+        {
+          "family": "AFGHANI",
+          "given": [
+            "ZUNAIR"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1215108907",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1215108907"
+        }
+      ],
+      "name": [
+        {
+          "family": "AHMED",
+          "given": [
+            "IMTIAZ"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1295113702",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1295113702"
+        }
+      ],
+      "name": [
+        {
+          "family": "ALI",
+          "given": [
+            "MOHAMMED"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1639327885",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1639327885"
+        }
+      ],
+      "name": [
+        {
+          "family": "ALSUMRAIN",
+          "given": [
+            "MOHAMMAD"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1023221959",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1023221959"
+        }
+      ],
+      "name": [
+        {
+          "family": "ANDERSON",
+          "given": [
+            "MATTHEW"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1114105418",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1114105418"
+        }
+      ],
+      "name": [
+        {
+          "family": "BABBAR",
+          "given": [
+            "HARSH"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1598722522",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1598722522"
+        }
+      ],
+      "name": [
+        {
+          "family": "BARTEK",
+          "given": [
+            "WILLIAM"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1164716635",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1164716635"
+        }
+      ],
+      "name": [
+        {
+          "family": "ABRENCILLO",
+          "given": [
+            "RODEO"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1598879678",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1598879678"
+        }
+      ],
+      "name": [
+        {
+          "family": "ADACHI",
+          "given": [
+            "ROBERTO"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1235373481",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1235373481"
+        }
+      ],
+      "name": [
+        {
+          "family": "AGRAWAL",
+          "given": [
+            "ANURAG"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1578842522",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1578842522"
+        }
+      ],
+      "name": [
+        {
+          "family": "AGUILERA GARCIA",
+          "given": [
+            "YUNUEN"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1497192074",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1497192074"
+        }
+      ],
+      "name": [
+        {
+          "family": "AHMAD",
+          "given": [
+            "MUDASSAR"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1184856759",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1184856759"
+        }
+      ],
+      "name": [
+        {
+          "family": "ABRAMOWITZ",
+          "given": [
+            "JESSICA"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1144428319",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1144428319"
+        }
+      ],
+      "name": [
+        {
+          "family": "ABREU",
+          "given": [
+            "MARCONI"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1588951560",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1588951560"
+        }
+      ],
+      "name": [
+        {
+          "family": "AGOSTO SALGADO",
+          "given": [
+            "SARIMAR"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1316118300",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1316118300"
+        }
+      ],
+      "name": [
+        {
+          "family": "AHMAD",
+          "given": [
+            "SHEMA"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1053529099",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1053529099"
+        }
+      ],
+      "name": [
+        {
+          "family": "AHMAD",
+          "given": [
+            "ZAHID"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1467418731",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1467418731"
+        }
+      ],
+      "name": [
+        {
+          "family": "BERNACKI",
+          "given": [
+            "EDWARD"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1194730242",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1194730242"
+        }
+      ],
+      "name": [
+        {
+          "family": "BLEDSOE",
+          "given": [
+            "MAYA"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1114992088",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1114992088"
+        }
+      ],
+      "name": [
+        {
+          "family": "BLEVINS",
+          "given": [
+            "THOMAS"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1447225495",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1447225495"
+        }
+      ],
+      "name": [
+        {
+          "family": "CASAUBON",
+          "given": [
+            "LUIS"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1548434756",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1548434756"
+        }
+      ],
+      "name": [
+        {
+          "family": "CHAICHA-BROM",
+          "given": [
+            "TIRA"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1588621692",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1588621692"
+        }
+      ],
+      "name": [
+        {
+          "family": "ABATE",
+          "given": [
+            "NICOLA"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1114306669",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1114306669"
+        }
+      ],
+      "name": [
+        {
+          "family": "ABUSHAMAT",
+          "given": [
+            "LAYLA"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1952361750",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1952361750"
+        }
+      ],
+      "name": [
+        {
+          "family": "ACOSTA",
+          "given": [
+            "LUIS"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1215389408",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1215389408"
+        }
+      ],
+      "name": [
+        {
+          "family": "AHMAD",
+          "given": [
+            "SARA"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1962658674",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1962658674"
+        }
+      ],
+      "name": [
+        {
+          "family": "ACHARYA",
+          "given": [
+            "SUJEET"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1407370679",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1407370679"
+        }
+      ],
+      "name": [
+        {
+          "family": "ALZUBAIDI",
+          "given": [
+            "AHMAD"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1285173690",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1285173690"
+        }
+      ],
+      "name": [
+        {
+          "family": "ALZWERI",
+          "given": [
+            "LAITH"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1023283017",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1023283017"
+        }
+      ],
+      "name": [
+        {
+          "family": "ANTONELLI",
+          "given": [
+            "JODI"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1275362014",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1275362014"
+        }
+      ],
+      "name": [
+        {
+          "family": "ARENAS HOYOS",
+          "given": [
+            "JULIANA"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1578672739",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1578672739"
+        }
+      ],
+      "name": [
+        {
+          "family": "ALEMAN",
+          "given": [
+            "MICAELA"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1790882215",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1790882215"
+        }
+      ],
+      "name": [
+        {
+          "family": "BAKER",
+          "given": [
+            "BRETT"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1922495738",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1922495738"
+        }
+      ],
+      "name": [
+        {
+          "family": "BALTHAZAR",
+          "given": [
+            "ANDREA"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1780756700",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1780756700"
+        }
+      ],
+      "name": [
+        {
+          "family": "BISCHOFF",
+          "given": [
+            "CARL"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1356323448",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1356323448"
+        }
+      ],
+      "name": [
+        {
+          "family": "BRUCE",
+          "given": [
+            "ROBERT"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1700045606",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1700045606"
+        }
+      ],
+      "name": [
+        {
+          "family": "ADIBI",
+          "given": [
+            "MEHRAD"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1134439086",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1134439086"
+        }
+      ],
+      "name": [
+        {
+          "family": "AGHAZADEH",
+          "given": [
+            "MONTY"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1104271360",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1104271360"
+        }
+      ],
+      "name": [
+        {
+          "family": "AKHTAR",
+          "given": [
+            "ABDULHADI"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1225590987",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1225590987"
+        }
+      ],
+      "name": [
+        {
+          "family": "AKHVERDIYEVA",
+          "given": [
+            "LEYLA"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1164593869",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1164593869"
+        }
+      ],
+      "name": [
+        {
+          "family": "AMIEL",
+          "given": [
+            "GILAD"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1548402886",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1548402886"
+        }
+      ],
+      "name": [
+        {
+          "family": "ABBEY",
+          "given": [
+            "ASHKAN"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1659570943",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1659570943"
+        }
+      ],
+      "name": [
+        {
+          "family": "ABBOTT",
+          "given": [
+            "MEREDITH"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1588906465",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1588906465"
+        }
+      ],
+      "name": [
+        {
+          "family": "ABDELAZIZ",
+          "given": [
+            "MUSA"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1912316878",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1912316878"
+        }
+      ],
+      "name": [
+        {
+          "family": "ABDULAAL",
+          "given": [
+            "MARWAN"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1831542828",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1831542828"
+        }
+      ],
+      "name": [
+        {
+          "family": "ABIAD",
+          "given": [
+            "MOHAMAD BACHIR"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1457314387",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1457314387"
+        }
+      ],
+      "name": [
+        {
+          "family": "AKOR",
+          "given": [
+            "CHARLOTTE"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1891290797",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1891290797"
+        }
+      ],
+      "name": [
+        {
+          "family": "ALABI",
+          "given": [
+            "ROLAKE"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1275619496",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1275619496"
+        }
+      ],
+      "name": [
+        {
+          "family": "ALEXANDER",
+          "given": [
+            "MAUREEN"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1104827351",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1104827351"
+        }
+      ],
+      "name": [
+        {
+          "family": "ALLEN",
+          "given": [
+            "RICHARD"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1275611352",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1275611352"
+        }
+      ],
+      "name": [
+        {
+          "family": "AMATO",
+          "given": [
+            "MALENA"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1265470819",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1265470819"
+        }
+      ],
+      "name": [
+        {
+          "family": "ABEDIN",
+          "given": [
+            "SAEID"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1114215738",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1114215738"
+        }
+      ],
+      "name": [
+        {
+          "family": "ACHIM",
+          "given": [
+            "CATHERINE"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1356501522",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1356501522"
+        }
+      ],
+      "name": [
+        {
+          "family": "ADESINA",
+          "given": [
+            "ORE-OFEOLUWATOMI"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1659575249",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1659575249"
+        }
+      ],
+      "name": [
+        {
+          "family": "AGOMO",
+          "given": [
+            "EMELIKE"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1114345725",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1114345725"
+        }
+      ],
+      "name": [
+        {
+          "family": "AHMED",
+          "given": [
+            "MASIH"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1649586256",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1649586256"
+        }
+      ],
+      "name": [
+        {
+          "family": "AFZAL",
+          "given": [
+            "ZEESHAN"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1700142262",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1700142262"
+        }
+      ],
+      "name": [
+        {
+          "family": "ALKHATIB",
+          "given": [
+            "AYAD"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1164468088",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1164468088"
+        }
+      ],
+      "name": [
+        {
+          "family": "AMARI",
+          "given": [
+            "WASSILA"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1104385079",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1104385079"
+        }
+      ],
+      "name": [
+        {
+          "family": "AMRATIA",
+          "given": [
+            "AVNI"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1972999746",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1972999746"
+        }
+      ],
+      "name": [
+        {
+          "family": "BABAR",
+          "given": [
+            "AROOJ"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1285684803",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1285684803"
+        }
+      ],
+      "name": [
+        {
+          "family": "BUNCH",
+          "given": [
+            "TINA"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1548256845",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1548256845"
+        }
+      ],
+      "name": [
+        {
+          "family": "CHADHA",
+          "given": [
+            "ANUREKHA"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1497247803",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1497247803"
+        }
+      ],
+      "name": [
+        {
+          "family": "DWYER",
+          "given": [
+            "MATTHEW"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1255348785",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1255348785"
+        }
+      ],
+      "name": [
+        {
+          "family": "HACKSHAW",
+          "given": [
+            "KEVIN"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1073035044",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1073035044"
+        }
+      ],
+      "name": [
+        {
+          "family": "JACQUEZ",
+          "given": [
+            "JORDAN"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1598944027",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1598944027"
+        }
+      ],
+      "name": [
+        {
+          "family": "ABBAS",
+          "given": [
+            "ZOHAIR"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1851587612",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1851587612"
+        }
+      ],
+      "name": [
+        {
+          "family": "ABOU-KHAMIS",
+          "given": [
+            "TAREQ"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1467489757",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1467489757"
+        }
+      ],
+      "name": [
+        {
+          "family": "AGARWAL",
+          "given": [
+            "SANDEEP"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1750488805",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1750488805"
+        }
+      ],
+      "name": [
+        {
+          "family": "AGUILAR",
+          "given": [
+            "MARTHA"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1669435996",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1669435996"
+        }
+      ],
+      "name": [
+        {
+          "family": "AHMED",
+          "given": [
+            "FAYYAZ"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1043899545",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1043899545"
+        }
+      ],
+      "name": [
+        {
+          "family": "ABASOLO LOPEZ",
+          "given": [
+            "ESTEFANIA"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1433218196",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1433218196"
+        }
+      ],
+      "name": [
+        {
+          "family": "KHAN",
+          "given": [
+            "JAMES"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1863794026",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1863794026"
+        }
+      ],
+      "name": [
+        {
+          "family": "GONZALEZ",
+          "given": [
+            "ANDREW"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1155940781",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1155940781"
+        }
+      ],
+      "name": [
+        {
+          "family": "ROBINSON",
+          "given": [
+            "MICHAEL"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1593103413",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1593103413"
+        }
+      ],
+      "name": [
+        {
+          "family": "HALL",
+          "given": [
+            "AMANDA"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1534192832",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1534192832"
+        }
+      ],
+      "name": [
+        {
+          "family": "LEWIS",
+          "given": [
+            "SUSAN"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1030564139",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1030564139"
+        }
+      ],
+      "name": [
+        {
+          "family": "SANCHEZ",
+          "given": [
+            "GEORGE"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1242388496",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1242388496"
+        }
+      ],
+      "name": [
+        {
+          "family": "WRIGHT",
+          "given": [
+            "AMANDA"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1101226916",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1101226916"
+        }
+      ],
+      "name": [
+        {
+          "family": "TORRES",
+          "given": [
+            "PAUL"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1018451462",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1018451462"
+        }
+      ],
+      "name": [
+        {
+          "family": "COHEN",
+          "given": [
+            "DONNA"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1489325288",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1489325288"
+        }
+      ],
+      "name": [
+        {
+          "family": "MILLER",
+          "given": [
+            "PAUL"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1430391171",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1430391171"
+        }
+      ],
+      "name": [
+        {
+          "family": "LEWIS",
+          "given": [
+            "DAVID"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1824896383",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1824896383"
+        }
+      ],
+      "name": [
+        {
+          "family": "SCOTT",
+          "given": [
+            "GEORGE"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1133150983",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1133150983"
+        }
+      ],
+      "name": [
+        {
+          "family": "KING",
+          "given": [
+            "EMILY"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1518347382",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1518347382"
+        }
+      ],
+      "name": [
+        {
+          "family": "WILLIAMS",
+          "given": [
+            "MICHAEL"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1631165667",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1631165667"
+        }
+      ],
+      "name": [
+        {
+          "family": "LI",
+          "given": [
+            "MARK"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1513338726",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1513338726"
+        }
+      ],
+      "name": [
+        {
+          "family": "GUPTA",
+          "given": [
+            "ANTHONY"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1080132677",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1080132677"
+        }
+      ],
+      "name": [
+        {
+          "family": "MILLER",
+          "given": [
+            "DONNA"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1647468723",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1647468723"
+        }
+      ],
+      "name": [
+        {
+          "family": "SMITH",
+          "given": [
+            "ANTHONY"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1009788208",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1009788208"
+        }
+      ],
+      "name": [
+        {
+          "family": "SANCHEZ",
+          "given": [
+            "RONALD"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1939909169",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1939909169"
+        }
+      ],
+      "name": [
+        {
+          "family": "DAVIS",
+          "given": [
+            "ANTHONY"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1534624751",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1534624751"
+        }
+      ],
+      "name": [
+        {
+          "family": "PATEL",
+          "given": [
+            "GEORGE"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1842513542",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1842513542"
+        }
+      ],
+      "name": [
+        {
+          "family": "WILSON",
+          "given": [
+            "ANDREW"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1841241182",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1841241182"
+        }
+      ],
+      "name": [
+        {
+          "family": "KIM",
+          "given": [
+            "GEORGE"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1487401640",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1487401640"
+        }
+      ],
+      "name": [
+        {
+          "family": "RIVERA",
+          "given": [
+            "GEORGE"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1868011280",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1868011280"
+        }
+      ],
+      "name": [
+        {
+          "family": "KING",
+          "given": [
+            "RONALD"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1450533158",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1450533158"
+        }
+      ],
+      "name": [
+        {
+          "family": "WILLIAMS",
+          "given": [
+            "BARBARA"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1260256342",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1260256342"
+        }
+      ],
+      "name": [
+        {
+          "family": "LI",
+          "given": [
+            "WILLIAM"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1754330365",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1754330365"
+        }
+      ],
+      "name": [
+        {
+          "family": "GONZALEZ",
+          "given": [
+            "SARAH"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1685014294",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1685014294"
+        }
+      ],
+      "name": [
+        {
+          "family": "NGUYEN",
+          "given": [
+            "AMANDA"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1816934060",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1816934060"
+        }
+      ],
+      "name": [
+        {
+          "family": "BAKER",
+          "given": [
+            "MARGARET"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1595148465",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1595148465"
+        }
+      ],
+      "name": [
+        {
+          "family": "JONES",
+          "given": [
+            "MARGARET"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1629946804",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1629946804"
+        }
+      ],
+      "name": [
+        {
+          "family": "MITCHELL",
+          "given": [
+            "DONALD"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1387214895",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1387214895"
+        }
+      ],
+      "name": [
+        {
+          "family": "KING",
+          "given": [
+            "ASHLEY"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1320037917",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1320037917"
+        }
+      ],
+      "name": [
+        {
+          "family": "LI",
+          "given": [
+            "SARAH"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1320163287",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1320163287"
+        }
+      ],
+      "name": [
+        {
+          "family": "WALKER",
+          "given": [
+            "KIMBERLY"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1788957986",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1788957986"
+        }
+      ],
+      "name": [
+        {
+          "family": "LI",
+          "given": [
+            "BARBARA"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1348734714",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1348734714"
+        }
+      ],
+      "name": [
+        {
+          "family": "THOMAS",
+          "given": [
+            "ASHLEY"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1362316658",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1362316658"
+        }
+      ],
+      "name": [
+        {
+          "family": "MARTINEZ",
+          "given": [
+            "JOHN"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1096705466",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1096705466"
+        }
+      ],
+      "name": [
+        {
+          "family": "NELSON",
+          "given": [
+            "REBECCA"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1670656272",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1670656272"
+        }
+      ],
+      "name": [
+        {
+          "family": "JACKSON",
+          "given": [
+            "SARAH"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1627204653",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1627204653"
+        }
+      ],
+      "name": [
+        {
+          "family": "CAMPBELL",
+          "given": [
+            "MICHAEL"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1641708053",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1641708053"
+        }
+      ],
+      "name": [
+        {
+          "family": "PARK",
+          "given": [
+            "REBECCA"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1092327193",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1092327193"
+        }
+      ],
+      "name": [
+        {
+          "family": "GONZALEZ",
+          "given": [
+            "CHARLES"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1124190496",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1124190496"
+        }
+      ],
+      "name": [
+        {
+          "family": "BAKER",
+          "given": [
+            "KEVIN"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1491905865",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1491905865"
+        }
+      ],
+      "name": [
+        {
+          "family": "ROBERTS",
+          "given": [
+            "DAVID"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1657262849",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1657262849"
+        }
+      ],
+      "name": [
+        {
+          "family": "MILLER",
+          "given": [
+            "KIMBERLY"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1945314737",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1945314737"
+        }
+      ],
+      "name": [
+        {
+          "family": "KIM",
+          "given": [
+            "MARGARET"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1527354549",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1527354549"
+        }
+      ],
+      "name": [
+        {
+          "family": "YAMAMOTO",
+          "given": [
+            "MARK"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1678377701",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1678377701"
+        }
+      ],
+      "name": [
+        {
+          "family": "TAYLOR",
+          "given": [
+            "MICHAEL"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1578856855",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1578856855"
+        }
+      ],
+      "name": [
+        {
+          "family": "NELSON",
+          "given": [
+            "MELISSA"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1351823374",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1351823374"
+        }
+      ],
+      "name": [
+        {
+          "family": "GUPTA",
+          "given": [
+            "DAVID"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1343524082",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1343524082"
+        }
+      ],
+      "name": [
+        {
+          "family": "PARK",
+          "given": [
+            "LINDA"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1710947775",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1710947775"
+        }
+      ],
+      "name": [
+        {
+          "family": "RODRIGUEZ",
+          "given": [
+            "DEBORAH"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1719022941",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1719022941"
+        }
+      ],
+      "name": [
+        {
+          "family": "WALKER",
+          "given": [
+            "MICHAEL"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1677496499",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1677496499"
+        }
+      ],
+      "name": [
+        {
+          "family": "HILL",
+          "given": [
+            "TIMOTHY"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1412328120",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1412328120"
+        }
+      ],
+      "name": [
+        {
+          "family": "WILSON",
+          "given": [
+            "BRIAN"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1447134936",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1447134936"
+        }
+      ],
+      "name": [
+        {
+          "family": "ANDERSON",
+          "given": [
+            "PATRICIA"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1024994717",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1024994717"
+        }
+      ],
+      "name": [
+        {
+          "family": "JONES",
+          "given": [
+            "BARBARA"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1906594013",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1906594013"
+        }
+      ],
+      "name": [
+        {
+          "family": "GARCIA",
+          "given": [
+            "ASHLEY"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1278742967",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1278742967"
+        }
+      ],
+      "name": [
+        {
+          "family": "WILLIAMS",
+          "given": [
+            "MICHELLE"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1125674680",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1125674680"
+        }
+      ],
+      "name": [
+        {
+          "family": "MITCHELL",
+          "given": [
+            "NANCY"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1808760385",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1808760385"
+        }
+      ],
+      "name": [
+        {
+          "family": "WALKER",
+          "given": [
+            "TIMOTHY"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1824771093",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1824771093"
+        }
+      ],
+      "name": [
+        {
+          "family": "JACKSON",
+          "given": [
+            "RICHARD"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1171274846",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1171274846"
+        }
+      ],
+      "name": [
+        {
+          "family": "ANDERSON",
+          "given": [
+            "JENNIFER"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1639821465",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1639821465"
+        }
+      ],
+      "name": [
+        {
+          "family": "MARTINEZ",
+          "given": [
+            "DONNA"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1997278755",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1997278755"
+        }
+      ],
+      "name": [
+        {
+          "family": "HARRIS",
+          "given": [
+            "STEPHANIE"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1396360576",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1396360576"
+        }
+      ],
+      "name": [
+        {
+          "family": "ROBERTS",
+          "given": [
+            "DOROTHY"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1895171870",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1895171870"
+        }
+      ],
+      "name": [
+        {
+          "family": "RODRIGUEZ",
+          "given": [
+            "PATRICIA"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1459615865",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1459615865"
+        }
+      ],
+      "name": [
+        {
+          "family": "WANG",
+          "given": [
+            "MARK"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1343161172",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1343161172"
+        }
+      ],
+      "name": [
+        {
+          "family": "JONES",
+          "given": [
+            "KEVIN"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1556238692",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1556238692"
+        }
+      ],
+      "name": [
+        {
+          "family": "WHITE",
+          "given": [
+            "PATRICIA"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1237474074",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1237474074"
+        }
+      ],
+      "name": [
+        {
+          "family": "NELSON",
+          "given": [
+            "MARK"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1647436713",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1647436713"
+        }
+      ],
+      "name": [
+        {
+          "family": "HARRIS",
+          "given": [
+            "MICHELLE"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1640909743",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1640909743"
+        }
+      ],
+      "name": [
+        {
+          "family": "PARK",
+          "given": [
+            "MARY"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1210470952",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1210470952"
+        }
+      ],
+      "name": [
+        {
+          "family": "SINGH",
+          "given": [
+            "MELISSA"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1858842474",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1858842474"
+        }
+      ],
+      "name": [
+        {
+          "family": "RODRIGUEZ",
+          "given": [
+            "RICHARD"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1368516048",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1368516048"
+        }
+      ],
+      "name": [
+        {
+          "family": "MARTINEZ",
+          "given": [
+            "JENNIFER"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1137098593",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1137098593"
+        }
+      ],
+      "name": [
+        {
+          "family": "LEWIS",
+          "given": [
+            "AMANDA"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1120047113",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1120047113"
+        }
+      ],
+      "name": [
+        {
+          "family": "YOUNG",
+          "given": [
+            "AMANDA"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1869261796",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1869261796"
+        }
+      ],
+      "name": [
+        {
+          "family": "KHAN",
+          "given": [
+            "MELISSA"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1351585064",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1351585064"
+        }
+      ],
+      "name": [
+        {
+          "family": "KING",
+          "given": [
+            "STEVEN"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1900532931",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1900532931"
+        }
+      ],
+      "name": [
+        {
+          "family": "WILSON",
+          "given": [
+            "GEORGE"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1290422842",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1290422842"
+        }
+      ],
+      "name": [
+        {
+          "family": "CHEN",
+          "given": [
+            "DANIEL"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1395024026",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1395024026"
+        }
+      ],
+      "name": [
+        {
+          "family": "WANG",
+          "given": [
+            "MATTHEW"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1891783908",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1891783908"
+        }
+      ],
+      "name": [
+        {
+          "family": "LEWIS",
+          "given": [
+            "REBECCA"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1661771159",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1661771159"
+        }
+      ],
+      "name": [
+        {
+          "family": "YAMAMOTO",
+          "given": [
+            "MARK"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1847896118",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1847896118"
+        }
+      ],
+      "name": [
+        {
+          "family": "BAKER",
+          "given": [
+            "SANDRA"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1766156545",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1766156545"
+        }
+      ],
+      "name": [
+        {
+          "family": "CLARK",
+          "given": [
+            "DONALD"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1116152809",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1116152809"
+        }
+      ],
+      "name": [
+        {
+          "family": "PARK",
+          "given": [
+            "MICHAEL"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1604945198",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1604945198"
+        }
+      ],
+      "name": [
+        {
+          "family": "COHEN",
+          "given": [
+            "BETTY"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1851493689",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1851493689"
+        }
+      ],
+      "name": [
+        {
+          "family": "YAMAMOTO",
+          "given": [
+            "MATTHEW"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1445502296",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1445502296"
+        }
+      ],
+      "name": [
+        {
+          "family": "LOPEZ",
+          "given": [
+            "MARY"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1366752545",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1366752545"
+        }
+      ],
+      "name": [
+        {
+          "family": "HILL",
+          "given": [
+            "RONALD"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1901476797",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1901476797"
+        }
+      ],
+      "name": [
+        {
+          "family": "HERNANDEZ",
+          "given": [
+            "JOHN"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1149784036",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1149784036"
+        }
+      ],
+      "name": [
+        {
+          "family": "ALLEN",
+          "given": [
+            "MATTHEW"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1244510762",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1244510762"
+        }
+      ],
+      "name": [
+        {
+          "family": "CHEN",
+          "given": [
+            "DOROTHY"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1060715969",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1060715969"
+        }
+      ],
+      "name": [
+        {
+          "family": "WALKER",
+          "given": [
+            "JENNIFER"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1529751613",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1529751613"
+        }
+      ],
+      "name": [
+        {
+          "family": "JOHNSON",
+          "given": [
+            "ANTHONY"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1535218188",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1535218188"
+        }
+      ],
+      "name": [
+        {
+          "family": "KHAN",
+          "given": [
+            "LISA"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1243292127",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1243292127"
+        }
+      ],
+      "name": [
+        {
+          "family": "MILLER",
+          "given": [
+            "CHARLES"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1271774490",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1271774490"
+        }
+      ],
+      "name": [
+        {
+          "family": "SANCHEZ",
+          "given": [
+            "AMANDA"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1541199867",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1541199867"
+        }
+      ],
+      "name": [
+        {
+          "family": "BROWN",
+          "given": [
+            "PATRICIA"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1359782071",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1359782071"
+        }
+      ],
+      "name": [
+        {
+          "family": "CAMPBELL",
+          "given": [
+            "MICHELLE"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1778892554",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1778892554"
+        }
+      ],
+      "name": [
+        {
+          "family": "TAYLOR",
+          "given": [
+            "ROBERT"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1186449251",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1186449251"
+        }
+      ],
+      "name": [
+        {
+          "family": "CLARK",
+          "given": [
+            "JENNIFER"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1629148652",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1629148652"
+        }
+      ],
+      "name": [
+        {
+          "family": "ROBERTS",
+          "given": [
+            "AMANDA"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1685054235",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1685054235"
+        }
+      ],
+      "name": [
+        {
+          "family": "MITCHELL",
+          "given": [
+            "BRIAN"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1418880592",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1418880592"
+        }
+      ],
+      "name": [
+        {
+          "family": "JONES",
+          "given": [
+            "JOHN"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1065379473",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1065379473"
+        }
+      ],
+      "name": [
+        {
+          "family": "KING",
+          "given": [
+            "RONALD"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1977468862",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1977468862"
+        }
+      ],
+      "name": [
+        {
+          "family": "CARTER",
+          "given": [
+            "MATTHEW"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1758181412",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1758181412"
+        }
+      ],
+      "name": [
+        {
+          "family": "CAMPBELL",
+          "given": [
+            "PATRICIA"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1750606853",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1750606853"
+        }
+      ],
+      "name": [
+        {
+          "family": "ANDERSON",
+          "given": [
+            "JENNIFER"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1522047277",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1522047277"
+        }
+      ],
+      "name": [
+        {
+          "family": "MILLER",
+          "given": [
+            "DANIEL"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1289861434",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1289861434"
+        }
+      ],
+      "name": [
+        {
+          "family": "PARK",
+          "given": [
+            "DOROTHY"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1798089324",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1798089324"
+        }
+      ],
+      "name": [
+        {
+          "family": "PARK",
+          "given": [
+            "DAVID"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1185188888",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1185188888"
+        }
+      ],
+      "name": [
+        {
+          "family": "MITCHELL",
+          "given": [
+            "SUSAN"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1051531952",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1051531952"
+        }
+      ],
+      "name": [
+        {
+          "family": "THOMAS",
+          "given": [
+            "BETTY"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1221704303",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1221704303"
+        }
+      ],
+      "name": [
+        {
+          "family": "SCOTT",
+          "given": [
+            "DEBORAH"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1403450541",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1403450541"
+        }
+      ],
+      "name": [
+        {
+          "family": "SCOTT",
+          "given": [
+            "DONNA"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1277584161",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1277584161"
+        }
+      ],
+      "name": [
+        {
+          "family": "CLARK",
+          "given": [
+            "SANDRA"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1154479627",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1154479627"
+        }
+      ],
+      "name": [
+        {
+          "family": "MILLER",
+          "given": [
+            "NANCY"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1016582029",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1016582029"
+        }
+      ],
+      "name": [
+        {
+          "family": "RIVERA",
+          "given": [
+            "KAREN"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1556909275",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1556909275"
+        }
+      ],
+      "name": [
+        {
+          "family": "CHEN",
+          "given": [
+            "CHARLES"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1431027868",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1431027868"
+        }
+      ],
+      "name": [
+        {
+          "family": "SANCHEZ",
+          "given": [
+            "SANDRA"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1731217271",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1731217271"
+        }
+      ],
+      "name": [
+        {
+          "family": "WHITE",
+          "given": [
+            "KEVIN"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1884422583",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1884422583"
+        }
+      ],
+      "name": [
+        {
+          "family": "JONES",
+          "given": [
+            "DEBORAH"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1589578291",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1589578291"
+        }
+      ],
+      "name": [
+        {
+          "family": "JOHNSON",
+          "given": [
+            "MARK"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1912517785",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1912517785"
+        }
+      ],
+      "name": [
+        {
+          "family": "YOUNG",
+          "given": [
+            "REBECCA"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1680182422",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1680182422"
+        }
+      ],
+      "name": [
+        {
+          "family": "RODRIGUEZ",
+          "given": [
+            "TIMOTHY"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1384249818",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1384249818"
+        }
+      ],
+      "name": [
+        {
+          "family": "THOMAS",
+          "given": [
+            "JENNIFER"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1959001094",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1959001094"
+        }
+      ],
+      "name": [
+        {
+          "family": "HALL",
+          "given": [
+            "GEORGE"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1844736471",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1844736471"
+        }
+      ],
+      "name": [
+        {
+          "family": "RIVERA",
+          "given": [
+            "MARK"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1592555625",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1592555625"
+        }
+      ],
+      "name": [
+        {
+          "family": "WILSON",
+          "given": [
+            "ASHLEY"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1732104696",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1732104696"
+        }
+      ],
+      "name": [
+        {
+          "family": "JACKSON",
+          "given": [
+            "LINDA"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1532787747",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1532787747"
+        }
+      ],
+      "name": [
+        {
+          "family": "GUPTA",
+          "given": [
+            "MICHELLE"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1950047974",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1950047974"
+        }
+      ],
+      "name": [
+        {
+          "family": "WILSON",
+          "given": [
+            "SARAH"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1565060983",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1565060983"
+        }
+      ],
+      "name": [
+        {
+          "family": "GUPTA",
+          "given": [
+            "JOSEPH"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1499121655",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1499121655"
+        }
+      ],
+      "name": [
+        {
+          "family": "GREEN",
+          "given": [
+            "REBECCA"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1680002578",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1680002578"
+        }
+      ],
+      "name": [
+        {
+          "family": "NGUYEN",
+          "given": [
+            "KEVIN"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1526949588",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1526949588"
+        }
+      ],
+      "name": [
+        {
+          "family": "HALL",
+          "given": [
+            "DANIEL"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1516940974",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1516940974"
+        }
+      ],
+      "name": [
+        {
+          "family": "LEWIS",
+          "given": [
+            "MARY"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1289623091",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1289623091"
+        }
+      ],
+      "name": [
+        {
+          "family": "SCOTT",
+          "given": [
+            "JOSHUA"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1368970283",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1368970283"
+        }
+      ],
+      "name": [
+        {
+          "family": "ROBERTS",
+          "given": [
+            "DONALD"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1785854973",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1785854973"
+        }
+      ],
+      "name": [
+        {
+          "family": "LOPEZ",
+          "given": [
+            "NANCY"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1437575844",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1437575844"
+        }
+      ],
+      "name": [
+        {
+          "family": "CHEN",
+          "given": [
+            "THOMAS"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1240415747",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1240415747"
+        }
+      ],
+      "name": [
+        {
+          "family": "CHEN",
+          "given": [
+            "BETTY"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1993308330",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1993308330"
+        }
+      ],
+      "name": [
+        {
+          "family": "MILLER",
+          "given": [
+            "BARBARA"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1208267734",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1208267734"
+        }
+      ],
+      "name": [
+        {
+          "family": "CHEN",
+          "given": [
+            "GEORGE"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1026206724",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1026206724"
+        }
+      ],
+      "name": [
+        {
+          "family": "KHAN",
+          "given": [
+            "ANDREW"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1887287431",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1887287431"
+        }
+      ],
+      "name": [
+        {
+          "family": "WRIGHT",
+          "given": [
+            "LISA"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1549329668",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1549329668"
+        }
+      ],
+      "name": [
+        {
+          "family": "KHAN",
+          "given": [
+            "JAMES"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1530463745",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1530463745"
+        }
+      ],
+      "name": [
+        {
+          "family": "SCOTT",
+          "given": [
+            "JOHN"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1301742684",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1301742684"
+        }
+      ],
+      "name": [
+        {
+          "family": "LEWIS",
+          "given": [
+            "AMANDA"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1327279568",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1327279568"
+        }
+      ],
+      "name": [
+        {
+          "family": "ANDERSON",
+          "given": [
+            "CAROL"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1918785191",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1918785191"
+        }
+      ],
+      "name": [
+        {
+          "family": "SINGH",
+          "given": [
+            "GEORGE"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1225871397",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1225871397"
+        }
+      ],
+      "name": [
+        {
+          "family": "FLORES",
+          "given": [
+            "JOSHUA"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1679087406",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1679087406"
+        }
+      ],
+      "name": [
+        {
+          "family": "NGUYEN",
+          "given": [
+            "BARBARA"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1518017046",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1518017046"
+        }
+      ],
+      "name": [
+        {
+          "family": "ALLEN",
+          "given": [
+            "ROBERT"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1661825128",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1661825128"
+        }
+      ],
+      "name": [
+        {
+          "family": "KING",
+          "given": [
+            "SANDRA"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1478686337",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1478686337"
+        }
+      ],
+      "name": [
+        {
+          "family": "JOHNSON",
+          "given": [
+            "TIMOTHY"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1903311907",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1903311907"
+        }
+      ],
+      "name": [
+        {
+          "family": "YOUNG",
+          "given": [
+            "GEORGE"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1673830284",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1673830284"
+        }
+      ],
+      "name": [
+        {
+          "family": "WILLIAMS",
+          "given": [
+            "RONALD"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1283644089",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1283644089"
+        }
+      ],
+      "name": [
+        {
+          "family": "HARRIS",
+          "given": [
+            "SARAH"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1685662462",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1685662462"
+        }
+      ],
+      "name": [
+        {
+          "family": "RAMIREZ",
+          "given": [
+            "PATRICIA"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1708668826",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1708668826"
+        }
+      ],
+      "name": [
+        {
+          "family": "MARTINEZ",
+          "given": [
+            "DEBORAH"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1830469901",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1830469901"
+        }
+      ],
+      "name": [
+        {
+          "family": "GARCIA",
+          "given": [
+            "BETTY"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1540331739",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1540331739"
+        }
+      ],
+      "name": [
+        {
+          "family": "WILSON",
+          "given": [
+            "MARK"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1678544587",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1678544587"
+        }
+      ],
+      "name": [
+        {
+          "family": "WHITE",
+          "given": [
+            "REBECCA"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1560932048",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1560932048"
+        }
+      ],
+      "name": [
+        {
+          "family": "LEWIS",
+          "given": [
+            "DOROTHY"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1536937854",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1536937854"
+        }
+      ],
+      "name": [
+        {
+          "family": "GONZALEZ",
+          "given": [
+            "BARBARA"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1522872808",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1522872808"
+        }
+      ],
+      "name": [
+        {
+          "family": "GUPTA",
+          "given": [
+            "SUSAN"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1312038750",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1312038750"
+        }
+      ],
+      "name": [
+        {
+          "family": "RODRIGUEZ",
+          "given": [
+            "DONALD"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1886008484",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1886008484"
+        }
+      ],
+      "name": [
+        {
+          "family": "SMITH",
+          "given": [
+            "MARY"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1823398454",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1823398454"
+        }
+      ],
+      "name": [
+        {
+          "family": "MILLER",
+          "given": [
+            "DAVID"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1341016668",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1341016668"
+        }
+      ],
+      "name": [
+        {
+          "family": "TAYLOR",
+          "given": [
+            "MICHELLE"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1659180339",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1659180339"
+        }
+      ],
+      "name": [
+        {
+          "family": "YAMAMOTO",
+          "given": [
+            "MARK"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1025039261",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1025039261"
+        }
+      ],
+      "name": [
+        {
+          "family": "ADAMS",
+          "given": [
+            "DONNA"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1218501631",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1218501631"
+        }
+      ],
+      "name": [
+        {
+          "family": "SINGH",
+          "given": [
+            "SANDRA"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1477358662",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1477358662"
+        }
+      ],
+      "name": [
+        {
+          "family": "RIVERA",
+          "given": [
+            "MARY"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1114262655",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1114262655"
+        }
+      ],
+      "name": [
+        {
+          "family": "PATEL",
+          "given": [
+            "SARAH"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1412126788",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1412126788"
+        }
+      ],
+      "name": [
+        {
+          "family": "SINGH",
+          "given": [
+            "BETTY"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1995604661",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1995604661"
+        }
+      ],
+      "name": [
+        {
+          "family": "GARCIA",
+          "given": [
+            "DONNA"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1224447212",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1224447212"
+        }
+      ],
+      "name": [
+        {
+          "family": "ROBINSON",
+          "given": [
+            "GEORGE"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1379937124",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1379937124"
+        }
+      ],
+      "name": [
+        {
+          "family": "THOMAS",
+          "given": [
+            "MATTHEW"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1692459375",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1692459375"
+        }
+      ],
+      "name": [
+        {
+          "family": "CLARK",
+          "given": [
+            "ASHLEY"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1793564651",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1793564651"
+        }
+      ],
+      "name": [
+        {
+          "family": "ROBERTS",
+          "given": [
+            "STEPHANIE"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1807374167",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1807374167"
+        }
+      ],
+      "name": [
+        {
+          "family": "CHEN",
+          "given": [
+            "GEORGE"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1617979688",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1617979688"
+        }
+      ],
+      "name": [
+        {
+          "family": "ALLEN",
+          "given": [
+            "EDWARD"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1891135290",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1891135290"
+        }
+      ],
+      "name": [
+        {
+          "family": "ROBERTS",
+          "given": [
+            "MATTHEW"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1014388899",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1014388899"
+        }
+      ],
+      "name": [
+        {
+          "family": "MILLER",
+          "given": [
+            "MARGARET"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1714611254",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1714611254"
+        }
+      ],
+      "name": [
+        {
+          "family": "JOHNSON",
+          "given": [
+            "MATTHEW"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1177514010",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1177514010"
+        }
+      ],
+      "name": [
+        {
+          "family": "SCOTT",
+          "given": [
+            "BETTY"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1825867362",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1825867362"
+        }
+      ],
+      "name": [
+        {
+          "family": "LOPEZ",
+          "given": [
+            "PAUL"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1379660334",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1379660334"
+        }
+      ],
+      "name": [
+        {
+          "family": "HALL",
+          "given": [
+            "RONALD"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1553714785",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1553714785"
+        }
+      ],
+      "name": [
+        {
+          "family": "LOPEZ",
+          "given": [
+            "ANDREW"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1792499125",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1792499125"
+        }
+      ],
+      "name": [
+        {
+          "family": "YAMAMOTO",
+          "given": [
+            "BETTY"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1866929662",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1866929662"
+        }
+      ],
+      "name": [
+        {
+          "family": "MARTINEZ",
+          "given": [
+            "DEBORAH"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1225790507",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1225790507"
+        }
+      ],
+      "name": [
+        {
+          "family": "WHITE",
+          "given": [
+            "MARK"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1767721903",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1767721903"
+        }
+      ],
+      "name": [
+        {
+          "family": "CARTER",
+          "given": [
+            "MARGARET"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1797881914",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1797881914"
+        }
+      ],
+      "name": [
+        {
+          "family": "CHEN",
+          "given": [
+            "SUSAN"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1783613407",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1783613407"
+        }
+      ],
+      "name": [
+        {
+          "family": "GUPTA",
+          "given": [
+            "TIMOTHY"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1339596292",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1339596292"
+        }
+      ],
+      "name": [
+        {
+          "family": "CHEN",
+          "given": [
+            "LINDA"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1982544948",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1982544948"
+        }
+      ],
+      "name": [
+        {
+          "family": "JACKSON",
+          "given": [
+            "DONNA"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1604223253",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1604223253"
+        }
+      ],
+      "name": [
+        {
+          "family": "WANG",
+          "given": [
+            "TIMOTHY"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1466711684",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1466711684"
+        }
+      ],
+      "name": [
+        {
+          "family": "RIVERA",
+          "given": [
+            "JOSHUA"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1017518636",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1017518636"
+        }
+      ],
+      "name": [
+        {
+          "family": "NELSON",
+          "given": [
+            "NANCY"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1929750017",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1929750017"
+        }
+      ],
+      "name": [
+        {
+          "family": "GREEN",
+          "given": [
+            "NANCY"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1632424154",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1632424154"
+        }
+      ],
+      "name": [
+        {
+          "family": "SMITH",
+          "given": [
+            "ASHLEY"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1436110371",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1436110371"
+        }
+      ],
+      "name": [
+        {
+          "family": "RIVERA",
+          "given": [
+            "ANTHONY"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1516271361",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1516271361"
+        }
+      ],
+      "name": [
+        {
+          "family": "ROBERTS",
+          "given": [
+            "JAMES"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1622189092",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1622189092"
+        }
+      ],
+      "name": [
+        {
+          "family": "RODRIGUEZ",
+          "given": [
+            "LISA"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1731121965",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1731121965"
+        }
+      ],
+      "name": [
+        {
+          "family": "CARTER",
+          "given": [
+            "CAROL"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1138999404",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1138999404"
+        }
+      ],
+      "name": [
+        {
+          "family": "CAMPBELL",
+          "given": [
+            "JOSEPH"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1037613791",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1037613791"
+        }
+      ],
+      "name": [
+        {
+          "family": "CAMPBELL",
+          "given": [
+            "LISA"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1965827109",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1965827109"
+        }
+      ],
+      "name": [
+        {
+          "family": "ROBINSON",
+          "given": [
+            "BARBARA"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1486661889",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1486661889"
+        }
+      ],
+      "name": [
+        {
+          "family": "NGUYEN",
+          "given": [
+            "ANTHONY"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1569146303",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1569146303"
+        }
+      ],
+      "name": [
+        {
+          "family": "FLORES",
+          "given": [
+            "JOHN"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1210202758",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1210202758"
+        }
+      ],
+      "name": [
+        {
+          "family": "MITCHELL",
+          "given": [
+            "THOMAS"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1410564814",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1410564814"
+        }
+      ],
+      "name": [
+        {
+          "family": "RODRIGUEZ",
+          "given": [
+            "MATTHEW"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1507925241",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1507925241"
+        }
+      ],
+      "name": [
+        {
+          "family": "NGUYEN",
+          "given": [
+            "ASHLEY"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1000307562",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1000307562"
+        }
+      ],
+      "name": [
+        {
+          "family": "NGUYEN",
+          "given": [
+            "RONALD"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1365419518",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1365419518"
+        }
+      ],
+      "name": [
+        {
+          "family": "SANCHEZ",
+          "given": [
+            "SARAH"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1744518705",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1744518705"
+        }
+      ],
+      "name": [
+        {
+          "family": "JONES",
+          "given": [
+            "ANTHONY"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1973832060",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1973832060"
+        }
+      ],
+      "name": [
+        {
+          "family": "LEWIS",
+          "given": [
+            "STEVEN"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1641383670",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1641383670"
+        }
+      ],
+      "name": [
+        {
+          "family": "SINGH",
+          "given": [
+            "MARY"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1865719182",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1865719182"
+        }
+      ],
+      "name": [
+        {
+          "family": "ANDERSON",
+          "given": [
+            "ROBERT"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1344565574",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1344565574"
+        }
+      ],
+      "name": [
+        {
+          "family": "RODRIGUEZ",
+          "given": [
+            "MELISSA"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1277561853",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1277561853"
+        }
+      ],
+      "name": [
+        {
+          "family": "MILLER",
+          "given": [
+            "JOHN"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1490352135",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1490352135"
+        }
+      ],
+      "name": [
+        {
+          "family": "LI",
+          "given": [
+            "WILLIAM"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1678831712",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1678831712"
+        }
+      ],
+      "name": [
+        {
+          "family": "JOHNSON",
+          "given": [
+            "SUSAN"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1651994101",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1651994101"
+        }
+      ],
+      "name": [
+        {
+          "family": "KIM",
+          "given": [
+            "RICHARD"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1070296670",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1070296670"
+        }
+      ],
+      "name": [
+        {
+          "family": "DAVIS",
+          "given": [
+            "DANIEL"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1472099934",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1472099934"
+        }
+      ],
+      "name": [
+        {
+          "family": "JACKSON",
+          "given": [
+            "WILLIAM"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1626383806",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1626383806"
+        }
+      ],
+      "name": [
+        {
+          "family": "JACKSON",
+          "given": [
+            "MICHAEL"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1856420593",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1856420593"
+        }
+      ],
+      "name": [
+        {
+          "family": "ADAMS",
+          "given": [
+            "BETTY"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1593213348",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1593213348"
+        }
+      ],
+      "name": [
+        {
+          "family": "HILL",
+          "given": [
+            "MARK"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1652239559",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1652239559"
+        }
+      ],
+      "name": [
+        {
+          "family": "YAMAMOTO",
+          "given": [
+            "JOSHUA"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1427010393",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1427010393"
+        }
+      ],
+      "name": [
+        {
+          "family": "FLORES",
+          "given": [
+            "MARK"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1250029218",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1250029218"
+        }
+      ],
+      "name": [
+        {
+          "family": "CLARK",
+          "given": [
+            "JOHN"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1545226752",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1545226752"
+        }
+      ],
+      "name": [
+        {
+          "family": "MILLER",
+          "given": [
+            "MICHELLE"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1264422096",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1264422096"
+        }
+      ],
+      "name": [
+        {
+          "family": "NELSON",
+          "given": [
+            "GEORGE"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1939172513",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1939172513"
+        }
+      ],
+      "name": [
+        {
+          "family": "SANCHEZ",
+          "given": [
+            "KEVIN"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1433154100",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1433154100"
+        }
+      ],
+      "name": [
+        {
+          "family": "SMITH",
+          "given": [
+            "ASHLEY"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1586179327",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1586179327"
+        }
+      ],
+      "name": [
+        {
+          "family": "ROBINSON",
+          "given": [
+            "KIMBERLY"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1115262181",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1115262181"
+        }
+      ],
+      "name": [
+        {
+          "family": "THOMAS",
+          "given": [
+            "DANIEL"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1296201533",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1296201533"
+        }
+      ],
+      "name": [
+        {
+          "family": "CAMPBELL",
+          "given": [
+            "DONALD"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1431069872",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1431069872"
+        }
+      ],
+      "name": [
+        {
+          "family": "WHITE",
+          "given": [
+            "MELISSA"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1973103241",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1973103241"
+        }
+      ],
+      "name": [
+        {
+          "family": "RIVERA",
+          "given": [
+            "MELISSA"
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Practitioner",
+      "id": "prac-1418625652",
+      "identifier": [
+        {
+          "system": "http://hl7.org/fhir/sid/us-npi",
+          "value": "1418625652"
+        }
+      ],
+      "name": [
+        {
+          "family": "MITCHELL",
+          "given": [
+            "KIMBERLY"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1068 @@
+{
+  "organizations": [
+    {
+      "resourceType": "Organization",
+      "id": "org-ucla-health",
+      "name": "UCLA Health",
+      "type": [
+        {
+          "coding": [
+            {
+              "code": "prov",
+              "display": "Healthcare Provider"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Organization",
+      "id": "org-cedars-sinai",
+      "name": "Cedars-Sinai Medical Center",
+      "type": [
+        {
+          "coding": [
+            {
+              "code": "prov",
+              "display": "Healthcare Provider"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Organization",
+      "id": "org-usc-keck",
+      "name": "USC Keck Medicine",
+      "type": [
+        {
+          "coding": [
+            {
+              "code": "prov",
+              "display": "Healthcare Provider"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Organization",
+      "id": "org-providence-la",
+      "name": "Providence Health Los Angeles",
+      "type": [
+        {
+          "coding": [
+            {
+              "code": "prov",
+              "display": "Healthcare Provider"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Organization",
+      "id": "org-weill-cornell",
+      "name": "Weill Cornell Medicine",
+      "type": [
+        {
+          "coding": [
+            {
+              "code": "prov",
+              "display": "Healthcare Provider"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Organization",
+      "id": "org-columbia-nyp",
+      "name": "Columbia University Irving Medical Center",
+      "type": [
+        {
+          "coding": [
+            {
+              "code": "prov",
+              "display": "Healthcare Provider"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Organization",
+      "id": "org-mount-sinai",
+      "name": "Mount Sinai Health System",
+      "type": [
+        {
+          "coding": [
+            {
+              "code": "prov",
+              "display": "Healthcare Provider"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Organization",
+      "id": "org-nyu-langone",
+      "name": "NYU Langone Health",
+      "type": [
+        {
+          "coding": [
+            {
+              "code": "prov",
+              "display": "Healthcare Provider"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Organization",
+      "id": "org-jackson-health",
+      "name": "Jackson Health System",
+      "type": [
+        {
+          "coding": [
+            {
+              "code": "prov",
+              "display": "Healthcare Provider"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Organization",
+      "id": "org-um-health",
+      "name": "University of Miami Health System",
+      "type": [
+        {
+          "coding": [
+            {
+              "code": "prov",
+              "display": "Healthcare Provider"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Organization",
+      "id": "org-baptist-miami",
+      "name": "Baptist Health South Florida",
+      "type": [
+        {
+          "coding": [
+            {
+              "code": "prov",
+              "display": "Healthcare Provider"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Organization",
+      "id": "org-nicklaus",
+      "name": "Nicklaus Children's Health System",
+      "type": [
+        {
+          "coding": [
+            {
+              "code": "prov",
+              "display": "Healthcare Provider"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Organization",
+      "id": "org-northwestern",
+      "name": "Northwestern Medicine",
+      "type": [
+        {
+          "coding": [
+            {
+              "code": "prov",
+              "display": "Healthcare Provider"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Organization",
+      "id": "org-uchicago-med",
+      "name": "UChicago Medicine",
+      "type": [
+        {
+          "coding": [
+            {
+              "code": "prov",
+              "display": "Healthcare Provider"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Organization",
+      "id": "org-rush",
+      "name": "Rush University Medical Center",
+      "type": [
+        {
+          "coding": [
+            {
+              "code": "prov",
+              "display": "Healthcare Provider"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Organization",
+      "id": "org-advocate",
+      "name": "Advocate Health Care Chicago",
+      "type": [
+        {
+          "coding": [
+            {
+              "code": "prov",
+              "display": "Healthcare Provider"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Organization",
+      "id": "org-uw-medicine",
+      "name": "UW Medicine",
+      "type": [
+        {
+          "coding": [
+            {
+              "code": "prov",
+              "display": "Healthcare Provider"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Organization",
+      "id": "org-swedish-health",
+      "name": "Swedish Health Services",
+      "type": [
+        {
+          "coding": [
+            {
+              "code": "prov",
+              "display": "Healthcare Provider"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Organization",
+      "id": "org-virginia-mason",
+      "name": "Virginia Mason Franciscan Health",
+      "type": [
+        {
+          "coding": [
+            {
+              "code": "prov",
+              "display": "Healthcare Provider"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Organization",
+      "id": "org-providence-sea",
+      "name": "Providence Health Seattle",
+      "type": [
+        {
+          "coding": [
+            {
+              "code": "prov",
+              "display": "Healthcare Provider"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Organization",
+      "id": "org-houston-methodist",
+      "name": "Houston Methodist Hospital",
+      "type": [
+        {
+          "coding": [
+            {
+              "code": "prov",
+              "display": "Healthcare Provider"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Organization",
+      "id": "org-memorial-hermann",
+      "name": "Memorial Hermann Health System Houston",
+      "type": [
+        {
+          "coding": [
+            {
+              "code": "prov",
+              "display": "Healthcare Provider"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Organization",
+      "id": "org-md-anderson",
+      "name": "MD Anderson Cancer Center Houston",
+      "type": [
+        {
+          "coding": [
+            {
+              "code": "prov",
+              "display": "Healthcare Provider"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Organization",
+      "id": "org-baylor-houston",
+      "name": "Baylor St. Luke's Medical Center",
+      "type": [
+        {
+          "coding": [
+            {
+              "code": "prov",
+              "display": "Healthcare Provider"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Organization",
+      "id": "org-nyu-langone-health",
+      "name": "NYU Langone Health",
+      "type": [
+        {
+          "coding": [
+            {
+              "code": "prov",
+              "display": "Healthcare Provider"
+            }
+          ]
+        }
+      ],
+      "seeded": true
+    },
+    {
+      "resourceType": "Organization",
+      "id": "org-mount-sinai-hospital",
+      "name": "Mount Sinai Hospital",
+      "type": [
+        {
+          "coding": [
+            {
+              "code": "prov",
+              "display": "Healthcare Provider"
+            }
+          ]
+        }
+      ],
+      "seeded": true
+    },
+    {
+      "resourceType": "Organization",
+      "id": "org-newyork-presbyterian",
+      "name": "NewYork-Presbyterian",
+      "type": [
+        {
+          "coding": [
+            {
+              "code": "prov",
+              "display": "Healthcare Provider"
+            }
+          ]
+        }
+      ],
+      "seeded": true
+    },
+    {
+      "resourceType": "Organization",
+      "id": "org-weill-cornell-medici",
+      "name": "Weill Cornell Medicine",
+      "type": [
+        {
+          "coding": [
+            {
+              "code": "prov",
+              "display": "Healthcare Provider"
+            }
+          ]
+        }
+      ],
+      "seeded": true
+    },
+    {
+      "resourceType": "Organization",
+      "id": "org-lenox-hill-hospital",
+      "name": "Lenox Hill Hospital",
+      "type": [
+        {
+          "coding": [
+            {
+              "code": "prov",
+              "display": "Healthcare Provider"
+            }
+          ]
+        }
+      ],
+      "seeded": true
+    },
+    {
+      "resourceType": "Organization",
+      "id": "org-memorial-sloan-kette",
+      "name": "Memorial Sloan Kettering",
+      "type": [
+        {
+          "coding": [
+            {
+              "code": "prov",
+              "display": "Healthcare Provider"
+            }
+          ]
+        }
+      ],
+      "seeded": true
+    },
+    {
+      "resourceType": "Organization",
+      "id": "org-montefiore-medical-c",
+      "name": "Montefiore Medical Center",
+      "type": [
+        {
+          "coding": [
+            {
+              "code": "prov",
+              "display": "Healthcare Provider"
+            }
+          ]
+        }
+      ],
+      "seeded": true
+    },
+    {
+      "resourceType": "Organization",
+      "id": "org-northwell-health",
+      "name": "Northwell Health",
+      "type": [
+        {
+          "coding": [
+            {
+              "code": "prov",
+              "display": "Healthcare Provider"
+            }
+          ]
+        }
+      ],
+      "seeded": true
+    },
+    {
+      "resourceType": "Organization",
+      "id": "org-cedars-sinai-medical",
+      "name": "Cedars-Sinai Medical Center",
+      "type": [
+        {
+          "coding": [
+            {
+              "code": "prov",
+              "display": "Healthcare Provider"
+            }
+          ]
+        }
+      ],
+      "seeded": true
+    },
+    {
+      "resourceType": "Organization",
+      "id": "org-keck-medicine-of-usc",
+      "name": "Keck Medicine of USC",
+      "type": [
+        {
+          "coding": [
+            {
+              "code": "prov",
+              "display": "Healthcare Provider"
+            }
+          ]
+        }
+      ],
+      "seeded": true
+    },
+    {
+      "resourceType": "Organization",
+      "id": "org-providence-health",
+      "name": "Providence Health",
+      "type": [
+        {
+          "coding": [
+            {
+              "code": "prov",
+              "display": "Healthcare Provider"
+            }
+          ]
+        }
+      ],
+      "seeded": true
+    },
+    {
+      "resourceType": "Organization",
+      "id": "org-kaiser-permanente-la",
+      "name": "Kaiser Permanente LA",
+      "type": [
+        {
+          "coding": [
+            {
+              "code": "prov",
+              "display": "Healthcare Provider"
+            }
+          ]
+        }
+      ],
+      "seeded": true
+    },
+    {
+      "resourceType": "Organization",
+      "id": "org-huntington-health",
+      "name": "Huntington Health",
+      "type": [
+        {
+          "coding": [
+            {
+              "code": "prov",
+              "display": "Healthcare Provider"
+            }
+          ]
+        }
+      ],
+      "seeded": true
+    },
+    {
+      "resourceType": "Organization",
+      "id": "org-dignity-health",
+      "name": "Dignity Health",
+      "type": [
+        {
+          "coding": [
+            {
+              "code": "prov",
+              "display": "Healthcare Provider"
+            }
+          ]
+        }
+      ],
+      "seeded": true
+    },
+    {
+      "resourceType": "Organization",
+      "id": "org-los-angeles-county-h",
+      "name": "Los Angeles County Hospital",
+      "type": [
+        {
+          "coding": [
+            {
+              "code": "prov",
+              "display": "Healthcare Provider"
+            }
+          ]
+        }
+      ],
+      "seeded": true
+    },
+    {
+      "resourceType": "Organization",
+      "id": "org-jackson-health-syste",
+      "name": "Jackson Health System",
+      "type": [
+        {
+          "coding": [
+            {
+              "code": "prov",
+              "display": "Healthcare Provider"
+            }
+          ]
+        }
+      ],
+      "seeded": true
+    },
+    {
+      "resourceType": "Organization",
+      "id": "org-baptist-health-south",
+      "name": "Baptist Health South Florida",
+      "type": [
+        {
+          "coding": [
+            {
+              "code": "prov",
+              "display": "Healthcare Provider"
+            }
+          ]
+        }
+      ],
+      "seeded": true
+    },
+    {
+      "resourceType": "Organization",
+      "id": "org-university-of-miami-",
+      "name": "University of Miami Health",
+      "type": [
+        {
+          "coding": [
+            {
+              "code": "prov",
+              "display": "Healthcare Provider"
+            }
+          ]
+        }
+      ],
+      "seeded": true
+    },
+    {
+      "resourceType": "Organization",
+      "id": "org-cleveland-clinic-flo",
+      "name": "Cleveland Clinic Florida",
+      "type": [
+        {
+          "coding": [
+            {
+              "code": "prov",
+              "display": "Healthcare Provider"
+            }
+          ]
+        }
+      ],
+      "seeded": true
+    },
+    {
+      "resourceType": "Organization",
+      "id": "org-memorial-healthcare",
+      "name": "Memorial Healthcare",
+      "type": [
+        {
+          "coding": [
+            {
+              "code": "prov",
+              "display": "Healthcare Provider"
+            }
+          ]
+        }
+      ],
+      "seeded": true
+    },
+    {
+      "resourceType": "Organization",
+      "id": "org-nicklaus-childrens",
+      "name": "Nicklaus Children's",
+      "type": [
+        {
+          "coding": [
+            {
+              "code": "prov",
+              "display": "Healthcare Provider"
+            }
+          ]
+        }
+      ],
+      "seeded": true
+    },
+    {
+      "resourceType": "Organization",
+      "id": "org-mount-sinai-medical-",
+      "name": "Mount Sinai Medical Center Miami",
+      "type": [
+        {
+          "coding": [
+            {
+              "code": "prov",
+              "display": "Healthcare Provider"
+            }
+          ]
+        }
+      ],
+      "seeded": true
+    },
+    {
+      "resourceType": "Organization",
+      "id": "org-hca-florida",
+      "name": "HCA Florida",
+      "type": [
+        {
+          "coding": [
+            {
+              "code": "prov",
+              "display": "Healthcare Provider"
+            }
+          ]
+        }
+      ],
+      "seeded": true
+    },
+    {
+      "resourceType": "Organization",
+      "id": "org-northwestern-memoria",
+      "name": "Northwestern Memorial Hospital",
+      "type": [
+        {
+          "coding": [
+            {
+              "code": "prov",
+              "display": "Healthcare Provider"
+            }
+          ]
+        }
+      ],
+      "seeded": true
+    },
+    {
+      "resourceType": "Organization",
+      "id": "org-rush-university-medi",
+      "name": "Rush University Medical Center",
+      "type": [
+        {
+          "coding": [
+            {
+              "code": "prov",
+              "display": "Healthcare Provider"
+            }
+          ]
+        }
+      ],
+      "seeded": true
+    },
+    {
+      "resourceType": "Organization",
+      "id": "org-university-of-chicag",
+      "name": "University of Chicago Medicine",
+      "type": [
+        {
+          "coding": [
+            {
+              "code": "prov",
+              "display": "Healthcare Provider"
+            }
+          ]
+        }
+      ],
+      "seeded": true
+    },
+    {
+      "resourceType": "Organization",
+      "id": "org-advocate-health",
+      "name": "Advocate Health",
+      "type": [
+        {
+          "coding": [
+            {
+              "code": "prov",
+              "display": "Healthcare Provider"
+            }
+          ]
+        }
+      ],
+      "seeded": true
+    },
+    {
+      "resourceType": "Organization",
+      "id": "org-northshore-universit",
+      "name": "NorthShore University",
+      "type": [
+        {
+          "coding": [
+            {
+              "code": "prov",
+              "display": "Healthcare Provider"
+            }
+          ]
+        }
+      ],
+      "seeded": true
+    },
+    {
+      "resourceType": "Organization",
+      "id": "org-loyola-university-me",
+      "name": "Loyola University Medical Center",
+      "type": [
+        {
+          "coding": [
+            {
+              "code": "prov",
+              "display": "Healthcare Provider"
+            }
+          ]
+        }
+      ],
+      "seeded": true
+    },
+    {
+      "resourceType": "Organization",
+      "id": "org-amita-health",
+      "name": "AMITA Health",
+      "type": [
+        {
+          "coding": [
+            {
+              "code": "prov",
+              "display": "Healthcare Provider"
+            }
+          ]
+        }
+      ],
+      "seeded": true
+    },
+    {
+      "resourceType": "Organization",
+      "id": "org-lurie-childrens-hosp",
+      "name": "Lurie Children's Hospital",
+      "type": [
+        {
+          "coding": [
+            {
+              "code": "prov",
+              "display": "Healthcare Provider"
+            }
+          ]
+        }
+      ],
+      "seeded": true
+    },
+    {
+      "resourceType": "Organization",
+      "id": "org-texas-medical-center",
+      "name": "Texas Medical Center",
+      "type": [
+        {
+          "coding": [
+            {
+              "code": "prov",
+              "display": "Healthcare Provider"
+            }
+          ]
+        }
+      ],
+      "seeded": true
+    },
+    {
+      "resourceType": "Organization",
+      "id": "org-uthealth-houston",
+      "name": "UTHealth Houston",
+      "type": [
+        {
+          "coding": [
+            {
+              "code": "prov",
+              "display": "Healthcare Provider"
+            }
+          ]
+        }
+      ],
+      "seeded": true
+    },
+    {
+      "resourceType": "Organization",
+      "id": "org-baylor-st.-lukes",
+      "name": "Baylor St. Luke's",
+      "type": [
+        {
+          "coding": [
+            {
+              "code": "prov",
+              "display": "Healthcare Provider"
+            }
+          ]
+        }
+      ],
+      "seeded": true
+    },
+    {
+      "resourceType": "Organization",
+      "id": "org-hca-houston-healthca",
+      "name": "HCA Houston Healthcare",
+      "type": [
+        {
+          "coding": [
+            {
+              "code": "prov",
+              "display": "Healthcare Provider"
+            }
+          ]
+        }
+      ],
+      "seeded": true
+    },
+    {
+      "resourceType": "Organization",
+      "id": "org-chi-st.-lukes-health",
+      "name": "CHI St. Luke's Health",
+      "type": [
+        {
+          "coding": [
+            {
+              "code": "prov",
+              "display": "Healthcare Provider"
+            }
+          ]
+        }
+      ],
+      "seeded": true
+    },
+    {
+      "resourceType": "Organization",
+      "id": "org-texas-childrens-hosp",
+      "name": "Texas Children's Hospital",
+      "type": [
+        {
+          "coding": [
+            {
+              "code": "prov",
+              "display": "Healthcare Provider"
+            }
+          ]
+        }
+      ],
+      "seeded": true
+    },
+    {
+      "resourceType": "Organization",
+      "id": "org-swedish-health-servi",
+      "name": "Swedish Health Services",
+      "type": [
+        {
+          "coding": [
+            {
+              "code": "prov",
+              "display": "Healthcare Provider"
+            }
+          ]
+        }
+      ],
+      "seeded": true
+    },
+    {
+      "resourceType": "Organization",
+      "id": "org-virginia-mason-medic",
+      "name": "Virginia Mason Medical Center",
+      "type": [
+        {
+          "coding": [
+            {
+              "code": "prov",
+              "display": "Healthcare Provider"
+            }
+          ]
+        }
+      ],
+      "seeded": true
+    },
+    {
+      "resourceType": "Organization",
+      "id": "org-multicare-health-sys",
+      "name": "MultiCare Health System",
+      "type": [
+        {
+          "coding": [
+            {
+              "code": "prov",
+              "display": "Healthcare Provider"
+            }
+          ]
+        }
+      ],
+      "seeded": true
+    },
+    {
+      "resourceType": "Organization",
+      "id": "org-providence-health-se",
+      "name": "Providence Health Seattle",
+      "type": [
+        {
+          "coding": [
+            {
+              "code": "prov",
+              "display": "Healthcare Provider"
+            }
+          ]
+        }
+      ],
+      "seeded": true
+    },
+    {
+      "resourceType": "Organization",
+      "id": "org-overlake-medical-cen",
+      "name": "Overlake Medical Center",
+      "type": [
+        {
+          "coding": [
+            {
+              "code": "prov",
+              "display": "Healthcare Provider"
+            }
+          ]
+        }
+      ],
+      "seeded": true
+    },
+    {
+      "resourceType": "Organization",
+      "id": "org-harborview-medical-c",
+      "name": "Harborview Medical Center",
+      "type": [
+        {
+          "coding": [
+            {
+              "code": "prov",
+              "display": "Healthcare Provider"
+            }
+          ]
+        }
+      ],
+      "seeded": true
+    },
+    {
+      "resourceType": "Organization",
+      "id": "org-group-health-seattle",
+      "name": "Group Health Seattle",
+      "type": [
+        {
+          "coding": [
+            {
+              "code": "prov",
+              "display": "Healthcare Provider"
+            }
+          ]
+        }
+      ],
+      "seeded": true
+    }
+  ]
+}

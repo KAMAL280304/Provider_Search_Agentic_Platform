@@ -1,0 +1,6948 @@
+{
+  "locations": [
+    {
+      "resourceType": "Location",
+      "id": "loc-1326244724",
+      "address": {
+        "line": [
+          "4245 Roosevelt Way NE"
+        ],
+        "city": "Seattle",
+        "state": "WA",
+        "postalCode": "98115"
+      },
+      "position": {
+        "latitude": 47.6983,
+        "longitude": -122.318371
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1588895429",
+      "address": {
+        "line": [
+          "7800 SW 87th Ave Ste A100"
+        ],
+        "city": "Miami",
+        "state": "FL",
+        "postalCode": "33145"
+      },
+      "position": {
+        "latitude": 25.750671,
+        "longitude": -80.252711
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1043660178",
+      "address": {
+        "line": [
+          "3250 Wilshire Blvd Ste 1200"
+        ],
+        "city": "Los Angeles",
+        "state": "CA",
+        "postalCode": "90036"
+      },
+      "position": {
+        "latitude": 34.053057,
+        "longitude": -118.340439
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1205418332",
+      "address": {
+        "line": [
+          "1475 NW 12th Ave Ste 200"
+        ],
+        "city": "Miami",
+        "state": "FL",
+        "postalCode": "33140"
+      },
+      "position": {
+        "latitude": 25.831188,
+        "longitude": -80.125521
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1417535154",
+      "address": {
+        "line": [
+          "1475 NW 12th Ave Ste 200"
+        ],
+        "city": "Miami",
+        "state": "FL",
+        "postalCode": "33125"
+      },
+      "position": {
+        "latitude": 25.762065,
+        "longitude": -80.235604
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1437152048",
+      "address": {
+        "line": [
+          "4245 Roosevelt Way NE"
+        ],
+        "city": "Seattle",
+        "state": "WA",
+        "postalCode": "98105"
+      },
+      "position": {
+        "latitude": 47.648805,
+        "longitude": -122.310693
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1417215757",
+      "address": {
+        "line": [
+          "240 E 38th St"
+        ],
+        "city": "New York",
+        "state": "NY",
+        "postalCode": "10036"
+      },
+      "position": {
+        "latitude": 40.742841,
+        "longitude": -73.963567
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1619394558",
+      "address": {
+        "line": [
+          "1611 NW 12th Ave"
+        ],
+        "city": "Miami",
+        "state": "FL",
+        "postalCode": "33130"
+      },
+      "position": {
+        "latitude": 25.765214,
+        "longitude": -80.199868
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1164688966",
+      "address": {
+        "line": [
+          "6550 Fannin St"
+        ],
+        "city": "Houston",
+        "state": "TX",
+        "postalCode": "77054"
+      },
+      "position": {
+        "latitude": 29.678718,
+        "longitude": -95.383001
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1053405563",
+      "address": {
+        "line": [
+          "1515 Holcombe Blvd"
+        ],
+        "city": "Houston",
+        "state": "TX",
+        "postalCode": "77018"
+      },
+      "position": {
+        "latitude": 29.827503,
+        "longitude": -95.450644
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1821267477",
+      "address": {
+        "line": [
+          "1245 Wilshire Blvd Ste 500"
+        ],
+        "city": "Los Angeles",
+        "state": "CA",
+        "postalCode": "90067"
+      },
+      "position": {
+        "latitude": 34.07542,
+        "longitude": -118.409867
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1477947455",
+      "address": {
+        "line": [
+          "1475 NW 12th Ave Ste 200"
+        ],
+        "city": "Miami",
+        "state": "FL",
+        "postalCode": "33136"
+      },
+      "position": {
+        "latitude": 25.79991,
+        "longitude": -80.221976
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1235219593",
+      "address": {
+        "line": [
+          "1611 NW 12th Ave"
+        ],
+        "city": "Miami",
+        "state": "FL",
+        "postalCode": "33150"
+      },
+      "position": {
+        "latitude": 25.870278,
+        "longitude": -80.223581
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1861062960",
+      "address": {
+        "line": [
+          "444 S San Vicente Blvd"
+        ],
+        "city": "Los Angeles",
+        "state": "CA",
+        "postalCode": "90025"
+      },
+      "position": {
+        "latitude": 34.037897,
+        "longitude": -118.451747
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1821357096",
+      "address": {
+        "line": [
+          "525 E 68th St"
+        ],
+        "city": "New York",
+        "state": "NY",
+        "postalCode": "10065"
+      },
+      "position": {
+        "latitude": 40.765381,
+        "longitude": -73.944357
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1437533205",
+      "address": {
+        "line": [
+          "676 N St Clair St"
+        ],
+        "city": "Chicago",
+        "state": "IL",
+        "postalCode": "60610"
+      },
+      "position": {
+        "latitude": 41.921669,
+        "longitude": -87.615047
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1790084929",
+      "address": {
+        "line": [
+          "747 Broadway"
+        ],
+        "city": "Seattle",
+        "state": "WA",
+        "postalCode": "98107"
+      },
+      "position": {
+        "latitude": 47.650318,
+        "longitude": -122.374055
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1952306565",
+      "address": {
+        "line": [
+          "2001 Santa Monica Blvd"
+        ],
+        "city": "Los Angeles",
+        "state": "CA",
+        "postalCode": "90067"
+      },
+      "position": {
+        "latitude": 34.053555,
+        "longitude": -118.412902
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1417952029",
+      "address": {
+        "line": [
+          "1977 Butler Blvd"
+        ],
+        "city": "Houston",
+        "state": "TX",
+        "postalCode": "77036"
+      },
+      "position": {
+        "latitude": 29.687722,
+        "longitude": -95.542169
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1083252332",
+      "address": {
+        "line": [
+          "600 Broadway Ste 300"
+        ],
+        "city": "Seattle",
+        "state": "WA",
+        "postalCode": "98107"
+      },
+      "position": {
+        "latitude": 47.671634,
+        "longitude": -122.394487
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1932307261",
+      "address": {
+        "line": [
+          "1221 Madison St Ste 1000"
+        ],
+        "city": "Seattle",
+        "state": "WA",
+        "postalCode": "98101"
+      },
+      "position": {
+        "latitude": 47.623552,
+        "longitude": -122.338681
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1326049230",
+      "address": {
+        "line": [
+          "737 N Michigan Ave Ste 1600"
+        ],
+        "city": "Chicago",
+        "state": "IL",
+        "postalCode": "60610"
+      },
+      "position": {
+        "latitude": 41.918398,
+        "longitude": -87.620357
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1790826923",
+      "address": {
+        "line": [
+          "5841 S Maryland Ave"
+        ],
+        "city": "Chicago",
+        "state": "IL",
+        "postalCode": "60657"
+      },
+      "position": {
+        "latitude": 41.95664,
+        "longitude": -87.669278
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1306225784",
+      "address": {
+        "line": [
+          "5841 S Maryland Ave"
+        ],
+        "city": "Chicago",
+        "state": "IL",
+        "postalCode": "60622"
+      },
+      "position": {
+        "latitude": 41.908256,
+        "longitude": -87.681871
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1114347770",
+      "address": {
+        "line": [
+          "51 W 51st St Ste 380"
+        ],
+        "city": "New York",
+        "state": "NY",
+        "postalCode": "10028"
+      },
+      "position": {
+        "latitude": 40.790248,
+        "longitude": -73.971297
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1487948030",
+      "address": {
+        "line": [
+          "710 W 168th St"
+        ],
+        "city": "New York",
+        "state": "NY",
+        "postalCode": "10028"
+      },
+      "position": {
+        "latitude": 40.75874,
+        "longitude": -73.949689
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1679528244",
+      "address": {
+        "line": [
+          "6565 Fannin St"
+        ],
+        "city": "Houston",
+        "state": "TX",
+        "postalCode": "77005"
+      },
+      "position": {
+        "latitude": 29.732766,
+        "longitude": -95.434897
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1538146022",
+      "address": {
+        "line": [
+          "3250 Wilshire Blvd Ste 1200"
+        ],
+        "city": "Los Angeles",
+        "state": "CA",
+        "postalCode": "90027"
+      },
+      "position": {
+        "latitude": 34.11778,
+        "longitude": -118.290895
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1093722019",
+      "address": {
+        "line": [
+          "7200 Cambridge St"
+        ],
+        "city": "Houston",
+        "state": "TX",
+        "postalCode": "77036"
+      },
+      "position": {
+        "latitude": 29.692553,
+        "longitude": -95.517681
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1497062681",
+      "address": {
+        "line": [
+          "444 S San Vicente Blvd"
+        ],
+        "city": "Los Angeles",
+        "state": "CA",
+        "postalCode": "90210"
+      },
+      "position": {
+        "latitude": 34.097318,
+        "longitude": -118.422424
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1881198588",
+      "address": {
+        "line": [
+          "6550 Fannin St"
+        ],
+        "city": "Houston",
+        "state": "TX",
+        "postalCode": "77024"
+      },
+      "position": {
+        "latitude": 29.765197,
+        "longitude": -95.524999
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1154379188",
+      "address": {
+        "line": [
+          "51 W 51st St Ste 380"
+        ],
+        "city": "New York",
+        "state": "NY",
+        "postalCode": "10028"
+      },
+      "position": {
+        "latitude": 40.786249,
+        "longitude": -73.948438
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1891766903",
+      "address": {
+        "line": [
+          "1321 NW 14th St"
+        ],
+        "city": "Miami",
+        "state": "FL",
+        "postalCode": "33140"
+      },
+      "position": {
+        "latitude": 25.810085,
+        "longitude": -80.15262
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1255389102",
+      "address": {
+        "line": [
+          "2211 Elliott Ave Ste 200"
+        ],
+        "city": "Seattle",
+        "state": "WA",
+        "postalCode": "98103"
+      },
+      "position": {
+        "latitude": 47.664002,
+        "longitude": -122.339147
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1457705295",
+      "address": {
+        "line": [
+          "737 N Michigan Ave Ste 1600"
+        ],
+        "city": "Chicago",
+        "state": "IL",
+        "postalCode": "60614"
+      },
+      "position": {
+        "latitude": 41.941925,
+        "longitude": -87.63427
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1245421429",
+      "address": {
+        "line": [
+          "1400 NW 12th Ave"
+        ],
+        "city": "Miami",
+        "state": "FL",
+        "postalCode": "33150"
+      },
+      "position": {
+        "latitude": 25.860877,
+        "longitude": -80.218032
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1720615198",
+      "address": {
+        "line": [
+          "676 N St Clair St"
+        ],
+        "city": "Chicago",
+        "state": "IL",
+        "postalCode": "60611"
+      },
+      "position": {
+        "latitude": 41.876523,
+        "longitude": -87.623461
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1770945719",
+      "address": {
+        "line": [
+          "1475 NW 12th Ave Ste 200"
+        ],
+        "city": "Miami",
+        "state": "FL",
+        "postalCode": "33101"
+      },
+      "position": {
+        "latitude": 25.790707,
+        "longitude": -80.200114
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1902875453",
+      "address": {
+        "line": [
+          "1977 Butler Blvd"
+        ],
+        "city": "Houston",
+        "state": "TX",
+        "postalCode": "77030"
+      },
+      "position": {
+        "latitude": 29.72084,
+        "longitude": -95.401652
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1598261463",
+      "address": {
+        "line": [
+          "1300 York Ave"
+        ],
+        "city": "New York",
+        "state": "NY",
+        "postalCode": "10010"
+      },
+      "position": {
+        "latitude": 40.727526,
+        "longitude": -73.963355
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1710516497",
+      "address": {
+        "line": [
+          "4245 Roosevelt Way NE"
+        ],
+        "city": "Seattle",
+        "state": "WA",
+        "postalCode": "98115"
+      },
+      "position": {
+        "latitude": 47.686224,
+        "longitude": -122.296997
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1437396116",
+      "address": {
+        "line": [
+          "676 N St Clair St"
+        ],
+        "city": "Chicago",
+        "state": "IL",
+        "postalCode": "60616"
+      },
+      "position": {
+        "latitude": 41.836384,
+        "longitude": -87.649063
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1053414672",
+      "address": {
+        "line": [
+          "2211 Elliott Ave Ste 200"
+        ],
+        "city": "Seattle",
+        "state": "WA",
+        "postalCode": "98115"
+      },
+      "position": {
+        "latitude": 47.698853,
+        "longitude": -122.306524
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1144260217",
+      "address": {
+        "line": [
+          "9400 Brighton Way Ste 300"
+        ],
+        "city": "Los Angeles",
+        "state": "CA",
+        "postalCode": "90027"
+      },
+      "position": {
+        "latitude": 34.111088,
+        "longitude": -118.29897
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1245723543",
+      "address": {
+        "line": [
+          "6550 Fannin St"
+        ],
+        "city": "Houston",
+        "state": "TX",
+        "postalCode": "77025"
+      },
+      "position": {
+        "latitude": 29.685829,
+        "longitude": -95.447483
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1770744112",
+      "address": {
+        "line": [
+          "600 Broadway Ste 300"
+        ],
+        "city": "Seattle",
+        "state": "WA",
+        "postalCode": "98105"
+      },
+      "position": {
+        "latitude": 47.646763,
+        "longitude": -122.30175
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1417243379",
+      "address": {
+        "line": [
+          "1150 NW 14th St"
+        ],
+        "city": "Miami",
+        "state": "FL",
+        "postalCode": "33101"
+      },
+      "position": {
+        "latitude": 25.785513,
+        "longitude": -80.211854
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1790714145",
+      "address": {
+        "line": [
+          "1801 Binz St Ste 300"
+        ],
+        "city": "Houston",
+        "state": "TX",
+        "postalCode": "77025"
+      },
+      "position": {
+        "latitude": 29.691472,
+        "longitude": -95.445919
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1801836143",
+      "address": {
+        "line": [
+          "900 N Michigan Ave Ste 1600"
+        ],
+        "city": "Chicago",
+        "state": "IL",
+        "postalCode": "60611"
+      },
+      "position": {
+        "latitude": 41.880936,
+        "longitude": -87.617191
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1205129673",
+      "address": {
+        "line": [
+          "4245 Roosevelt Way NE"
+        ],
+        "city": "Seattle",
+        "state": "WA",
+        "postalCode": "98104"
+      },
+      "position": {
+        "latitude": 47.603232,
+        "longitude": -122.326012
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1215434055",
+      "address": {
+        "line": [
+          "1959 NE Pacific St"
+        ],
+        "city": "Seattle",
+        "state": "WA",
+        "postalCode": "98109"
+      },
+      "position": {
+        "latitude": 47.623736,
+        "longitude": -122.35219
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1760445407",
+      "address": {
+        "line": [
+          "1000 10th Ave"
+        ],
+        "city": "New York",
+        "state": "NY",
+        "postalCode": "10003"
+      },
+      "position": {
+        "latitude": 40.744182,
+        "longitude": -73.970548
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1780018150",
+      "address": {
+        "line": [
+          "6565 Fannin St"
+        ],
+        "city": "Houston",
+        "state": "TX",
+        "postalCode": "77018"
+      },
+      "position": {
+        "latitude": 29.834388,
+        "longitude": -95.41587
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1386176139",
+      "address": {
+        "line": [
+          "550 17th Ave"
+        ],
+        "city": "Seattle",
+        "state": "WA",
+        "postalCode": "98112"
+      },
+      "position": {
+        "latitude": 47.640198,
+        "longitude": -122.288211
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1740035435",
+      "address": {
+        "line": [
+          "3250 Wilshire Blvd Ste 1200"
+        ],
+        "city": "Los Angeles",
+        "state": "CA",
+        "postalCode": "90067"
+      },
+      "position": {
+        "latitude": 34.068331,
+        "longitude": -118.397753
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1598152944",
+      "address": {
+        "line": [
+          "2001 Santa Monica Blvd"
+        ],
+        "city": "Los Angeles",
+        "state": "CA",
+        "postalCode": "90401"
+      },
+      "position": {
+        "latitude": 33.998439,
+        "longitude": -118.503931
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1902295793",
+      "address": {
+        "line": [
+          "161 Fort Washington Ave"
+        ],
+        "city": "New York",
+        "state": "NY",
+        "postalCode": "10025"
+      },
+      "position": {
+        "latitude": 40.811603,
+        "longitude": -73.968614
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1417445677",
+      "address": {
+        "line": [
+          "8900 N Kendall Dr Ste 200"
+        ],
+        "city": "Miami",
+        "state": "FL",
+        "postalCode": "33131"
+      },
+      "position": {
+        "latitude": 25.783978,
+        "longitude": -80.178784
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1629007588",
+      "address": {
+        "line": [
+          "676 N St Clair St"
+        ],
+        "city": "Chicago",
+        "state": "IL",
+        "postalCode": "60607"
+      },
+      "position": {
+        "latitude": 41.87408,
+        "longitude": -87.636398
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1699847400",
+      "address": {
+        "line": [
+          "550 17th Ave"
+        ],
+        "city": "Seattle",
+        "state": "WA",
+        "postalCode": "98121"
+      },
+      "position": {
+        "latitude": 47.604766,
+        "longitude": -122.343035
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1265662100",
+      "address": {
+        "line": [
+          "1725 W Harrison St"
+        ],
+        "city": "Chicago",
+        "state": "IL",
+        "postalCode": "60622"
+      },
+      "position": {
+        "latitude": 41.910324,
+        "longitude": -87.674181
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1548558273",
+      "address": {
+        "line": [
+          "325 9th Ave"
+        ],
+        "city": "Seattle",
+        "state": "WA",
+        "postalCode": "98112"
+      },
+      "position": {
+        "latitude": 47.630983,
+        "longitude": -122.303193
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1811261985",
+      "address": {
+        "line": [
+          "2001 Santa Monica Blvd"
+        ],
+        "city": "Los Angeles",
+        "state": "CA",
+        "postalCode": "90024"
+      },
+      "position": {
+        "latitude": 34.080293,
+        "longitude": -118.436404
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1669811485",
+      "address": {
+        "line": [
+          "6400 Fannin St Ste 2500"
+        ],
+        "city": "Houston",
+        "state": "TX",
+        "postalCode": "77054"
+      },
+      "position": {
+        "latitude": 29.701958,
+        "longitude": -95.399176
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1003235078",
+      "address": {
+        "line": [
+          "225 E Chicago Ave"
+        ],
+        "city": "Chicago",
+        "state": "IL",
+        "postalCode": "60611"
+      },
+      "position": {
+        "latitude": 41.873913,
+        "longitude": -87.625941
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1699262709",
+      "address": {
+        "line": [
+          "100 UCLA Medical Plaza"
+        ],
+        "city": "Los Angeles",
+        "state": "CA",
+        "postalCode": "90210"
+      },
+      "position": {
+        "latitude": 34.101655,
+        "longitude": -118.410019
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1457353518",
+      "address": {
+        "line": [
+          "600 Broadway Ste 300"
+        ],
+        "city": "Seattle",
+        "state": "WA",
+        "postalCode": "98102"
+      },
+      "position": {
+        "latitude": 47.618189,
+        "longitude": -122.334578
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1528266863",
+      "address": {
+        "line": [
+          "251 E Huron St"
+        ],
+        "city": "Chicago",
+        "state": "IL",
+        "postalCode": "60622"
+      },
+      "position": {
+        "latitude": 41.909286,
+        "longitude": -87.670916
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1285814244",
+      "address": {
+        "line": [
+          "2211 Elliott Ave Ste 200"
+        ],
+        "city": "Seattle",
+        "state": "WA",
+        "postalCode": "98107"
+      },
+      "position": {
+        "latitude": 47.659527,
+        "longitude": -122.387878
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1558814277",
+      "address": {
+        "line": [
+          "9400 Brighton Way Ste 300"
+        ],
+        "city": "Los Angeles",
+        "state": "CA",
+        "postalCode": "90027"
+      },
+      "position": {
+        "latitude": 34.118068,
+        "longitude": -118.298633
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1881859015",
+      "address": {
+        "line": [
+          "676 N St Clair St"
+        ],
+        "city": "Chicago",
+        "state": "IL",
+        "postalCode": "60610"
+      },
+      "position": {
+        "latitude": 41.891332,
+        "longitude": -87.654803
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1770673428",
+      "address": {
+        "line": [
+          "11600 Wilshire Blvd Ste 200"
+        ],
+        "city": "Los Angeles",
+        "state": "CA",
+        "postalCode": "90024"
+      },
+      "position": {
+        "latitude": 34.051281,
+        "longitude": -118.413351
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1740817881",
+      "address": {
+        "line": [
+          "1515 Holcombe Blvd"
+        ],
+        "city": "Houston",
+        "state": "TX",
+        "postalCode": "77005"
+      },
+      "position": {
+        "latitude": 29.733343,
+        "longitude": -95.405459
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1124480652",
+      "address": {
+        "line": [
+          "6701 Fannin St"
+        ],
+        "city": "Houston",
+        "state": "TX",
+        "postalCode": "77030"
+      },
+      "position": {
+        "latitude": 29.724871,
+        "longitude": -95.406287
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1134188311",
+      "address": {
+        "line": [
+          "676 N St Clair St"
+        ],
+        "city": "Chicago",
+        "state": "IL",
+        "postalCode": "60610"
+      },
+      "position": {
+        "latitude": 41.912917,
+        "longitude": -87.627345
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1033178223",
+      "address": {
+        "line": [
+          "900 N Michigan Ave Ste 1600"
+        ],
+        "city": "Chicago",
+        "state": "IL",
+        "postalCode": "60610"
+      },
+      "position": {
+        "latitude": 41.891979,
+        "longitude": -87.637001
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1912389370",
+      "address": {
+        "line": [
+          "900 N Michigan Ave Ste 1600"
+        ],
+        "city": "Chicago",
+        "state": "IL",
+        "postalCode": "60614"
+      },
+      "position": {
+        "latitude": 41.933322,
+        "longitude": -87.648346
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1609132620",
+      "address": {
+        "line": [
+          "1400 NW 12th Ave"
+        ],
+        "city": "Miami",
+        "state": "FL",
+        "postalCode": "33132"
+      },
+      "position": {
+        "latitude": 25.773095,
+        "longitude": -80.190871
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1548396211",
+      "address": {
+        "line": [
+          "1101 Madison St Ste 200"
+        ],
+        "city": "Seattle",
+        "state": "WA",
+        "postalCode": "98115"
+      },
+      "position": {
+        "latitude": 47.684861,
+        "longitude": -122.311241
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1508841180",
+      "address": {
+        "line": [
+          "55 E Erie St Ste 400"
+        ],
+        "city": "Chicago",
+        "state": "IL",
+        "postalCode": "60622"
+      },
+      "position": {
+        "latitude": 41.884411,
+        "longitude": -87.671677
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1417174707",
+      "address": {
+        "line": [
+          "2211 Elliott Ave Ste 200"
+        ],
+        "city": "Seattle",
+        "state": "WA",
+        "postalCode": "98105"
+      },
+      "position": {
+        "latitude": 47.64947,
+        "longitude": -122.315848
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1295095081",
+      "address": {
+        "line": [
+          "1959 NE Pacific St"
+        ],
+        "city": "Seattle",
+        "state": "WA",
+        "postalCode": "98115"
+      },
+      "position": {
+        "latitude": 47.668172,
+        "longitude": -122.293012
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1932184512",
+      "address": {
+        "line": [
+          "1475 NW 12th Ave Ste 200"
+        ],
+        "city": "Miami",
+        "state": "FL",
+        "postalCode": "33132"
+      },
+      "position": {
+        "latitude": 25.792805,
+        "longitude": -80.187257
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1134336662",
+      "address": {
+        "line": [
+          "200 S Alvarado St"
+        ],
+        "city": "Los Angeles",
+        "state": "CA",
+        "postalCode": "90401"
+      },
+      "position": {
+        "latitude": 33.995668,
+        "longitude": -118.49548
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1922419209",
+      "address": {
+        "line": [
+          "7800 SW 87th Ave Ste A100"
+        ],
+        "city": "Miami",
+        "state": "FL",
+        "postalCode": "33130"
+      },
+      "position": {
+        "latitude": 25.768763,
+        "longitude": -80.215933
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1821230780",
+      "address": {
+        "line": [
+          "1100 W 34th St"
+        ],
+        "city": "Houston",
+        "state": "TX",
+        "postalCode": "77024"
+      },
+      "position": {
+        "latitude": 29.760563,
+        "longitude": -95.537861
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1578767166",
+      "address": {
+        "line": [
+          "2211 Elliott Ave Ste 200"
+        ],
+        "city": "Seattle",
+        "state": "WA",
+        "postalCode": "98107"
+      },
+      "position": {
+        "latitude": 47.685744,
+        "longitude": -122.358987
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1487141636",
+      "address": {
+        "line": [
+          "9400 Brighton Way Ste 300"
+        ],
+        "city": "Los Angeles",
+        "state": "CA",
+        "postalCode": "90036"
+      },
+      "position": {
+        "latitude": 34.072488,
+        "longitude": -118.360377
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1801357793",
+      "address": {
+        "line": [
+          "240 E 38th St"
+        ],
+        "city": "New York",
+        "state": "NY",
+        "postalCode": "10003"
+      },
+      "position": {
+        "latitude": 40.746235,
+        "longitude": -73.978314
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1730615337",
+      "address": {
+        "line": [
+          "1611 NW 12th Ave"
+        ],
+        "city": "Miami",
+        "state": "FL",
+        "postalCode": "33133"
+      },
+      "position": {
+        "latitude": 25.732935,
+        "longitude": -80.246075
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1497288682",
+      "address": {
+        "line": [
+          "600 Broadway Ste 300"
+        ],
+        "city": "Seattle",
+        "state": "WA",
+        "postalCode": "98102"
+      },
+      "position": {
+        "latitude": 47.649355,
+        "longitude": -122.333148
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1356964621",
+      "address": {
+        "line": [
+          "100 UCLA Medical Plaza"
+        ],
+        "city": "Los Angeles",
+        "state": "CA",
+        "postalCode": "90036"
+      },
+      "position": {
+        "latitude": 34.057835,
+        "longitude": -118.351406
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1437378999",
+      "address": {
+        "line": [
+          "251 E Huron St"
+        ],
+        "city": "Chicago",
+        "state": "IL",
+        "postalCode": "60622"
+      },
+      "position": {
+        "latitude": 41.912604,
+        "longitude": -87.680526
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1013132885",
+      "address": {
+        "line": [
+          "676 N St Clair St"
+        ],
+        "city": "Chicago",
+        "state": "IL",
+        "postalCode": "60601"
+      },
+      "position": {
+        "latitude": 41.897448,
+        "longitude": -87.624119
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1851897730",
+      "address": {
+        "line": [
+          "710 W 168th St"
+        ],
+        "city": "New York",
+        "state": "NY",
+        "postalCode": "10010"
+      },
+      "position": {
+        "latitude": 40.728116,
+        "longitude": -73.973963
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1023139433",
+      "address": {
+        "line": [
+          "1301 20th St Ste 280"
+        ],
+        "city": "Los Angeles",
+        "state": "CA",
+        "postalCode": "90401"
+      },
+      "position": {
+        "latitude": 34.029973,
+        "longitude": -118.496479
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1487944682",
+      "address": {
+        "line": [
+          "4245 Roosevelt Way NE"
+        ],
+        "city": "Seattle",
+        "state": "WA",
+        "postalCode": "98104"
+      },
+      "position": {
+        "latitude": 47.616335,
+        "longitude": -122.309638
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1659396661",
+      "address": {
+        "line": [
+          "200 S Alvarado St"
+        ],
+        "city": "Los Angeles",
+        "state": "CA",
+        "postalCode": "90210"
+      },
+      "position": {
+        "latitude": 34.076257,
+        "longitude": -118.388401
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1134527153",
+      "address": {
+        "line": [
+          "900 NW 17th St"
+        ],
+        "city": "Miami",
+        "state": "FL",
+        "postalCode": "33101"
+      },
+      "position": {
+        "latitude": 25.783053,
+        "longitude": -80.207084
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1316268410",
+      "address": {
+        "line": [
+          "100 UCLA Medical Plaza"
+        ],
+        "city": "Los Angeles",
+        "state": "CA",
+        "postalCode": "90210"
+      },
+      "position": {
+        "latitude": 34.101991,
+        "longitude": -118.421924
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1629430772",
+      "address": {
+        "line": [
+          "51 W 51st St Ste 380"
+        ],
+        "city": "New York",
+        "state": "NY",
+        "postalCode": "10028"
+      },
+      "position": {
+        "latitude": 40.775648,
+        "longitude": -73.960608
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1881089845",
+      "address": {
+        "line": [
+          "240 E 38th St"
+        ],
+        "city": "New York",
+        "state": "NY",
+        "postalCode": "10001"
+      },
+      "position": {
+        "latitude": 40.734334,
+        "longitude": -73.979742
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1871791558",
+      "address": {
+        "line": [
+          "325 9th Ave"
+        ],
+        "city": "Seattle",
+        "state": "WA",
+        "postalCode": "98107"
+      },
+      "position": {
+        "latitude": 47.68364,
+        "longitude": -122.360575
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1487909990",
+      "address": {
+        "line": [
+          "1321 NW 14th St"
+        ],
+        "city": "Miami",
+        "state": "FL",
+        "postalCode": "33133"
+      },
+      "position": {
+        "latitude": 25.718897,
+        "longitude": -80.234767
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1619150349",
+      "address": {
+        "line": [
+          "11600 Wilshire Blvd Ste 200"
+        ],
+        "city": "Los Angeles",
+        "state": "CA",
+        "postalCode": "90401"
+      },
+      "position": {
+        "latitude": 34.028783,
+        "longitude": -118.50586
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1285215152",
+      "address": {
+        "line": [
+          "1150 NW 14th St"
+        ],
+        "city": "Miami",
+        "state": "FL",
+        "postalCode": "33131"
+      },
+      "position": {
+        "latitude": 25.766018,
+        "longitude": -80.1714
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1164656633",
+      "address": {
+        "line": [
+          "325 9th Ave"
+        ],
+        "city": "Seattle",
+        "state": "WA",
+        "postalCode": "98121"
+      },
+      "position": {
+        "latitude": 47.609049,
+        "longitude": -122.362931
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1962447326",
+      "address": {
+        "line": [
+          "1300 York Ave"
+        ],
+        "city": "New York",
+        "state": "NY",
+        "postalCode": "10028"
+      },
+      "position": {
+        "latitude": 40.783194,
+        "longitude": -73.948081
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1770859944",
+      "address": {
+        "line": [
+          "3250 Wilshire Blvd Ste 1200"
+        ],
+        "city": "Los Angeles",
+        "state": "CA",
+        "postalCode": "90067"
+      },
+      "position": {
+        "latitude": 34.077993,
+        "longitude": -118.415291
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1821559527",
+      "address": {
+        "line": [
+          "900 N Michigan Ave Ste 1600"
+        ],
+        "city": "Chicago",
+        "state": "IL",
+        "postalCode": "60611"
+      },
+      "position": {
+        "latitude": 41.87879,
+        "longitude": -87.60037
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1326544529",
+      "address": {
+        "line": [
+          "900 N Michigan Ave Ste 1600"
+        ],
+        "city": "Chicago",
+        "state": "IL",
+        "postalCode": "60637"
+      },
+      "position": {
+        "latitude": 41.79711,
+        "longitude": -87.608528
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1730133190",
+      "address": {
+        "line": [
+          "737 N Michigan Ave Ste 1600"
+        ],
+        "city": "Chicago",
+        "state": "IL",
+        "postalCode": "60610"
+      },
+      "position": {
+        "latitude": 41.898842,
+        "longitude": -87.633106
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1346504719",
+      "address": {
+        "line": [
+          "2010 Naomi St"
+        ],
+        "city": "Houston",
+        "state": "TX",
+        "postalCode": "77025"
+      },
+      "position": {
+        "latitude": 29.676141,
+        "longitude": -95.440347
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1376886853",
+      "address": {
+        "line": [
+          "240 E 38th St"
+        ],
+        "city": "New York",
+        "state": "NY",
+        "postalCode": "10001"
+      },
+      "position": {
+        "latitude": 40.747571,
+        "longitude": -73.987924
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1215108907",
+      "address": {
+        "line": [
+          "8700 Beverly Blvd"
+        ],
+        "city": "Los Angeles",
+        "state": "CA",
+        "postalCode": "90025"
+      },
+      "position": {
+        "latitude": 34.03229,
+        "longitude": -118.426663
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1295113702",
+      "address": {
+        "line": [
+          "2160 S First Ave"
+        ],
+        "city": "Chicago",
+        "state": "IL",
+        "postalCode": "60637"
+      },
+      "position": {
+        "latitude": 41.77273,
+        "longitude": -87.584675
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1639327885",
+      "address": {
+        "line": [
+          "1611 NW 12th Ave"
+        ],
+        "city": "Miami",
+        "state": "FL",
+        "postalCode": "33132"
+      },
+      "position": {
+        "latitude": 25.783364,
+        "longitude": -80.193678
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1023221959",
+      "address": {
+        "line": [
+          "180 Fort Washington Ave"
+        ],
+        "city": "New York",
+        "state": "NY",
+        "postalCode": "10003"
+      },
+      "position": {
+        "latitude": 40.725308,
+        "longitude": -74.00091
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1114105418",
+      "address": {
+        "line": [
+          "6701 Fannin St"
+        ],
+        "city": "Houston",
+        "state": "TX",
+        "postalCode": "77018"
+      },
+      "position": {
+        "latitude": 29.832967,
+        "longitude": -95.447717
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1598722522",
+      "address": {
+        "line": [
+          "747 Broadway"
+        ],
+        "city": "Seattle",
+        "state": "WA",
+        "postalCode": "98101"
+      },
+      "position": {
+        "latitude": 47.595205,
+        "longitude": -122.343367
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1164716635",
+      "address": {
+        "line": [
+          "710 W 168th St"
+        ],
+        "city": "New York",
+        "state": "NY",
+        "postalCode": "10028"
+      },
+      "position": {
+        "latitude": 40.769197,
+        "longitude": -73.941349
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1598879678",
+      "address": {
+        "line": [
+          "4245 Roosevelt Way NE"
+        ],
+        "city": "Seattle",
+        "state": "WA",
+        "postalCode": "98101"
+      },
+      "position": {
+        "latitude": 47.614978,
+        "longitude": -122.334715
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1235373481",
+      "address": {
+        "line": [
+          "7800 SW 87th Ave Ste A100"
+        ],
+        "city": "Miami",
+        "state": "FL",
+        "postalCode": "33136"
+      },
+      "position": {
+        "latitude": 25.776225,
+        "longitude": -80.208297
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1578842522",
+      "address": {
+        "line": [
+          "1150 NW 14th St"
+        ],
+        "city": "Miami",
+        "state": "FL",
+        "postalCode": "33130"
+      },
+      "position": {
+        "latitude": 25.756754,
+        "longitude": -80.219428
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1497192074",
+      "address": {
+        "line": [
+          "2001 Santa Monica Blvd"
+        ],
+        "city": "Los Angeles",
+        "state": "CA",
+        "postalCode": "90401"
+      },
+      "position": {
+        "latitude": 34.002569,
+        "longitude": -118.506155
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1184856759",
+      "address": {
+        "line": [
+          "9400 Brighton Way Ste 300"
+        ],
+        "city": "Los Angeles",
+        "state": "CA",
+        "postalCode": "90024"
+      },
+      "position": {
+        "latitude": 34.073992,
+        "longitude": -118.433932
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1144428319",
+      "address": {
+        "line": [
+          "11600 Wilshire Blvd Ste 200"
+        ],
+        "city": "Los Angeles",
+        "state": "CA",
+        "postalCode": "90025"
+      },
+      "position": {
+        "latitude": 34.032758,
+        "longitude": -118.442361
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1588951560",
+      "address": {
+        "line": [
+          "550 17th Ave"
+        ],
+        "city": "Seattle",
+        "state": "WA",
+        "postalCode": "98102"
+      },
+      "position": {
+        "latitude": 47.63064,
+        "longitude": -122.308835
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1316118300",
+      "address": {
+        "line": [
+          "1400 NW 12th Ave"
+        ],
+        "city": "Miami",
+        "state": "FL",
+        "postalCode": "33136"
+      },
+      "position": {
+        "latitude": 25.786845,
+        "longitude": -80.214606
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1053529099",
+      "address": {
+        "line": [
+          "200 S Alvarado St"
+        ],
+        "city": "Los Angeles",
+        "state": "CA",
+        "postalCode": "90067"
+      },
+      "position": {
+        "latitude": 34.051375,
+        "longitude": -118.394408
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1467418731",
+      "address": {
+        "line": [
+          "747 Broadway"
+        ],
+        "city": "Seattle",
+        "state": "WA",
+        "postalCode": "98121"
+      },
+      "position": {
+        "latitude": 47.613945,
+        "longitude": -122.356738
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1194730242",
+      "address": {
+        "line": [
+          "1100 9th Ave"
+        ],
+        "city": "Seattle",
+        "state": "WA",
+        "postalCode": "98115"
+      },
+      "position": {
+        "latitude": 47.673142,
+        "longitude": -122.289117
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1114992088",
+      "address": {
+        "line": [
+          "1400 NW 12th Ave"
+        ],
+        "city": "Miami",
+        "state": "FL",
+        "postalCode": "33136"
+      },
+      "position": {
+        "latitude": 25.791778,
+        "longitude": -80.208776
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1447225495",
+      "address": {
+        "line": [
+          "600 Broadway Ste 300"
+        ],
+        "city": "Seattle",
+        "state": "WA",
+        "postalCode": "98121"
+      },
+      "position": {
+        "latitude": 47.5999,
+        "longitude": -122.342689
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1548434756",
+      "address": {
+        "line": [
+          "600 Broadway Ste 300"
+        ],
+        "city": "Seattle",
+        "state": "WA",
+        "postalCode": "98112"
+      },
+      "position": {
+        "latitude": 47.643238,
+        "longitude": -122.305895
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1588621692",
+      "address": {
+        "line": [
+          "100 UCLA Medical Plaza"
+        ],
+        "city": "Los Angeles",
+        "state": "CA",
+        "postalCode": "90048"
+      },
+      "position": {
+        "latitude": 34.075486,
+        "longitude": -118.388594
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1114306669",
+      "address": {
+        "line": [
+          "1977 Butler Blvd"
+        ],
+        "city": "Houston",
+        "state": "TX",
+        "postalCode": "77030"
+      },
+      "position": {
+        "latitude": 29.689024,
+        "longitude": -95.404622
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1952361750",
+      "address": {
+        "line": [
+          "8900 N Kendall Dr Ste 200"
+        ],
+        "city": "Miami",
+        "state": "FL",
+        "postalCode": "33133"
+      },
+      "position": {
+        "latitude": 25.750186,
+        "longitude": -80.257958
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1215389408",
+      "address": {
+        "line": [
+          "225 E Chicago Ave"
+        ],
+        "city": "Chicago",
+        "state": "IL",
+        "postalCode": "60637"
+      },
+      "position": {
+        "latitude": 41.779174,
+        "longitude": -87.593428
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1962658674",
+      "address": {
+        "line": [
+          "550 17th Ave"
+        ],
+        "city": "Seattle",
+        "state": "WA",
+        "postalCode": "98102"
+      },
+      "position": {
+        "latitude": 47.619694,
+        "longitude": -122.330573
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1407370679",
+      "address": {
+        "line": [
+          "1515 Holcombe Blvd"
+        ],
+        "city": "Houston",
+        "state": "TX",
+        "postalCode": "77025"
+      },
+      "position": {
+        "latitude": 29.694806,
+        "longitude": -95.443435
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1285173690",
+      "address": {
+        "line": [
+          "900 N Michigan Ave Ste 1600"
+        ],
+        "city": "Chicago",
+        "state": "IL",
+        "postalCode": "60622"
+      },
+      "position": {
+        "latitude": 41.900348,
+        "longitude": -87.673496
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1023283017",
+      "address": {
+        "line": [
+          "6701 Fannin St"
+        ],
+        "city": "Houston",
+        "state": "TX",
+        "postalCode": "77030"
+      },
+      "position": {
+        "latitude": 29.712547,
+        "longitude": -95.4126
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1275362014",
+      "address": {
+        "line": [
+          "900 NW 17th St"
+        ],
+        "city": "Miami",
+        "state": "FL",
+        "postalCode": "33145"
+      },
+      "position": {
+        "latitude": 25.753148,
+        "longitude": -80.228213
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1578672739",
+      "address": {
+        "line": [
+          "737 N Michigan Ave Ste 1600"
+        ],
+        "city": "Chicago",
+        "state": "IL",
+        "postalCode": "60614"
+      },
+      "position": {
+        "latitude": 41.938946,
+        "longitude": -87.662535
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1790882215",
+      "address": {
+        "line": [
+          "200 S Alvarado St"
+        ],
+        "city": "Los Angeles",
+        "state": "CA",
+        "postalCode": "90027"
+      },
+      "position": {
+        "latitude": 34.092378,
+        "longitude": -118.281613
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1922495738",
+      "address": {
+        "line": [
+          "600 Broadway Ste 300"
+        ],
+        "city": "Seattle",
+        "state": "WA",
+        "postalCode": "98115"
+      },
+      "position": {
+        "latitude": 47.675338,
+        "longitude": -122.304846
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1780756700",
+      "address": {
+        "line": [
+          "1977 Butler Blvd"
+        ],
+        "city": "Houston",
+        "state": "TX",
+        "postalCode": "77054"
+      },
+      "position": {
+        "latitude": 29.694648,
+        "longitude": -95.409125
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1356323448",
+      "address": {
+        "line": [
+          "710 W 168th St"
+        ],
+        "city": "New York",
+        "state": "NY",
+        "postalCode": "10010"
+      },
+      "position": {
+        "latitude": 40.747947,
+        "longitude": -73.997908
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1700045606",
+      "address": {
+        "line": [
+          "325 9th Ave"
+        ],
+        "city": "Seattle",
+        "state": "WA",
+        "postalCode": "98107"
+      },
+      "position": {
+        "latitude": 47.670202,
+        "longitude": -122.365582
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1134439086",
+      "address": {
+        "line": [
+          "1725 W Harrison St"
+        ],
+        "city": "Chicago",
+        "state": "IL",
+        "postalCode": "60657"
+      },
+      "position": {
+        "latitude": 41.931731,
+        "longitude": -87.669064
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1104271360",
+      "address": {
+        "line": [
+          "180 Fort Washington Ave"
+        ],
+        "city": "New York",
+        "state": "NY",
+        "postalCode": "10016"
+      },
+      "position": {
+        "latitude": 40.760075,
+        "longitude": -73.972706
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1225590987",
+      "address": {
+        "line": [
+          "9400 Brighton Way Ste 300"
+        ],
+        "city": "Los Angeles",
+        "state": "CA",
+        "postalCode": "90210"
+      },
+      "position": {
+        "latitude": 34.075808,
+        "longitude": -118.398481
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1164593869",
+      "address": {
+        "line": [
+          "1000 10th Ave"
+        ],
+        "city": "New York",
+        "state": "NY",
+        "postalCode": "10036"
+      },
+      "position": {
+        "latitude": 40.766474,
+        "longitude": -73.964041
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1548402886",
+      "address": {
+        "line": [
+          "1245 Wilshire Blvd Ste 500"
+        ],
+        "city": "Los Angeles",
+        "state": "CA",
+        "postalCode": "90025"
+      },
+      "position": {
+        "latitude": 34.062273,
+        "longitude": -118.455629
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1659570943",
+      "address": {
+        "line": [
+          "325 9th Ave"
+        ],
+        "city": "Seattle",
+        "state": "WA",
+        "postalCode": "98109"
+      },
+      "position": {
+        "latitude": 47.656217,
+        "longitude": -122.337821
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1588906465",
+      "address": {
+        "line": [
+          "737 N Michigan Ave Ste 1600"
+        ],
+        "city": "Chicago",
+        "state": "IL",
+        "postalCode": "60601"
+      },
+      "position": {
+        "latitude": 41.871439,
+        "longitude": -87.629281
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1912316878",
+      "address": {
+        "line": [
+          "7200 Cambridge St"
+        ],
+        "city": "Houston",
+        "state": "TX",
+        "postalCode": "77001"
+      },
+      "position": {
+        "latitude": 29.744921,
+        "longitude": -95.376307
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1831542828",
+      "address": {
+        "line": [
+          "900 NW 17th St"
+        ],
+        "city": "Miami",
+        "state": "FL",
+        "postalCode": "33130"
+      },
+      "position": {
+        "latitude": 25.783199,
+        "longitude": -80.187567
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1457314387",
+      "address": {
+        "line": [
+          "1959 NE Pacific St"
+        ],
+        "city": "Seattle",
+        "state": "WA",
+        "postalCode": "98104"
+      },
+      "position": {
+        "latitude": 47.581507,
+        "longitude": -122.329119
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1891290797",
+      "address": {
+        "line": [
+          "4245 Roosevelt Way NE"
+        ],
+        "city": "Seattle",
+        "state": "WA",
+        "postalCode": "98102"
+      },
+      "position": {
+        "latitude": 47.616333,
+        "longitude": -122.303614
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1275619496",
+      "address": {
+        "line": [
+          "2010 Naomi St"
+        ],
+        "city": "Houston",
+        "state": "TX",
+        "postalCode": "77036"
+      },
+      "position": {
+        "latitude": 29.713372,
+        "longitude": -95.543784
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1104827351",
+      "address": {
+        "line": [
+          "325 9th Ave"
+        ],
+        "city": "Seattle",
+        "state": "WA",
+        "postalCode": "98104"
+      },
+      "position": {
+        "latitude": 47.606119,
+        "longitude": -122.336073
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1275611352",
+      "address": {
+        "line": [
+          "1100 9th Ave"
+        ],
+        "city": "Seattle",
+        "state": "WA",
+        "postalCode": "98102"
+      },
+      "position": {
+        "latitude": 47.621328,
+        "longitude": -122.310774
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1265470819",
+      "address": {
+        "line": [
+          "240 E 38th St"
+        ],
+        "city": "New York",
+        "state": "NY",
+        "postalCode": "10003"
+      },
+      "position": {
+        "latitude": 40.747997,
+        "longitude": -73.980638
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1114215738",
+      "address": {
+        "line": [
+          "3250 Wilshire Blvd Ste 1200"
+        ],
+        "city": "Los Angeles",
+        "state": "CA",
+        "postalCode": "90064"
+      },
+      "position": {
+        "latitude": 34.041568,
+        "longitude": -118.424057
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1356501522",
+      "address": {
+        "line": [
+          "6550 Fannin St"
+        ],
+        "city": "Houston",
+        "state": "TX",
+        "postalCode": "77024"
+      },
+      "position": {
+        "latitude": 29.761128,
+        "longitude": -95.525201
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1659575249",
+      "address": {
+        "line": [
+          "8900 N Kendall Dr Ste 200"
+        ],
+        "city": "Miami",
+        "state": "FL",
+        "postalCode": "33150"
+      },
+      "position": {
+        "latitude": 25.857885,
+        "longitude": -80.197158
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1114345725",
+      "address": {
+        "line": [
+          "325 9th Ave"
+        ],
+        "city": "Seattle",
+        "state": "WA",
+        "postalCode": "98102"
+      },
+      "position": {
+        "latitude": 47.631055,
+        "longitude": -122.327448
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1649586256",
+      "address": {
+        "line": [
+          "3250 Wilshire Blvd Ste 1200"
+        ],
+        "city": "Los Angeles",
+        "state": "CA",
+        "postalCode": "90067"
+      },
+      "position": {
+        "latitude": 34.067035,
+        "longitude": -118.397076
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1700142262",
+      "address": {
+        "line": [
+          "5841 S Maryland Ave"
+        ],
+        "city": "Chicago",
+        "state": "IL",
+        "postalCode": "60605"
+      },
+      "position": {
+        "latitude": 41.867168,
+        "longitude": -87.632791
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1164468088",
+      "address": {
+        "line": [
+          "251 E Huron St"
+        ],
+        "city": "Chicago",
+        "state": "IL",
+        "postalCode": "60601"
+      },
+      "position": {
+        "latitude": 41.868298,
+        "longitude": -87.638766
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1104385079",
+      "address": {
+        "line": [
+          "900 NW 17th St"
+        ],
+        "city": "Miami",
+        "state": "FL",
+        "postalCode": "33150"
+      },
+      "position": {
+        "latitude": 25.866991,
+        "longitude": -80.205157
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1972999746",
+      "address": {
+        "line": [
+          "1000 NW 95th St"
+        ],
+        "city": "Miami",
+        "state": "FL",
+        "postalCode": "33130"
+      },
+      "position": {
+        "latitude": 25.754743,
+        "longitude": -80.187536
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1285684803",
+      "address": {
+        "line": [
+          "100 UCLA Medical Plaza"
+        ],
+        "city": "Los Angeles",
+        "state": "CA",
+        "postalCode": "90024"
+      },
+      "position": {
+        "latitude": 34.048116,
+        "longitude": -118.436839
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1548256845",
+      "address": {
+        "line": [
+          "1101 Madison St Ste 200"
+        ],
+        "city": "Seattle",
+        "state": "WA",
+        "postalCode": "98112"
+      },
+      "position": {
+        "latitude": 47.625946,
+        "longitude": -122.280638
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1497247803",
+      "address": {
+        "line": [
+          "1221 Madison St Ste 1000"
+        ],
+        "city": "Seattle",
+        "state": "WA",
+        "postalCode": "98101"
+      },
+      "position": {
+        "latitude": 47.621122,
+        "longitude": -122.332528
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1255348785",
+      "address": {
+        "line": [
+          "161 Fort Washington Ave"
+        ],
+        "city": "New York",
+        "state": "NY",
+        "postalCode": "10016"
+      },
+      "position": {
+        "latitude": 40.754649,
+        "longitude": -73.995136
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1073035044",
+      "address": {
+        "line": [
+          "2211 Elliott Ave Ste 200"
+        ],
+        "city": "Seattle",
+        "state": "WA",
+        "postalCode": "98109"
+      },
+      "position": {
+        "latitude": 47.64677,
+        "longitude": -122.364407
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1598944027",
+      "address": {
+        "line": [
+          "525 E 68th St"
+        ],
+        "city": "New York",
+        "state": "NY",
+        "postalCode": "10010"
+      },
+      "position": {
+        "latitude": 40.730372,
+        "longitude": -73.998827
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1851587612",
+      "address": {
+        "line": [
+          "240 E 38th St"
+        ],
+        "city": "New York",
+        "state": "NY",
+        "postalCode": "10028"
+      },
+      "position": {
+        "latitude": 40.788212,
+        "longitude": -73.935615
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1467489757",
+      "address": {
+        "line": [
+          "1725 W Harrison St"
+        ],
+        "city": "Chicago",
+        "state": "IL",
+        "postalCode": "60610"
+      },
+      "position": {
+        "latitude": 41.8869,
+        "longitude": -87.646285
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1750488805",
+      "address": {
+        "line": [
+          "900 NW 17th St"
+        ],
+        "city": "Miami",
+        "state": "FL",
+        "postalCode": "33130"
+      },
+      "position": {
+        "latitude": 25.775578,
+        "longitude": -80.210721
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1669435996",
+      "address": {
+        "line": [
+          "161 Fort Washington Ave"
+        ],
+        "city": "New York",
+        "state": "NY",
+        "postalCode": "10001"
+      },
+      "position": {
+        "latitude": 40.729721,
+        "longitude": -73.999856
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1043899545",
+      "address": {
+        "line": [
+          "645 N Michigan Ave Ste 530"
+        ],
+        "city": "Chicago",
+        "state": "IL",
+        "postalCode": "60611"
+      },
+      "position": {
+        "latitude": 41.895942,
+        "longitude": -87.624212
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1433218196",
+      "address": {
+        "line": [
+          "251 E Huron St"
+        ],
+        "city": "Chicago",
+        "state": "IL",
+        "postalCode": "60611"
+      },
+      "position": {
+        "latitude": 41.87427130717927,
+        "longitude": -87.63425219040553
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1863794026",
+      "address": {
+        "line": [
+          "676 N St Clair St"
+        ],
+        "city": "Chicago",
+        "state": "IL",
+        "postalCode": "60611"
+      },
+      "position": {
+        "latitude": 41.88661002066072,
+        "longitude": -87.63178082000752
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1155940781",
+      "address": {
+        "line": [
+          "6560 Fannin St"
+        ],
+        "city": "Houston",
+        "state": "TX",
+        "postalCode": "77030"
+      },
+      "position": {
+        "latitude": 29.725924630559177,
+        "longitude": -95.40285862491166
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1593103413",
+      "address": {
+        "line": [
+          "1709 Dryden Rd"
+        ],
+        "city": "Houston",
+        "state": "TX",
+        "postalCode": "77030"
+      },
+      "position": {
+        "latitude": 29.72165934667021,
+        "longitude": -95.40279495099843
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1534192832",
+      "address": {
+        "line": [
+          "100 UCLA Medical Plz"
+        ],
+        "city": "Los Angeles",
+        "state": "CA",
+        "postalCode": "90095"
+      },
+      "position": {
+        "latitude": 34.061990408474045,
+        "longitude": -118.44100208692862
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1030564139",
+      "address": {
+        "line": [
+          "8700 Beverly Blvd"
+        ],
+        "city": "Los Angeles",
+        "state": "CA",
+        "postalCode": "90048"
+      },
+      "position": {
+        "latitude": 34.078554705058906,
+        "longitude": -118.43921288476805
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1242388496",
+      "address": {
+        "line": [
+          "1245 16th St"
+        ],
+        "city": "Los Angeles",
+        "state": "CA",
+        "postalCode": "90404"
+      },
+      "position": {
+        "latitude": 34.07941291534409,
+        "longitude": -118.43582397979438
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1101226916",
+      "address": {
+        "line": [
+          "1400 NW 12th Ave"
+        ],
+        "city": "Miami",
+        "state": "FL",
+        "postalCode": "33136"
+      },
+      "position": {
+        "latitude": 25.76026477146026,
+        "longitude": -80.1691551447904
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1018451462",
+      "address": {
+        "line": [
+          "8900 N Kendall Dr"
+        ],
+        "city": "Miami",
+        "state": "FL",
+        "postalCode": "33176"
+      },
+      "position": {
+        "latitude": 25.763148948253168,
+        "longitude": -80.17084736289915
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1489325288",
+      "address": {
+        "line": [
+          "550 1st Ave"
+        ],
+        "city": "New York",
+        "state": "NY",
+        "postalCode": "10016"
+      },
+      "position": {
+        "latitude": 40.76263973977583,
+        "longitude": -73.97414221662159
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1430391171",
+      "address": {
+        "line": [
+          "635 Madison Ave"
+        ],
+        "city": "New York",
+        "state": "NY",
+        "postalCode": "10022"
+      },
+      "position": {
+        "latitude": 40.765019379747095,
+        "longitude": -73.97679175321882
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1824896383",
+      "address": {
+        "line": [
+          "1275 York Ave"
+        ],
+        "city": "New York",
+        "state": "NY",
+        "postalCode": "10065"
+      },
+      "position": {
+        "latitude": 40.75441795891276,
+        "longitude": -73.9821403080001
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1133150983",
+      "address": {
+        "line": [
+          "4245 Roosevelt Way NE"
+        ],
+        "city": "Seattle",
+        "state": "WA",
+        "postalCode": "98115"
+      },
+      "position": {
+        "latitude": 47.60973760457642,
+        "longitude": -122.3518123664406
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1518347382",
+      "address": {
+        "line": [
+          "1959 NE Pacific St"
+        ],
+        "city": "Seattle",
+        "state": "WA",
+        "postalCode": "98195"
+      },
+      "position": {
+        "latitude": 47.61513410263524,
+        "longitude": -122.31680467699437
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1631165667",
+      "address": {
+        "line": [
+          "800 5th Ave"
+        ],
+        "city": "Seattle",
+        "state": "WA",
+        "postalCode": "98104"
+      },
+      "position": {
+        "latitude": 47.62075346993478,
+        "longitude": -122.34993315251072
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1513338726",
+      "address": {
+        "line": [
+          "251 E Huron St"
+        ],
+        "city": "Chicago",
+        "state": "IL",
+        "postalCode": "60611"
+      },
+      "position": {
+        "latitude": 41.88033952143149,
+        "longitude": -87.61949487726396
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1080132677",
+      "address": {
+        "line": [
+          "676 N St Clair St"
+        ],
+        "city": "Chicago",
+        "state": "IL",
+        "postalCode": "60611"
+      },
+      "position": {
+        "latitude": 41.88154989196797,
+        "longitude": -87.62195838829801
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1647468723",
+      "address": {
+        "line": [
+          "1725 W Harrison St"
+        ],
+        "city": "Chicago",
+        "state": "IL",
+        "postalCode": "60612"
+      },
+      "position": {
+        "latitude": 41.88486831301978,
+        "longitude": -87.59925162540122
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1009788208",
+      "address": {
+        "line": [
+          "6560 Fannin St"
+        ],
+        "city": "Houston",
+        "state": "TX",
+        "postalCode": "77030"
+      },
+      "position": {
+        "latitude": 29.690204458609625,
+        "longitude": -95.41056700156076
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1939909169",
+      "address": {
+        "line": [
+          "1709 Dryden Rd"
+        ],
+        "city": "Houston",
+        "state": "TX",
+        "postalCode": "77030"
+      },
+      "position": {
+        "latitude": 29.709609076953765,
+        "longitude": -95.40534520616093
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1534624751",
+      "address": {
+        "line": [
+          "7737 Southwest Fwy"
+        ],
+        "city": "Houston",
+        "state": "TX",
+        "postalCode": "77074"
+      },
+      "position": {
+        "latitude": 29.687372618275372,
+        "longitude": -95.39315362978027
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1842513542",
+      "address": {
+        "line": [
+          "100 UCLA Medical Plz"
+        ],
+        "city": "Los Angeles",
+        "state": "CA",
+        "postalCode": "90095"
+      },
+      "position": {
+        "latitude": 34.06102738292031,
+        "longitude": -118.43007128150953
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1841241182",
+      "address": {
+        "line": [
+          "8700 Beverly Blvd"
+        ],
+        "city": "Los Angeles",
+        "state": "CA",
+        "postalCode": "90048"
+      },
+      "position": {
+        "latitude": 34.05439392849259,
+        "longitude": -118.42760680691879
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1487401640",
+      "address": {
+        "line": [
+          "1245 16th St"
+        ],
+        "city": "Los Angeles",
+        "state": "CA",
+        "postalCode": "90404"
+      },
+      "position": {
+        "latitude": 34.04364182756351,
+        "longitude": -118.4209552310792
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1868011280",
+      "address": {
+        "line": [
+          "1400 NW 12th Ave"
+        ],
+        "city": "Miami",
+        "state": "FL",
+        "postalCode": "33136"
+      },
+      "position": {
+        "latitude": 25.778383800795442,
+        "longitude": -80.1856996173404
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1450533158",
+      "address": {
+        "line": [
+          "8900 N Kendall Dr"
+        ],
+        "city": "Miami",
+        "state": "FL",
+        "postalCode": "33176"
+      },
+      "position": {
+        "latitude": 25.78036538805804,
+        "longitude": -80.19274490440671
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1260256342",
+      "address": {
+        "line": [
+          "3661 S Miami Ave"
+        ],
+        "city": "Miami",
+        "state": "FL",
+        "postalCode": "33133"
+      },
+      "position": {
+        "latitude": 25.77649498036542,
+        "longitude": -80.20467617494387
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1754330365",
+      "address": {
+        "line": [
+          "550 1st Ave"
+        ],
+        "city": "New York",
+        "state": "NY",
+        "postalCode": "10016"
+      },
+      "position": {
+        "latitude": 40.73704412244092,
+        "longitude": -73.99532316981349
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1685014294",
+      "address": {
+        "line": [
+          "635 Madison Ave"
+        ],
+        "city": "New York",
+        "state": "NY",
+        "postalCode": "10022"
+      },
+      "position": {
+        "latitude": 40.72743028789413,
+        "longitude": -73.97423714980049
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1816934060",
+      "address": {
+        "line": [
+          "1275 York Ave"
+        ],
+        "city": "New York",
+        "state": "NY",
+        "postalCode": "10065"
+      },
+      "position": {
+        "latitude": 40.74669681394266,
+        "longitude": -73.965839565212
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1595148465",
+      "address": {
+        "line": [
+          "4245 Roosevelt Way NE"
+        ],
+        "city": "Seattle",
+        "state": "WA",
+        "postalCode": "98115"
+      },
+      "position": {
+        "latitude": 47.60229601548231,
+        "longitude": -122.34027379189897
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1629946804",
+      "address": {
+        "line": [
+          "1959 NE Pacific St"
+        ],
+        "city": "Seattle",
+        "state": "WA",
+        "postalCode": "98195"
+      },
+      "position": {
+        "latitude": 47.597676548674755,
+        "longitude": -122.33490447400041
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1387214895",
+      "address": {
+        "line": [
+          "800 5th Ave"
+        ],
+        "city": "Seattle",
+        "state": "WA",
+        "postalCode": "98104"
+      },
+      "position": {
+        "latitude": 47.58993548800302,
+        "longitude": -122.3140200135019
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1320037917",
+      "address": {
+        "line": [
+          "251 E Huron St"
+        ],
+        "city": "Chicago",
+        "state": "IL",
+        "postalCode": "60611"
+      },
+      "position": {
+        "latitude": 41.88957764043991,
+        "longitude": -87.61280938477049
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1320163287",
+      "address": {
+        "line": [
+          "676 N St Clair St"
+        ],
+        "city": "Chicago",
+        "state": "IL",
+        "postalCode": "60611"
+      },
+      "position": {
+        "latitude": 41.87500873540563,
+        "longitude": -87.6280320688136
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1788957986",
+      "address": {
+        "line": [
+          "1725 W Harrison St"
+        ],
+        "city": "Chicago",
+        "state": "IL",
+        "postalCode": "60612"
+      },
+      "position": {
+        "latitude": 41.90622276678886,
+        "longitude": -87.61608512197556
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1348734714",
+      "address": {
+        "line": [
+          "6560 Fannin St"
+        ],
+        "city": "Houston",
+        "state": "TX",
+        "postalCode": "77030"
+      },
+      "position": {
+        "latitude": 29.696379743120588,
+        "longitude": -95.40456609853514
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1362316658",
+      "address": {
+        "line": [
+          "1709 Dryden Rd"
+        ],
+        "city": "Houston",
+        "state": "TX",
+        "postalCode": "77030"
+      },
+      "position": {
+        "latitude": 29.705636972134048,
+        "longitude": -95.41550937157665
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1096705466",
+      "address": {
+        "line": [
+          "7737 Southwest Fwy"
+        ],
+        "city": "Houston",
+        "state": "TX",
+        "postalCode": "77074"
+      },
+      "position": {
+        "latitude": 29.70852882270441,
+        "longitude": -95.38861463756975
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1670656272",
+      "address": {
+        "line": [
+          "100 UCLA Medical Plz"
+        ],
+        "city": "Los Angeles",
+        "state": "CA",
+        "postalCode": "90095"
+      },
+      "position": {
+        "latitude": 34.082728879100756,
+        "longitude": -118.4304350548187
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1627204653",
+      "address": {
+        "line": [
+          "8700 Beverly Blvd"
+        ],
+        "city": "Los Angeles",
+        "state": "CA",
+        "postalCode": "90048"
+      },
+      "position": {
+        "latitude": 34.06168797300066,
+        "longitude": -118.43829997807704
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1641708053",
+      "address": {
+        "line": [
+          "1245 16th St"
+        ],
+        "city": "Los Angeles",
+        "state": "CA",
+        "postalCode": "90404"
+      },
+      "position": {
+        "latitude": 34.06950576372999,
+        "longitude": -118.42055067801556
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1092327193",
+      "address": {
+        "line": [
+          "1400 NW 12th Ave"
+        ],
+        "city": "Miami",
+        "state": "FL",
+        "postalCode": "33136"
+      },
+      "position": {
+        "latitude": 25.76360135933741,
+        "longitude": -80.1987502521375
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1124190496",
+      "address": {
+        "line": [
+          "8900 N Kendall Dr"
+        ],
+        "city": "Miami",
+        "state": "FL",
+        "postalCode": "33176"
+      },
+      "position": {
+        "latitude": 25.760866177660667,
+        "longitude": -80.18039941179802
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1491905865",
+      "address": {
+        "line": [
+          "550 1st Ave"
+        ],
+        "city": "New York",
+        "state": "NY",
+        "postalCode": "10016"
+      },
+      "position": {
+        "latitude": 40.72865826946079,
+        "longitude": -73.97219826983772
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1657262849",
+      "address": {
+        "line": [
+          "635 Madison Ave"
+        ],
+        "city": "New York",
+        "state": "NY",
+        "postalCode": "10022"
+      },
+      "position": {
+        "latitude": 40.758227968752266,
+        "longitude": -73.97657308374207
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1945314737",
+      "address": {
+        "line": [
+          "1275 York Ave"
+        ],
+        "city": "New York",
+        "state": "NY",
+        "postalCode": "10065"
+      },
+      "position": {
+        "latitude": 40.748693985787135,
+        "longitude": -73.97137246118218
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1527354549",
+      "address": {
+        "line": [
+          "4245 Roosevelt Way NE"
+        ],
+        "city": "Seattle",
+        "state": "WA",
+        "postalCode": "98115"
+      },
+      "position": {
+        "latitude": 47.61424735001329,
+        "longitude": -122.34104925696975
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1678377701",
+      "address": {
+        "line": [
+          "1959 NE Pacific St"
+        ],
+        "city": "Seattle",
+        "state": "WA",
+        "postalCode": "98195"
+      },
+      "position": {
+        "latitude": 47.59796942325282,
+        "longitude": -122.33592395485287
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1578856855",
+      "address": {
+        "line": [
+          "800 5th Ave"
+        ],
+        "city": "Seattle",
+        "state": "WA",
+        "postalCode": "98104"
+      },
+      "position": {
+        "latitude": 47.614314197687435,
+        "longitude": -122.34126334292095
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1351823374",
+      "address": {
+        "line": [
+          "251 E Huron St"
+        ],
+        "city": "Chicago",
+        "state": "IL",
+        "postalCode": "60611"
+      },
+      "position": {
+        "latitude": 41.901983400043726,
+        "longitude": -87.59893571908468
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1343524082",
+      "address": {
+        "line": [
+          "676 N St Clair St"
+        ],
+        "city": "Chicago",
+        "state": "IL",
+        "postalCode": "60611"
+      },
+      "position": {
+        "latitude": 41.88397245307133,
+        "longitude": -87.59902820275589
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1710947775",
+      "address": {
+        "line": [
+          "6560 Fannin St"
+        ],
+        "city": "Houston",
+        "state": "TX",
+        "postalCode": "77030"
+      },
+      "position": {
+        "latitude": 29.694374546815602,
+        "longitude": -95.41594493131265
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1719022941",
+      "address": {
+        "line": [
+          "1709 Dryden Rd"
+        ],
+        "city": "Houston",
+        "state": "TX",
+        "postalCode": "77030"
+      },
+      "position": {
+        "latitude": 29.72675672490841,
+        "longitude": -95.41326193751154
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1677496499",
+      "address": {
+        "line": [
+          "7737 Southwest Fwy"
+        ],
+        "city": "Houston",
+        "state": "TX",
+        "postalCode": "77074"
+      },
+      "position": {
+        "latitude": 29.6894092121749,
+        "longitude": -95.37959564890262
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1412328120",
+      "address": {
+        "line": [
+          "100 UCLA Medical Plz"
+        ],
+        "city": "Los Angeles",
+        "state": "CA",
+        "postalCode": "90095"
+      },
+      "position": {
+        "latitude": 34.0598407029064,
+        "longitude": -118.4242251545686
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1447134936",
+      "address": {
+        "line": [
+          "8700 Beverly Blvd"
+        ],
+        "city": "Los Angeles",
+        "state": "CA",
+        "postalCode": "90048"
+      },
+      "position": {
+        "latitude": 34.04809105209844,
+        "longitude": -118.44280762198936
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1024994717",
+      "address": {
+        "line": [
+          "1245 16th St"
+        ],
+        "city": "Los Angeles",
+        "state": "CA",
+        "postalCode": "90404"
+      },
+      "position": {
+        "latitude": 34.07104711964848,
+        "longitude": -118.42381065260096
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1906594013",
+      "address": {
+        "line": [
+          "1400 NW 12th Ave"
+        ],
+        "city": "Miami",
+        "state": "FL",
+        "postalCode": "33136"
+      },
+      "position": {
+        "latitude": 25.783476444087714,
+        "longitude": -80.17556165544374
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1278742967",
+      "address": {
+        "line": [
+          "8900 N Kendall Dr"
+        ],
+        "city": "Miami",
+        "state": "FL",
+        "postalCode": "33176"
+      },
+      "position": {
+        "latitude": 25.783762209442628,
+        "longitude": -80.19019958420158
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1125674680",
+      "address": {
+        "line": [
+          "3661 S Miami Ave"
+        ],
+        "city": "Miami",
+        "state": "FL",
+        "postalCode": "33133"
+      },
+      "position": {
+        "latitude": 25.76319303634407,
+        "longitude": -80.19641931371319
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1808760385",
+      "address": {
+        "line": [
+          "550 1st Ave"
+        ],
+        "city": "New York",
+        "state": "NY",
+        "postalCode": "10016"
+      },
+      "position": {
+        "latitude": 40.75080535490407,
+        "longitude": -73.97816027590471
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1824771093",
+      "address": {
+        "line": [
+          "635 Madison Ave"
+        ],
+        "city": "New York",
+        "state": "NY",
+        "postalCode": "10022"
+      },
+      "position": {
+        "latitude": 40.75429131300401,
+        "longitude": -73.98566999446426
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1171274846",
+      "address": {
+        "line": [
+          "1275 York Ave"
+        ],
+        "city": "New York",
+        "state": "NY",
+        "postalCode": "10065"
+      },
+      "position": {
+        "latitude": 40.75928895782307,
+        "longitude": -73.95889021469586
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1639821465",
+      "address": {
+        "line": [
+          "4245 Roosevelt Way NE"
+        ],
+        "city": "Seattle",
+        "state": "WA",
+        "postalCode": "98115"
+      },
+      "position": {
+        "latitude": 47.623569935747305,
+        "longitude": -122.33179049296761
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1997278755",
+      "address": {
+        "line": [
+          "1959 NE Pacific St"
+        ],
+        "city": "Seattle",
+        "state": "WA",
+        "postalCode": "98195"
+      },
+      "position": {
+        "latitude": 47.608276696682836,
+        "longitude": -122.33036279748165
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1396360576",
+      "address": {
+        "line": [
+          "251 E Huron St"
+        ],
+        "city": "Chicago",
+        "state": "IL",
+        "postalCode": "60611"
+      },
+      "position": {
+        "latitude": 41.88844315009964,
+        "longitude": -87.6114524468206
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1895171870",
+      "address": {
+        "line": [
+          "676 N St Clair St"
+        ],
+        "city": "Chicago",
+        "state": "IL",
+        "postalCode": "60611"
+      },
+      "position": {
+        "latitude": 41.90189775310283,
+        "longitude": -87.62160085521015
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1459615865",
+      "address": {
+        "line": [
+          "1725 W Harrison St"
+        ],
+        "city": "Chicago",
+        "state": "IL",
+        "postalCode": "60612"
+      },
+      "position": {
+        "latitude": 41.89807196716032,
+        "longitude": -87.60250245268362
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1343161172",
+      "address": {
+        "line": [
+          "6560 Fannin St"
+        ],
+        "city": "Houston",
+        "state": "TX",
+        "postalCode": "77030"
+      },
+      "position": {
+        "latitude": 29.71476004651173,
+        "longitude": -95.38186303751797
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1556238692",
+      "address": {
+        "line": [
+          "1709 Dryden Rd"
+        ],
+        "city": "Houston",
+        "state": "TX",
+        "postalCode": "77030"
+      },
+      "position": {
+        "latitude": 29.693799345962724,
+        "longitude": -95.41484126597359
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1237474074",
+      "address": {
+        "line": [
+          "100 UCLA Medical Plz"
+        ],
+        "city": "Los Angeles",
+        "state": "CA",
+        "postalCode": "90095"
+      },
+      "position": {
+        "latitude": 34.07060443542796,
+        "longitude": -118.44548097511712
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1647436713",
+      "address": {
+        "line": [
+          "8700 Beverly Blvd"
+        ],
+        "city": "Los Angeles",
+        "state": "CA",
+        "postalCode": "90048"
+      },
+      "position": {
+        "latitude": 34.058754571906306,
+        "longitude": -118.4374416336969
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1640909743",
+      "address": {
+        "line": [
+          "1245 16th St"
+        ],
+        "city": "Los Angeles",
+        "state": "CA",
+        "postalCode": "90404"
+      },
+      "position": {
+        "latitude": 34.067782599926566,
+        "longitude": -118.43770716176658
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1210470952",
+      "address": {
+        "line": [
+          "1400 NW 12th Ave"
+        ],
+        "city": "Miami",
+        "state": "FL",
+        "postalCode": "33136"
+      },
+      "position": {
+        "latitude": 25.74860533502985,
+        "longitude": -80.19719558193482
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1858842474",
+      "address": {
+        "line": [
+          "8900 N Kendall Dr"
+        ],
+        "city": "Miami",
+        "state": "FL",
+        "postalCode": "33176"
+      },
+      "position": {
+        "latitude": 25.774862374028682,
+        "longitude": -80.19545138984792
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1368516048",
+      "address": {
+        "line": [
+          "3661 S Miami Ave"
+        ],
+        "city": "Miami",
+        "state": "FL",
+        "postalCode": "33133"
+      },
+      "position": {
+        "latitude": 25.74994354947054,
+        "longitude": -80.19425657365535
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1137098593",
+      "address": {
+        "line": [
+          "550 1st Ave"
+        ],
+        "city": "New York",
+        "state": "NY",
+        "postalCode": "10016"
+      },
+      "position": {
+        "latitude": 40.751806095225575,
+        "longitude": -73.97268384310487
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1120047113",
+      "address": {
+        "line": [
+          "635 Madison Ave"
+        ],
+        "city": "New York",
+        "state": "NY",
+        "postalCode": "10022"
+      },
+      "position": {
+        "latitude": 40.76139037234114,
+        "longitude": -73.99267343805174
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1869261796",
+      "address": {
+        "line": [
+          "1275 York Ave"
+        ],
+        "city": "New York",
+        "state": "NY",
+        "postalCode": "10065"
+      },
+      "position": {
+        "latitude": 40.763462122628546,
+        "longitude": -73.98691039439656
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1351585064",
+      "address": {
+        "line": [
+          "4245 Roosevelt Way NE"
+        ],
+        "city": "Seattle",
+        "state": "WA",
+        "postalCode": "98115"
+      },
+      "position": {
+        "latitude": 47.593792342486445,
+        "longitude": -122.34721361123651
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1900532931",
+      "address": {
+        "line": [
+          "1959 NE Pacific St"
+        ],
+        "city": "Seattle",
+        "state": "WA",
+        "postalCode": "98195"
+      },
+      "position": {
+        "latitude": 47.619392713488686,
+        "longitude": -122.32993168846156
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1290422842",
+      "address": {
+        "line": [
+          "800 5th Ave"
+        ],
+        "city": "Seattle",
+        "state": "WA",
+        "postalCode": "98104"
+      },
+      "position": {
+        "latitude": 47.59059705391558,
+        "longitude": -122.31744208445973
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1395024026",
+      "address": {
+        "line": [
+          "251 E Huron St"
+        ],
+        "city": "Chicago",
+        "state": "IL",
+        "postalCode": "60611"
+      },
+      "position": {
+        "latitude": 41.89404342106391,
+        "longitude": -87.60817338899864
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1891783908",
+      "address": {
+        "line": [
+          "676 N St Clair St"
+        ],
+        "city": "Chicago",
+        "state": "IL",
+        "postalCode": "60611"
+      },
+      "position": {
+        "latitude": 41.88506521316113,
+        "longitude": -87.61226637263178
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1661771159",
+      "address": {
+        "line": [
+          "1725 W Harrison St"
+        ],
+        "city": "Chicago",
+        "state": "IL",
+        "postalCode": "60612"
+      },
+      "position": {
+        "latitude": 41.87893335302642,
+        "longitude": -87.6329523364678
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1847896118",
+      "address": {
+        "line": [
+          "6560 Fannin St"
+        ],
+        "city": "Houston",
+        "state": "TX",
+        "postalCode": "77030"
+      },
+      "position": {
+        "latitude": 29.715833596666304,
+        "longitude": -95.40939907734689
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1766156545",
+      "address": {
+        "line": [
+          "1709 Dryden Rd"
+        ],
+        "city": "Houston",
+        "state": "TX",
+        "postalCode": "77030"
+      },
+      "position": {
+        "latitude": 29.725143700704766,
+        "longitude": -95.39052715858132
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1116152809",
+      "address": {
+        "line": [
+          "7737 Southwest Fwy"
+        ],
+        "city": "Houston",
+        "state": "TX",
+        "postalCode": "77074"
+      },
+      "position": {
+        "latitude": 29.725264984953878,
+        "longitude": -95.3955326647372
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1604945198",
+      "address": {
+        "line": [
+          "100 UCLA Medical Plz"
+        ],
+        "city": "Los Angeles",
+        "state": "CA",
+        "postalCode": "90095"
+      },
+      "position": {
+        "latitude": 34.05200955222688,
+        "longitude": -118.42553054788047
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1851493689",
+      "address": {
+        "line": [
+          "8700 Beverly Blvd"
+        ],
+        "city": "Los Angeles",
+        "state": "CA",
+        "postalCode": "90048"
+      },
+      "position": {
+        "latitude": 34.06804293122141,
+        "longitude": -118.4260920334468
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1445502296",
+      "address": {
+        "line": [
+          "1245 16th St"
+        ],
+        "city": "Los Angeles",
+        "state": "CA",
+        "postalCode": "90404"
+      },
+      "position": {
+        "latitude": 34.04628341684993,
+        "longitude": -118.42216123763527
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1366752545",
+      "address": {
+        "line": [
+          "1400 NW 12th Ave"
+        ],
+        "city": "Miami",
+        "state": "FL",
+        "postalCode": "33136"
+      },
+      "position": {
+        "latitude": 25.77607342479867,
+        "longitude": -80.18629625773542
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1901476797",
+      "address": {
+        "line": [
+          "8900 N Kendall Dr"
+        ],
+        "city": "Miami",
+        "state": "FL",
+        "postalCode": "33176"
+      },
+      "position": {
+        "latitude": 25.76156734951531,
+        "longitude": -80.20037724138648
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1149784036",
+      "address": {
+        "line": [
+          "550 1st Ave"
+        ],
+        "city": "New York",
+        "state": "NY",
+        "postalCode": "10016"
+      },
+      "position": {
+        "latitude": 40.76527782633284,
+        "longitude": -73.99590872165928
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1244510762",
+      "address": {
+        "line": [
+          "635 Madison Ave"
+        ],
+        "city": "New York",
+        "state": "NY",
+        "postalCode": "10022"
+      },
+      "position": {
+        "latitude": 40.73106742807037,
+        "longitude": -73.9767967060853
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1060715969",
+      "address": {
+        "line": [
+          "1275 York Ave"
+        ],
+        "city": "New York",
+        "state": "NY",
+        "postalCode": "10065"
+      },
+      "position": {
+        "latitude": 40.74207691538021,
+        "longitude": -73.97249433323809
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1529751613",
+      "address": {
+        "line": [
+          "4245 Roosevelt Way NE"
+        ],
+        "city": "Seattle",
+        "state": "WA",
+        "postalCode": "98115"
+      },
+      "position": {
+        "latitude": 47.60362706107762,
+        "longitude": -122.33608200734736
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1535218188",
+      "address": {
+        "line": [
+          "1959 NE Pacific St"
+        ],
+        "city": "Seattle",
+        "state": "WA",
+        "postalCode": "98195"
+      },
+      "position": {
+        "latitude": 47.593956148250676,
+        "longitude": -122.32105087082702
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1243292127",
+      "address": {
+        "line": [
+          "251 E Huron St"
+        ],
+        "city": "Chicago",
+        "state": "IL",
+        "postalCode": "60611"
+      },
+      "position": {
+        "latitude": 41.89155812274052,
+        "longitude": -87.61545058066848
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1271774490",
+      "address": {
+        "line": [
+          "676 N St Clair St"
+        ],
+        "city": "Chicago",
+        "state": "IL",
+        "postalCode": "60611"
+      },
+      "position": {
+        "latitude": 41.8870776889048,
+        "longitude": -87.63503237375306
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1541199867",
+      "address": {
+        "line": [
+          "1725 W Harrison St"
+        ],
+        "city": "Chicago",
+        "state": "IL",
+        "postalCode": "60612"
+      },
+      "position": {
+        "latitude": 41.89621317629645,
+        "longitude": -87.59983074093108
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1359782071",
+      "address": {
+        "line": [
+          "6560 Fannin St"
+        ],
+        "city": "Houston",
+        "state": "TX",
+        "postalCode": "77030"
+      },
+      "position": {
+        "latitude": 29.719438672452906,
+        "longitude": -95.3845049128701
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1778892554",
+      "address": {
+        "line": [
+          "1709 Dryden Rd"
+        ],
+        "city": "Houston",
+        "state": "TX",
+        "postalCode": "77030"
+      },
+      "position": {
+        "latitude": 29.702496662380927,
+        "longitude": -95.38702140845704
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1186449251",
+      "address": {
+        "line": [
+          "7737 Southwest Fwy"
+        ],
+        "city": "Houston",
+        "state": "TX",
+        "postalCode": "77074"
+      },
+      "position": {
+        "latitude": 29.71030958058346,
+        "longitude": -95.41234286477662
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1629148652",
+      "address": {
+        "line": [
+          "100 UCLA Medical Plz"
+        ],
+        "city": "Los Angeles",
+        "state": "CA",
+        "postalCode": "90095"
+      },
+      "position": {
+        "latitude": 34.070304655999784,
+        "longitude": -118.41864164108422
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1685054235",
+      "address": {
+        "line": [
+          "8700 Beverly Blvd"
+        ],
+        "city": "Los Angeles",
+        "state": "CA",
+        "postalCode": "90048"
+      },
+      "position": {
+        "latitude": 34.081406730701374,
+        "longitude": -118.43234916316509
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1418880592",
+      "address": {
+        "line": [
+          "1245 16th St"
+        ],
+        "city": "Los Angeles",
+        "state": "CA",
+        "postalCode": "90404"
+      },
+      "position": {
+        "latitude": 34.067389857642866,
+        "longitude": -118.44562988954715
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1065379473",
+      "address": {
+        "line": [
+          "1400 NW 12th Ave"
+        ],
+        "city": "Miami",
+        "state": "FL",
+        "postalCode": "33136"
+      },
+      "position": {
+        "latitude": 25.76636044598793,
+        "longitude": -80.19662128413748
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1977468862",
+      "address": {
+        "line": [
+          "8900 N Kendall Dr"
+        ],
+        "city": "Miami",
+        "state": "FL",
+        "postalCode": "33176"
+      },
+      "position": {
+        "latitude": 25.77767564958325,
+        "longitude": -80.17694963103393
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1758181412",
+      "address": {
+        "line": [
+          "550 1st Ave"
+        ],
+        "city": "New York",
+        "state": "NY",
+        "postalCode": "10016"
+      },
+      "position": {
+        "latitude": 40.73681165198365,
+        "longitude": -73.96188775164087
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1750606853",
+      "address": {
+        "line": [
+          "635 Madison Ave"
+        ],
+        "city": "New York",
+        "state": "NY",
+        "postalCode": "10022"
+      },
+      "position": {
+        "latitude": 40.74134664472178,
+        "longitude": -73.99483578251156
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1522047277",
+      "address": {
+        "line": [
+          "1275 York Ave"
+        ],
+        "city": "New York",
+        "state": "NY",
+        "postalCode": "10065"
+      },
+      "position": {
+        "latitude": 40.75051393028654,
+        "longitude": -73.96186570043587
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1289861434",
+      "address": {
+        "line": [
+          "4245 Roosevelt Way NE"
+        ],
+        "city": "Seattle",
+        "state": "WA",
+        "postalCode": "98115"
+      },
+      "position": {
+        "latitude": 47.59107393380635,
+        "longitude": -122.34256241986161
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1798089324",
+      "address": {
+        "line": [
+          "1959 NE Pacific St"
+        ],
+        "city": "Seattle",
+        "state": "WA",
+        "postalCode": "98195"
+      },
+      "position": {
+        "latitude": 47.603369555724136,
+        "longitude": -122.32750761668896
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1185188888",
+      "address": {
+        "line": [
+          "251 E Huron St"
+        ],
+        "city": "Chicago",
+        "state": "IL",
+        "postalCode": "60611"
+      },
+      "position": {
+        "latitude": 41.873813372251526,
+        "longitude": -87.60306674245889
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1051531952",
+      "address": {
+        "line": [
+          "676 N St Clair St"
+        ],
+        "city": "Chicago",
+        "state": "IL",
+        "postalCode": "60611"
+      },
+      "position": {
+        "latitude": 41.87477342753181,
+        "longitude": -87.61615945019169
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1221704303",
+      "address": {
+        "line": [
+          "6560 Fannin St"
+        ],
+        "city": "Houston",
+        "state": "TX",
+        "postalCode": "77030"
+      },
+      "position": {
+        "latitude": 29.722431615424725,
+        "longitude": -95.40537616719801
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1403450541",
+      "address": {
+        "line": [
+          "1709 Dryden Rd"
+        ],
+        "city": "Houston",
+        "state": "TX",
+        "postalCode": "77030"
+      },
+      "position": {
+        "latitude": 29.71897369646073,
+        "longitude": -95.40052194467499
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1277584161",
+      "address": {
+        "line": [
+          "7737 Southwest Fwy"
+        ],
+        "city": "Houston",
+        "state": "TX",
+        "postalCode": "77074"
+      },
+      "position": {
+        "latitude": 29.704224286080137,
+        "longitude": -95.37819607340623
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1154479627",
+      "address": {
+        "line": [
+          "100 UCLA Medical Plz"
+        ],
+        "city": "Los Angeles",
+        "state": "CA",
+        "postalCode": "90095"
+      },
+      "position": {
+        "latitude": 34.05756187935088,
+        "longitude": -118.45010579348599
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1016582029",
+      "address": {
+        "line": [
+          "8700 Beverly Blvd"
+        ],
+        "city": "Los Angeles",
+        "state": "CA",
+        "postalCode": "90048"
+      },
+      "position": {
+        "latitude": 34.070623554879816,
+        "longitude": -118.4342730870024
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1556909275",
+      "address": {
+        "line": [
+          "1245 16th St"
+        ],
+        "city": "Los Angeles",
+        "state": "CA",
+        "postalCode": "90404"
+      },
+      "position": {
+        "latitude": 34.058380535138824,
+        "longitude": -118.42127662112806
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1431027868",
+      "address": {
+        "line": [
+          "1400 NW 12th Ave"
+        ],
+        "city": "Miami",
+        "state": "FL",
+        "postalCode": "33136"
+      },
+      "position": {
+        "latitude": 25.749710439819626,
+        "longitude": -80.17800142065873
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1731217271",
+      "address": {
+        "line": [
+          "8900 N Kendall Dr"
+        ],
+        "city": "Miami",
+        "state": "FL",
+        "postalCode": "33176"
+      },
+      "position": {
+        "latitude": 25.777420528734307,
+        "longitude": -80.17029755054547
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1884422583",
+      "address": {
+        "line": [
+          "550 1st Ave"
+        ],
+        "city": "New York",
+        "state": "NY",
+        "postalCode": "10016"
+      },
+      "position": {
+        "latitude": 40.73075449820314,
+        "longitude": -73.99006078515289
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1589578291",
+      "address": {
+        "line": [
+          "635 Madison Ave"
+        ],
+        "city": "New York",
+        "state": "NY",
+        "postalCode": "10022"
+      },
+      "position": {
+        "latitude": 40.72852992421069,
+        "longitude": -73.98217360076916
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1912517785",
+      "address": {
+        "line": [
+          "1275 York Ave"
+        ],
+        "city": "New York",
+        "state": "NY",
+        "postalCode": "10065"
+      },
+      "position": {
+        "latitude": 40.7310333844298,
+        "longitude": -73.96493785087458
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1680182422",
+      "address": {
+        "line": [
+          "4245 Roosevelt Way NE"
+        ],
+        "city": "Seattle",
+        "state": "WA",
+        "postalCode": "98115"
+      },
+      "position": {
+        "latitude": 47.599106430046184,
+        "longitude": -122.32372671469882
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1384249818",
+      "address": {
+        "line": [
+          "1959 NE Pacific St"
+        ],
+        "city": "Seattle",
+        "state": "WA",
+        "postalCode": "98195"
+      },
+      "position": {
+        "latitude": 47.611839497091964,
+        "longitude": -122.32842766218734
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1959001094",
+      "address": {
+        "line": [
+          "800 5th Ave"
+        ],
+        "city": "Seattle",
+        "state": "WA",
+        "postalCode": "98104"
+      },
+      "position": {
+        "latitude": 47.612245199099426,
+        "longitude": -122.32142163996335
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1844736471",
+      "address": {
+        "line": [
+          "251 E Huron St"
+        ],
+        "city": "Chicago",
+        "state": "IL",
+        "postalCode": "60611"
+      },
+      "position": {
+        "latitude": 41.90054454286692,
+        "longitude": -87.63167678211938
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1592555625",
+      "address": {
+        "line": [
+          "676 N St Clair St"
+        ],
+        "city": "Chicago",
+        "state": "IL",
+        "postalCode": "60611"
+      },
+      "position": {
+        "latitude": 41.89359920536329,
+        "longitude": -87.63375264265564
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1732104696",
+      "address": {
+        "line": [
+          "6560 Fannin St"
+        ],
+        "city": "Houston",
+        "state": "TX",
+        "postalCode": "77030"
+      },
+      "position": {
+        "latitude": 29.69693081121525,
+        "longitude": -95.38338769993116
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1532787747",
+      "address": {
+        "line": [
+          "1709 Dryden Rd"
+        ],
+        "city": "Houston",
+        "state": "TX",
+        "postalCode": "77030"
+      },
+      "position": {
+        "latitude": 29.687927051928654,
+        "longitude": -95.38019068783723
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1950047974",
+      "address": {
+        "line": [
+          "7737 Southwest Fwy"
+        ],
+        "city": "Houston",
+        "state": "TX",
+        "postalCode": "77074"
+      },
+      "position": {
+        "latitude": 29.708467629971558,
+        "longitude": -95.38411310538426
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1565060983",
+      "address": {
+        "line": [
+          "100 UCLA Medical Plz"
+        ],
+        "city": "Los Angeles",
+        "state": "CA",
+        "postalCode": "90095"
+      },
+      "position": {
+        "latitude": 34.05800095103777,
+        "longitude": -118.44025593211843
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1499121655",
+      "address": {
+        "line": [
+          "8700 Beverly Blvd"
+        ],
+        "city": "Los Angeles",
+        "state": "CA",
+        "postalCode": "90048"
+      },
+      "position": {
+        "latitude": 34.065813273530885,
+        "longitude": -118.43717574507147
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1680002578",
+      "address": {
+        "line": [
+          "1245 16th St"
+        ],
+        "city": "Los Angeles",
+        "state": "CA",
+        "postalCode": "90404"
+      },
+      "position": {
+        "latitude": 34.06177954237131,
+        "longitude": -118.42754957910384
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1526949588",
+      "address": {
+        "line": [
+          "1400 NW 12th Ave"
+        ],
+        "city": "Miami",
+        "state": "FL",
+        "postalCode": "33136"
+      },
+      "position": {
+        "latitude": 25.766293593195037,
+        "longitude": -80.18065040774258
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1516940974",
+      "address": {
+        "line": [
+          "550 1st Ave"
+        ],
+        "city": "New York",
+        "state": "NY",
+        "postalCode": "10016"
+      },
+      "position": {
+        "latitude": 40.76458282784688,
+        "longitude": -73.96678384034274
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1289623091",
+      "address": {
+        "line": [
+          "635 Madison Ave"
+        ],
+        "city": "New York",
+        "state": "NY",
+        "postalCode": "10022"
+      },
+      "position": {
+        "latitude": 40.733531373113074,
+        "longitude": -73.98045845735261
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1368970283",
+      "address": {
+        "line": [
+          "1275 York Ave"
+        ],
+        "city": "New York",
+        "state": "NY",
+        "postalCode": "10065"
+      },
+      "position": {
+        "latitude": 40.748335470916345,
+        "longitude": -73.95817508526378
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1785854973",
+      "address": {
+        "line": [
+          "4245 Roosevelt Way NE"
+        ],
+        "city": "Seattle",
+        "state": "WA",
+        "postalCode": "98115"
+      },
+      "position": {
+        "latitude": 47.62449349584774,
+        "longitude": -122.34093974416312
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1437575844",
+      "address": {
+        "line": [
+          "1959 NE Pacific St"
+        ],
+        "city": "Seattle",
+        "state": "WA",
+        "postalCode": "98195"
+      },
+      "position": {
+        "latitude": 47.59107496422931,
+        "longitude": -122.3250351101687
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1240415747",
+      "address": {
+        "line": [
+          "800 5th Ave"
+        ],
+        "city": "Seattle",
+        "state": "WA",
+        "postalCode": "98104"
+      },
+      "position": {
+        "latitude": 47.594759472323084,
+        "longitude": -122.31898193185968
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1993308330",
+      "address": {
+        "line": [
+          "251 E Huron St"
+        ],
+        "city": "Chicago",
+        "state": "IL",
+        "postalCode": "60611"
+      },
+      "position": {
+        "latitude": 41.87700791836181,
+        "longitude": -87.62478825506051
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1208267734",
+      "address": {
+        "line": [
+          "676 N St Clair St"
+        ],
+        "city": "Chicago",
+        "state": "IL",
+        "postalCode": "60611"
+      },
+      "position": {
+        "latitude": 41.88584670808477,
+        "longitude": -87.61216408328438
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1026206724",
+      "address": {
+        "line": [
+          "1725 W Harrison St"
+        ],
+        "city": "Chicago",
+        "state": "IL",
+        "postalCode": "60612"
+      },
+      "position": {
+        "latitude": 41.90806972671672,
+        "longitude": -87.63762931326079
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1887287431",
+      "address": {
+        "line": [
+          "6560 Fannin St"
+        ],
+        "city": "Houston",
+        "state": "TX",
+        "postalCode": "77030"
+      },
+      "position": {
+        "latitude": 29.70022736387327,
+        "longitude": -95.38875523064765
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1549329668",
+      "address": {
+        "line": [
+          "1709 Dryden Rd"
+        ],
+        "city": "Houston",
+        "state": "TX",
+        "postalCode": "77030"
+      },
+      "position": {
+        "latitude": 29.70011706634961,
+        "longitude": -95.40196667013488
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1530463745",
+      "address": {
+        "line": [
+          "100 UCLA Medical Plz"
+        ],
+        "city": "Los Angeles",
+        "state": "CA",
+        "postalCode": "90095"
+      },
+      "position": {
+        "latitude": 34.05557783358766,
+        "longitude": -118.42288469886395
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1301742684",
+      "address": {
+        "line": [
+          "8700 Beverly Blvd"
+        ],
+        "city": "Los Angeles",
+        "state": "CA",
+        "postalCode": "90048"
+      },
+      "position": {
+        "latitude": 34.07111161509675,
+        "longitude": -118.42625154699202
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1327279568",
+      "address": {
+        "line": [
+          "1245 16th St"
+        ],
+        "city": "Los Angeles",
+        "state": "CA",
+        "postalCode": "90404"
+      },
+      "position": {
+        "latitude": 34.08001187553132,
+        "longitude": -118.42150597906782
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1918785191",
+      "address": {
+        "line": [
+          "1400 NW 12th Ave"
+        ],
+        "city": "Miami",
+        "state": "FL",
+        "postalCode": "33136"
+      },
+      "position": {
+        "latitude": 25.747470321902266,
+        "longitude": -80.18709403005155
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1225871397",
+      "address": {
+        "line": [
+          "8900 N Kendall Dr"
+        ],
+        "city": "Miami",
+        "state": "FL",
+        "postalCode": "33176"
+      },
+      "position": {
+        "latitude": 25.74863766577807,
+        "longitude": -80.18858498583867
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1679087406",
+      "address": {
+        "line": [
+          "3661 S Miami Ave"
+        ],
+        "city": "Miami",
+        "state": "FL",
+        "postalCode": "33133"
+      },
+      "position": {
+        "latitude": 25.755178288762703,
+        "longitude": -80.20887938113636
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1518017046",
+      "address": {
+        "line": [
+          "550 1st Ave"
+        ],
+        "city": "New York",
+        "state": "NY",
+        "postalCode": "10016"
+      },
+      "position": {
+        "latitude": 40.73309925307303,
+        "longitude": -73.99268284534043
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1661825128",
+      "address": {
+        "line": [
+          "635 Madison Ave"
+        ],
+        "city": "New York",
+        "state": "NY",
+        "postalCode": "10022"
+      },
+      "position": {
+        "latitude": 40.74162234527136,
+        "longitude": -73.99300611650709
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1478686337",
+      "address": {
+        "line": [
+          "1275 York Ave"
+        ],
+        "city": "New York",
+        "state": "NY",
+        "postalCode": "10065"
+      },
+      "position": {
+        "latitude": 40.73974638939951,
+        "longitude": -73.9870740108882
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1903311907",
+      "address": {
+        "line": [
+          "4245 Roosevelt Way NE"
+        ],
+        "city": "Seattle",
+        "state": "WA",
+        "postalCode": "98115"
+      },
+      "position": {
+        "latitude": 47.61011139586926,
+        "longitude": -122.3239685493254
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1673830284",
+      "address": {
+        "line": [
+          "1959 NE Pacific St"
+        ],
+        "city": "Seattle",
+        "state": "WA",
+        "postalCode": "98195"
+      },
+      "position": {
+        "latitude": 47.59556646068567,
+        "longitude": -122.31544411867513
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1283644089",
+      "address": {
+        "line": [
+          "251 E Huron St"
+        ],
+        "city": "Chicago",
+        "state": "IL",
+        "postalCode": "60611"
+      },
+      "position": {
+        "latitude": 41.90818855563855,
+        "longitude": -87.60153689337517
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1685662462",
+      "address": {
+        "line": [
+          "676 N St Clair St"
+        ],
+        "city": "Chicago",
+        "state": "IL",
+        "postalCode": "60611"
+      },
+      "position": {
+        "latitude": 41.90317664388952,
+        "longitude": -87.6190592471835
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1708668826",
+      "address": {
+        "line": [
+          "1725 W Harrison St"
+        ],
+        "city": "Chicago",
+        "state": "IL",
+        "postalCode": "60612"
+      },
+      "position": {
+        "latitude": 41.88271434064358,
+        "longitude": -87.62986653067759
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1830469901",
+      "address": {
+        "line": [
+          "6560 Fannin St"
+        ],
+        "city": "Houston",
+        "state": "TX",
+        "postalCode": "77030"
+      },
+      "position": {
+        "latitude": 29.69452653175731,
+        "longitude": -95.38753214329851
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1540331739",
+      "address": {
+        "line": [
+          "1709 Dryden Rd"
+        ],
+        "city": "Houston",
+        "state": "TX",
+        "postalCode": "77030"
+      },
+      "position": {
+        "latitude": 29.715150743307028,
+        "longitude": -95.40213471760894
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1678544587",
+      "address": {
+        "line": [
+          "100 UCLA Medical Plz"
+        ],
+        "city": "Los Angeles",
+        "state": "CA",
+        "postalCode": "90095"
+      },
+      "position": {
+        "latitude": 34.06214016267616,
+        "longitude": -118.4196873351272
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1560932048",
+      "address": {
+        "line": [
+          "8700 Beverly Blvd"
+        ],
+        "city": "Los Angeles",
+        "state": "CA",
+        "postalCode": "90048"
+      },
+      "position": {
+        "latitude": 34.080890330011854,
+        "longitude": -118.4286342829585
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1536937854",
+      "address": {
+        "line": [
+          "1245 16th St"
+        ],
+        "city": "Los Angeles",
+        "state": "CA",
+        "postalCode": "90404"
+      },
+      "position": {
+        "latitude": 34.07403442502665,
+        "longitude": -118.43225515597864
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1522872808",
+      "address": {
+        "line": [
+          "1400 NW 12th Ave"
+        ],
+        "city": "Miami",
+        "state": "FL",
+        "postalCode": "33136"
+      },
+      "position": {
+        "latitude": 25.74635295028659,
+        "longitude": -80.17513210467268
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1312038750",
+      "address": {
+        "line": [
+          "8900 N Kendall Dr"
+        ],
+        "city": "Miami",
+        "state": "FL",
+        "postalCode": "33176"
+      },
+      "position": {
+        "latitude": 25.769713409435074,
+        "longitude": -80.18232981081786
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1886008484",
+      "address": {
+        "line": [
+          "3661 S Miami Ave"
+        ],
+        "city": "Miami",
+        "state": "FL",
+        "postalCode": "33133"
+      },
+      "position": {
+        "latitude": 25.745685703904098,
+        "longitude": -80.17647371116344
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1823398454",
+      "address": {
+        "line": [
+          "550 1st Ave"
+        ],
+        "city": "New York",
+        "state": "NY",
+        "postalCode": "10016"
+      },
+      "position": {
+        "latitude": 40.757697453283335,
+        "longitude": -73.99493923024743
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1341016668",
+      "address": {
+        "line": [
+          "635 Madison Ave"
+        ],
+        "city": "New York",
+        "state": "NY",
+        "postalCode": "10022"
+      },
+      "position": {
+        "latitude": 40.744940204005275,
+        "longitude": -73.97263007697777
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1659180339",
+      "address": {
+        "line": [
+          "1275 York Ave"
+        ],
+        "city": "New York",
+        "state": "NY",
+        "postalCode": "10065"
+      },
+      "position": {
+        "latitude": 40.74492001150581,
+        "longitude": -73.99623752117033
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1025039261",
+      "address": {
+        "line": [
+          "4245 Roosevelt Way NE"
+        ],
+        "city": "Seattle",
+        "state": "WA",
+        "postalCode": "98115"
+      },
+      "position": {
+        "latitude": 47.59817107558324,
+        "longitude": -122.32954167201504
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1218501631",
+      "address": {
+        "line": [
+          "1959 NE Pacific St"
+        ],
+        "city": "Seattle",
+        "state": "WA",
+        "postalCode": "98195"
+      },
+      "position": {
+        "latitude": 47.599823709859,
+        "longitude": -122.32133977386538
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1477358662",
+      "address": {
+        "line": [
+          "800 5th Ave"
+        ],
+        "city": "Seattle",
+        "state": "WA",
+        "postalCode": "98104"
+      },
+      "position": {
+        "latitude": 47.61338779432353,
+        "longitude": -122.3256731236994
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1114262655",
+      "address": {
+        "line": [
+          "251 E Huron St"
+        ],
+        "city": "Chicago",
+        "state": "IL",
+        "postalCode": "60611"
+      },
+      "position": {
+        "latitude": 41.87726203670845,
+        "longitude": -87.63779219110519
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1412126788",
+      "address": {
+        "line": [
+          "676 N St Clair St"
+        ],
+        "city": "Chicago",
+        "state": "IL",
+        "postalCode": "60611"
+      },
+      "position": {
+        "latitude": 41.89349763393642,
+        "longitude": -87.63386828290633
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1995604661",
+      "address": {
+        "line": [
+          "1725 W Harrison St"
+        ],
+        "city": "Chicago",
+        "state": "IL",
+        "postalCode": "60612"
+      },
+      "position": {
+        "latitude": 41.901993753761396,
+        "longitude": -87.6156185381695
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1224447212",
+      "address": {
+        "line": [
+          "6560 Fannin St"
+        ],
+        "city": "Houston",
+        "state": "TX",
+        "postalCode": "77030"
+      },
+      "position": {
+        "latitude": 29.70438705077051,
+        "longitude": -95.4011559064091
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1379937124",
+      "address": {
+        "line": [
+          "1709 Dryden Rd"
+        ],
+        "city": "Houston",
+        "state": "TX",
+        "postalCode": "77030"
+      },
+      "position": {
+        "latitude": 29.68727069477702,
+        "longitude": -95.40217232086295
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1692459375",
+      "address": {
+        "line": [
+          "7737 Southwest Fwy"
+        ],
+        "city": "Houston",
+        "state": "TX",
+        "postalCode": "77074"
+      },
+      "position": {
+        "latitude": 29.694105490852767,
+        "longitude": -95.40207041669824
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1793564651",
+      "address": {
+        "line": [
+          "100 UCLA Medical Plz"
+        ],
+        "city": "Los Angeles",
+        "state": "CA",
+        "postalCode": "90095"
+      },
+      "position": {
+        "latitude": 34.08078268610353,
+        "longitude": -118.44380799805157
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1807374167",
+      "address": {
+        "line": [
+          "8700 Beverly Blvd"
+        ],
+        "city": "Los Angeles",
+        "state": "CA",
+        "postalCode": "90048"
+      },
+      "position": {
+        "latitude": 34.049067164907854,
+        "longitude": -118.43968669429957
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1617979688",
+      "address": {
+        "line": [
+          "1245 16th St"
+        ],
+        "city": "Los Angeles",
+        "state": "CA",
+        "postalCode": "90404"
+      },
+      "position": {
+        "latitude": 34.08043983016026,
+        "longitude": -118.41701465102085
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1891135290",
+      "address": {
+        "line": [
+          "1400 NW 12th Ave"
+        ],
+        "city": "Miami",
+        "state": "FL",
+        "postalCode": "33136"
+      },
+      "position": {
+        "latitude": 25.767528811688308,
+        "longitude": -80.18319875184372
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1014388899",
+      "address": {
+        "line": [
+          "8900 N Kendall Dr"
+        ],
+        "city": "Miami",
+        "state": "FL",
+        "postalCode": "33176"
+      },
+      "position": {
+        "latitude": 25.753841269447143,
+        "longitude": -80.19403521728779
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1714611254",
+      "address": {
+        "line": [
+          "3661 S Miami Ave"
+        ],
+        "city": "Miami",
+        "state": "FL",
+        "postalCode": "33133"
+      },
+      "position": {
+        "latitude": 25.758722667233744,
+        "longitude": -80.17762920009885
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1177514010",
+      "address": {
+        "line": [
+          "550 1st Ave"
+        ],
+        "city": "New York",
+        "state": "NY",
+        "postalCode": "10016"
+      },
+      "position": {
+        "latitude": 40.75986720032188,
+        "longitude": -73.97218120330889
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1825867362",
+      "address": {
+        "line": [
+          "635 Madison Ave"
+        ],
+        "city": "New York",
+        "state": "NY",
+        "postalCode": "10022"
+      },
+      "position": {
+        "latitude": 40.733355477011344,
+        "longitude": -73.97180768355365
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1379660334",
+      "address": {
+        "line": [
+          "1275 York Ave"
+        ],
+        "city": "New York",
+        "state": "NY",
+        "postalCode": "10065"
+      },
+      "position": {
+        "latitude": 40.75599301981442,
+        "longitude": -73.96575080845474
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1553714785",
+      "address": {
+        "line": [
+          "4245 Roosevelt Way NE"
+        ],
+        "city": "Seattle",
+        "state": "WA",
+        "postalCode": "98115"
+      },
+      "position": {
+        "latitude": 47.61007883317132,
+        "longitude": -122.32764766315444
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1792499125",
+      "address": {
+        "line": [
+          "1959 NE Pacific St"
+        ],
+        "city": "Seattle",
+        "state": "WA",
+        "postalCode": "98195"
+      },
+      "position": {
+        "latitude": 47.59091446610647,
+        "longitude": -122.33988479989857
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1866929662",
+      "address": {
+        "line": [
+          "800 5th Ave"
+        ],
+        "city": "Seattle",
+        "state": "WA",
+        "postalCode": "98104"
+      },
+      "position": {
+        "latitude": 47.605666808627696,
+        "longitude": -122.33060482920007
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1225790507",
+      "address": {
+        "line": [
+          "251 E Huron St"
+        ],
+        "city": "Chicago",
+        "state": "IL",
+        "postalCode": "60611"
+      },
+      "position": {
+        "latitude": 41.8784613885865,
+        "longitude": -87.60539136237384
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1767721903",
+      "address": {
+        "line": [
+          "676 N St Clair St"
+        ],
+        "city": "Chicago",
+        "state": "IL",
+        "postalCode": "60611"
+      },
+      "position": {
+        "latitude": 41.88468359638235,
+        "longitude": -87.62700588326905
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1797881914",
+      "address": {
+        "line": [
+          "1725 W Harrison St"
+        ],
+        "city": "Chicago",
+        "state": "IL",
+        "postalCode": "60612"
+      },
+      "position": {
+        "latitude": 41.90400452111456,
+        "longitude": -87.60506868768009
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1783613407",
+      "address": {
+        "line": [
+          "6560 Fannin St"
+        ],
+        "city": "Houston",
+        "state": "TX",
+        "postalCode": "77030"
+      },
+      "position": {
+        "latitude": 29.69751260898965,
+        "longitude": -95.3835120149801
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1339596292",
+      "address": {
+        "line": [
+          "1709 Dryden Rd"
+        ],
+        "city": "Houston",
+        "state": "TX",
+        "postalCode": "77030"
+      },
+      "position": {
+        "latitude": 29.718393972398825,
+        "longitude": -95.38545880538018
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1982544948",
+      "address": {
+        "line": [
+          "7737 Southwest Fwy"
+        ],
+        "city": "Houston",
+        "state": "TX",
+        "postalCode": "77074"
+      },
+      "position": {
+        "latitude": 29.72641953209047,
+        "longitude": -95.39082802736306
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1604223253",
+      "address": {
+        "line": [
+          "100 UCLA Medical Plz"
+        ],
+        "city": "Los Angeles",
+        "state": "CA",
+        "postalCode": "90095"
+      },
+      "position": {
+        "latitude": 34.07395894349919,
+        "longitude": -118.424750617852
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1466711684",
+      "address": {
+        "line": [
+          "8700 Beverly Blvd"
+        ],
+        "city": "Los Angeles",
+        "state": "CA",
+        "postalCode": "90048"
+      },
+      "position": {
+        "latitude": 34.0712881446291,
+        "longitude": -118.41670730572667
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1017518636",
+      "address": {
+        "line": [
+          "1245 16th St"
+        ],
+        "city": "Los Angeles",
+        "state": "CA",
+        "postalCode": "90404"
+      },
+      "position": {
+        "latitude": 34.07649390590544,
+        "longitude": -118.43201140209777
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1929750017",
+      "address": {
+        "line": [
+          "1400 NW 12th Ave"
+        ],
+        "city": "Miami",
+        "state": "FL",
+        "postalCode": "33136"
+      },
+      "position": {
+        "latitude": 25.74565125409491,
+        "longitude": -80.1718226849861
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1632424154",
+      "address": {
+        "line": [
+          "8900 N Kendall Dr"
+        ],
+        "city": "Miami",
+        "state": "FL",
+        "postalCode": "33176"
+      },
+      "position": {
+        "latitude": 25.74829682122822,
+        "longitude": -80.18241964754348
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1436110371",
+      "address": {
+        "line": [
+          "3661 S Miami Ave"
+        ],
+        "city": "Miami",
+        "state": "FL",
+        "postalCode": "33133"
+      },
+      "position": {
+        "latitude": 25.7503079916816,
+        "longitude": -80.19995236554162
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1516271361",
+      "address": {
+        "line": [
+          "550 1st Ave"
+        ],
+        "city": "New York",
+        "state": "NY",
+        "postalCode": "10016"
+      },
+      "position": {
+        "latitude": 40.75513053527056,
+        "longitude": -73.99400291318202
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1622189092",
+      "address": {
+        "line": [
+          "635 Madison Ave"
+        ],
+        "city": "New York",
+        "state": "NY",
+        "postalCode": "10022"
+      },
+      "position": {
+        "latitude": 40.74350397683119,
+        "longitude": -73.96920271894543
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1731121965",
+      "address": {
+        "line": [
+          "1275 York Ave"
+        ],
+        "city": "New York",
+        "state": "NY",
+        "postalCode": "10065"
+      },
+      "position": {
+        "latitude": 40.764429948422126,
+        "longitude": -73.9855198532727
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1138999404",
+      "address": {
+        "line": [
+          "4245 Roosevelt Way NE"
+        ],
+        "city": "Seattle",
+        "state": "WA",
+        "postalCode": "98115"
+      },
+      "position": {
+        "latitude": 47.5944178287261,
+        "longitude": -122.32782292521311
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1037613791",
+      "address": {
+        "line": [
+          "1959 NE Pacific St"
+        ],
+        "city": "Seattle",
+        "state": "WA",
+        "postalCode": "98195"
+      },
+      "position": {
+        "latitude": 47.60733146003745,
+        "longitude": -122.31299212208626
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1965827109",
+      "address": {
+        "line": [
+          "800 5th Ave"
+        ],
+        "city": "Seattle",
+        "state": "WA",
+        "postalCode": "98104"
+      },
+      "position": {
+        "latitude": 47.588901302770914,
+        "longitude": -122.34161258891352
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1486661889",
+      "address": {
+        "line": [
+          "251 E Huron St"
+        ],
+        "city": "Chicago",
+        "state": "IL",
+        "postalCode": "60611"
+      },
+      "position": {
+        "latitude": 41.87910721775218,
+        "longitude": -87.63465611704888
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1569146303",
+      "address": {
+        "line": [
+          "676 N St Clair St"
+        ],
+        "city": "Chicago",
+        "state": "IL",
+        "postalCode": "60611"
+      },
+      "position": {
+        "latitude": 41.87644851193566,
+        "longitude": -87.62062065645576
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1210202758",
+      "address": {
+        "line": [
+          "1725 W Harrison St"
+        ],
+        "city": "Chicago",
+        "state": "IL",
+        "postalCode": "60612"
+      },
+      "position": {
+        "latitude": 41.89368891369789,
+        "longitude": -87.60509972509122
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1410564814",
+      "address": {
+        "line": [
+          "6560 Fannin St"
+        ],
+        "city": "Houston",
+        "state": "TX",
+        "postalCode": "77030"
+      },
+      "position": {
+        "latitude": 29.715492929928022,
+        "longitude": -95.39493393301143
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1507925241",
+      "address": {
+        "line": [
+          "1709 Dryden Rd"
+        ],
+        "city": "Houston",
+        "state": "TX",
+        "postalCode": "77030"
+      },
+      "position": {
+        "latitude": 29.72277073680577,
+        "longitude": -95.39103518273747
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1000307562",
+      "address": {
+        "line": [
+          "7737 Southwest Fwy"
+        ],
+        "city": "Houston",
+        "state": "TX",
+        "postalCode": "77074"
+      },
+      "position": {
+        "latitude": 29.69415843735074,
+        "longitude": -95.37958631418422
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1365419518",
+      "address": {
+        "line": [
+          "100 UCLA Medical Plz"
+        ],
+        "city": "Los Angeles",
+        "state": "CA",
+        "postalCode": "90095"
+      },
+      "position": {
+        "latitude": 34.07043302866874,
+        "longitude": -118.4496931140365
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1744518705",
+      "address": {
+        "line": [
+          "8700 Beverly Blvd"
+        ],
+        "city": "Los Angeles",
+        "state": "CA",
+        "postalCode": "90048"
+      },
+      "position": {
+        "latitude": 34.05152684613812,
+        "longitude": -118.42924773036702
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1973832060",
+      "address": {
+        "line": [
+          "1245 16th St"
+        ],
+        "city": "Los Angeles",
+        "state": "CA",
+        "postalCode": "90404"
+      },
+      "position": {
+        "latitude": 34.05281990967439,
+        "longitude": -118.43794305209042
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1641383670",
+      "address": {
+        "line": [
+          "1400 NW 12th Ave"
+        ],
+        "city": "Miami",
+        "state": "FL",
+        "postalCode": "33136"
+      },
+      "position": {
+        "latitude": 25.783902369438696,
+        "longitude": -80.20330506059179
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1865719182",
+      "address": {
+        "line": [
+          "8900 N Kendall Dr"
+        ],
+        "city": "Miami",
+        "state": "FL",
+        "postalCode": "33176"
+      },
+      "position": {
+        "latitude": 25.77048862720131,
+        "longitude": -80.19322594843064
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1344565574",
+      "address": {
+        "line": [
+          "3661 S Miami Ave"
+        ],
+        "city": "Miami",
+        "state": "FL",
+        "postalCode": "33133"
+      },
+      "position": {
+        "latitude": 25.754344449065535,
+        "longitude": -80.17125781255879
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1277561853",
+      "address": {
+        "line": [
+          "550 1st Ave"
+        ],
+        "city": "New York",
+        "state": "NY",
+        "postalCode": "10016"
+      },
+      "position": {
+        "latitude": 40.74397668307671,
+        "longitude": -73.97956613619775
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1490352135",
+      "address": {
+        "line": [
+          "635 Madison Ave"
+        ],
+        "city": "New York",
+        "state": "NY",
+        "postalCode": "10022"
+      },
+      "position": {
+        "latitude": 40.74174977850719,
+        "longitude": -73.99614197529638
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1678831712",
+      "address": {
+        "line": [
+          "1275 York Ave"
+        ],
+        "city": "New York",
+        "state": "NY",
+        "postalCode": "10065"
+      },
+      "position": {
+        "latitude": 40.73075813022016,
+        "longitude": -73.99563323262025
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1651994101",
+      "address": {
+        "line": [
+          "4245 Roosevelt Way NE"
+        ],
+        "city": "Seattle",
+        "state": "WA",
+        "postalCode": "98115"
+      },
+      "position": {
+        "latitude": 47.59411001346782,
+        "longitude": -122.32626052417652
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1070296670",
+      "address": {
+        "line": [
+          "1959 NE Pacific St"
+        ],
+        "city": "Seattle",
+        "state": "WA",
+        "postalCode": "98195"
+      },
+      "position": {
+        "latitude": 47.60150917754269,
+        "longitude": -122.33503343926286
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1472099934",
+      "address": {
+        "line": [
+          "800 5th Ave"
+        ],
+        "city": "Seattle",
+        "state": "WA",
+        "postalCode": "98104"
+      },
+      "position": {
+        "latitude": 47.606155664399864,
+        "longitude": -122.31678885703364
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1626383806",
+      "address": {
+        "line": [
+          "251 E Huron St"
+        ],
+        "city": "Chicago",
+        "state": "IL",
+        "postalCode": "60611"
+      },
+      "position": {
+        "latitude": 41.90427663067382,
+        "longitude": -87.6236355156065
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1856420593",
+      "address": {
+        "line": [
+          "676 N St Clair St"
+        ],
+        "city": "Chicago",
+        "state": "IL",
+        "postalCode": "60611"
+      },
+      "position": {
+        "latitude": 41.874172138421464,
+        "longitude": -87.60557242537183
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1593213348",
+      "address": {
+        "line": [
+          "6560 Fannin St"
+        ],
+        "city": "Houston",
+        "state": "TX",
+        "postalCode": "77030"
+      },
+      "position": {
+        "latitude": 29.71965140646435,
+        "longitude": -95.38130962069718
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1652239559",
+      "address": {
+        "line": [
+          "1709 Dryden Rd"
+        ],
+        "city": "Houston",
+        "state": "TX",
+        "postalCode": "77030"
+      },
+      "position": {
+        "latitude": 29.688128262789085,
+        "longitude": -95.38997756786594
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1427010393",
+      "address": {
+        "line": [
+          "100 UCLA Medical Plz"
+        ],
+        "city": "Los Angeles",
+        "state": "CA",
+        "postalCode": "90095"
+      },
+      "position": {
+        "latitude": 34.04429711959554,
+        "longitude": -118.43268044047335
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1250029218",
+      "address": {
+        "line": [
+          "8700 Beverly Blvd"
+        ],
+        "city": "Los Angeles",
+        "state": "CA",
+        "postalCode": "90048"
+      },
+      "position": {
+        "latitude": 34.07792677866366,
+        "longitude": -118.41337764998896
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1545226752",
+      "address": {
+        "line": [
+          "1245 16th St"
+        ],
+        "city": "Los Angeles",
+        "state": "CA",
+        "postalCode": "90404"
+      },
+      "position": {
+        "latitude": 34.07178731684945,
+        "longitude": -118.42932090761256
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1264422096",
+      "address": {
+        "line": [
+          "1400 NW 12th Ave"
+        ],
+        "city": "Miami",
+        "state": "FL",
+        "postalCode": "33136"
+      },
+      "position": {
+        "latitude": 25.779030278621402,
+        "longitude": -80.17816678429686
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1939172513",
+      "address": {
+        "line": [
+          "8900 N Kendall Dr"
+        ],
+        "city": "Miami",
+        "state": "FL",
+        "postalCode": "33176"
+      },
+      "position": {
+        "latitude": 25.75887240498733,
+        "longitude": -80.19621925283435
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1433154100",
+      "address": {
+        "line": [
+          "3661 S Miami Ave"
+        ],
+        "city": "Miami",
+        "state": "FL",
+        "postalCode": "33133"
+      },
+      "position": {
+        "latitude": 25.760437483918135,
+        "longitude": -80.17969662022004
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1586179327",
+      "address": {
+        "line": [
+          "550 1st Ave"
+        ],
+        "city": "New York",
+        "state": "NY",
+        "postalCode": "10016"
+      },
+      "position": {
+        "latitude": 40.72884837558245,
+        "longitude": -73.96426950063902
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1115262181",
+      "address": {
+        "line": [
+          "635 Madison Ave"
+        ],
+        "city": "New York",
+        "state": "NY",
+        "postalCode": "10022"
+      },
+      "position": {
+        "latitude": 40.739418023369915,
+        "longitude": -73.95868895599435
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1296201533",
+      "address": {
+        "line": [
+          "1275 York Ave"
+        ],
+        "city": "New York",
+        "state": "NY",
+        "postalCode": "10065"
+      },
+      "position": {
+        "latitude": 40.74227119463003,
+        "longitude": -73.97593550270734
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1431069872",
+      "address": {
+        "line": [
+          "4245 Roosevelt Way NE"
+        ],
+        "city": "Seattle",
+        "state": "WA",
+        "postalCode": "98115"
+      },
+      "position": {
+        "latitude": 47.5883801940682,
+        "longitude": -122.35194737711322
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1973103241",
+      "address": {
+        "line": [
+          "1959 NE Pacific St"
+        ],
+        "city": "Seattle",
+        "state": "WA",
+        "postalCode": "98195"
+      },
+      "position": {
+        "latitude": 47.605142826045686,
+        "longitude": -122.34747964305032
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "loc-1418625652",
+      "address": {
+        "line": [
+          "800 5th Ave"
+        ],
+        "city": "Seattle",
+        "state": "WA",
+        "postalCode": "98104"
+      },
+      "position": {
+        "latitude": 47.60403101083178,
+        "longitude": -122.34156816133269
+      }
+    }
+  ]
+}

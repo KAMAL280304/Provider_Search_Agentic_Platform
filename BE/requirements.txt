@@ -1,0 +1,20 @@
+# Web framework
+fastapi>=0.115.0
+uvicorn>=0.34.0
+python-multipart>=0.0.9
+sse-starlette>=1.6.1
+
+# Config
+python-dotenv>=1.0.0
+
+# Data validation
+pydantic>=2.10.0
+
+# Google ADK + Vertex AI (pulls in google-genai, google-auth, grpcio, etc.)
+google-adk>=1.0.0
+
+# Google GenAI SDK (used directly in llm_service.py)
+google-genai>=1.0.0
+
+# Google Cloud Storage (used when STORAGE_BACKEND=gcs)
+google-cloud-storage>=2.0.0
