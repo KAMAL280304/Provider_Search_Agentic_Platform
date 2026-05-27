@@ -1,0 +1,374 @@
+/* LandingPage.css — uses same tokens as Dashboard.css / Login.css */
+
+.lp-root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
+  background: #ffffff;
+  color: #000048;
+}
+
+/* ── Sub-nav (below the main header) ── */
+.lp-nav {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+  padding: 0 32px;
+  height: 40px;
+  background: #f8faff;
+  border-bottom: 1px solid #e0e7ff;
+}
+
+.lp-nav a {
+  font-size: 13px;
+  font-weight: 600;
+  color: #000048;
+  text-decoration: none;
+  padding: 0 4px;
+  border-bottom: 2px solid transparent;
+  transition: border-color 0.2s, color 0.2s;
+  line-height: 40px;
+}
+
+.lp-nav a:hover {
+  color: #2e308e;
+  border-bottom-color: #2e308e;
+}
+
+/* ── Hero ── */
+.lp-hero {
+  background: linear-gradient(135deg, #000048 0%, #2e308e 60%, #1a3a8f 100%);
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 72px 64px;
+  gap: 48px;
+  flex-wrap: wrap;
+}
+
+.lp-hero-content {
+  flex: 1;
+  min-width: 280px;
+  max-width: 520px;
+}
+
+.lp-hero-badge {
+  display: inline-block;
+  background: rgba(255,255,255,0.15);
+  border: 1px solid rgba(255,255,255,0.3);
+  border-radius: 999px;
+  padding: 4px 14px;
+  font-size: 12px;
+  font-weight: 600;
+  color: rgba(255,255,255,0.9);
+  margin-bottom: 20px;
+  letter-spacing: 0.3px;
+}
+
+.lp-hero-content h1 {
+  font-size: 44px;
+  font-weight: 800;
+  line-height: 1.15;
+  margin-bottom: 18px;
+  letter-spacing: -0.5px;
+}
+
+.lp-hero-content p {
+  font-size: 16px;
+  color: rgba(255,255,255,0.78);
+  line-height: 1.7;
+  margin-bottom: 32px;
+  max-width: 440px;
+}
+
+.lp-hero-actions {
+  display: flex;
+  gap: 14px;
+  flex-wrap: wrap;
+  margin-bottom: 24px;
+}
+
+.lp-cta-btn {
+  padding: 13px 28px;
+  background: #ffffff;
+  color: #000048;
+  border: none;
+  border-radius: 30px;
+  font-size: 14px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.2s;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.2);
+}
+
+.lp-cta-btn:hover {
+  background: #e0e7ff;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(0,0,0,0.25);
+}
+
+.lp-cta-provider {
+  background: rgba(255,255,255,0.15);
+  color: #fff;
+  border: 2px solid rgba(255,255,255,0.5);
+}
+
+.lp-cta-provider:hover {
+  background: rgba(255,255,255,0.25);
+  color: #fff;
+  transform: translateY(-2px);
+}
+
+.lp-cta-payer {
+  background: rgba(255,255,255,0.1);
+  color: #fff;
+  border: 2px solid rgba(255,255,255,0.4);
+}
+
+.lp-cta-payer:hover {
+  background: rgba(255,255,255,0.2);
+  color: #fff;
+  transform: translateY(-2px);
+}
+
+.lp-secondary-btn {
+  padding: 13px 24px;
+  background: transparent;
+  color: rgba(255,255,255,0.85);
+  border: 2px solid rgba(255,255,255,0.4);
+  border-radius: 30px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  text-decoration: none;
+  transition: all 0.2s;
+  display: inline-flex;
+  align-items: center;
+}
+
+.lp-secondary-btn:hover {
+  background: rgba(255,255,255,0.1);
+  border-color: rgba(255,255,255,0.7);
+  color: #fff;
+}
+
+.lp-welcome-chip {
+  display: inline-block;
+  background: rgba(255,255,255,0.12);
+  border: 1px solid rgba(255,255,255,0.25);
+  border-radius: 8px;
+  padding: 8px 14px;
+  font-size: 13px;
+  color: rgba(255,255,255,0.85);
+}
+
+.lp-welcome-chip strong { color: #fff; }
+
+/* Hero visual cards */
+.lp-hero-visual {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  flex-shrink: 0;
+}
+
+.lp-hero-card {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  background: rgba(255,255,255,0.1);
+  border: 1px solid rgba(255,255,255,0.2);
+  border-radius: 12px;
+  padding: 14px 20px;
+  min-width: 240px;
+  backdrop-filter: blur(4px);
+  transition: background 0.2s;
+}
+
+.lp-hero-card:hover {
+  background: rgba(255,255,255,0.16);
+}
+
+.lp-hero-card-icon {
+  font-size: 28px;
+  flex-shrink: 0;
+}
+
+.lp-hero-card-text {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.lp-hero-card-text strong {
+  font-size: 14px;
+  font-weight: 700;
+  color: #fff;
+}
+
+.lp-hero-card-text span {
+  font-size: 12px;
+  color: rgba(255,255,255,0.65);
+}
+
+/* ── Sections ── */
+.lp-section {
+  padding: 72px 32px;
+  background: #ffffff;
+}
+
+.lp-section-alt {
+  background: #f8faff;
+}
+
+.lp-section-inner {
+  max-width: 1000px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.lp-contact-inner {
+  max-width: 600px;
+}
+
+.lp-section-label {
+  display: inline-block;
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #2e308e;
+  background: #e0e7ff;
+  border-radius: 999px;
+  padding: 4px 14px;
+  margin-bottom: 12px;
+}
+
+.lp-section h2 {
+  font-size: 28px;
+  font-weight: 800;
+  color: #000048;
+  margin-bottom: 40px;
+  letter-spacing: -0.3px;
+}
+
+/* ── Cards ── */
+.lp-cards {
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.lp-card {
+  background: #ffffff;
+  border: 1.5px solid #e0e7ff;
+  border-radius: 16px;
+  padding: 32px 24px;
+  width: 280px;
+  box-shadow: 0 4px 16px rgba(0,0,72,0.06);
+  transition: transform 0.2s, box-shadow 0.2s, border-color 0.2s;
+  text-align: center;
+}
+
+.lp-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 32px rgba(0,0,72,0.12);
+  border-color: #85A0F9;
+}
+
+.lp-card-icon {
+  font-size: 38px;
+  margin-bottom: 16px;
+}
+
+.lp-card h3 {
+  font-size: 16px;
+  font-weight: 700;
+  color: #000048;
+  margin-bottom: 10px;
+}
+
+.lp-card p {
+  font-size: 13px;
+  color: #64748b;
+  line-height: 1.65;
+}
+
+/* ── Contact ── */
+.lp-contact-text {
+  font-size: 15px;
+  color: #475569;
+  margin-bottom: 20px;
+  line-height: 1.6;
+}
+
+.lp-contact-chips {
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.lp-contact-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 10px 20px;
+  background: #ffffff;
+  border: 1.5px solid #e0e7ff;
+  border-radius: 999px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #000048;
+  box-shadow: 0 2px 8px rgba(0,0,72,0.06);
+}
+
+/* ── Floating chat button ── */
+.lp-fab {
+  position: fixed;
+  bottom: 28px;
+  right: 28px;
+  z-index: 200;
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  background: #000048;
+  color: #fff;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+  box-shadow: 0 6px 20px rgba(0,0,72,0.35);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.2s, transform 0.2s;
+}
+
+.lp-fab:hover {
+  background: #2e308e;
+  transform: scale(1.08);
+}
+
+/* ── Responsive ── */
+@media (max-width: 900px) {
+  .lp-hero {
+    flex-direction: column;
+    padding: 48px 32px;
+    text-align: center;
+  }
+  .lp-hero-content { max-width: 100%; }
+  .lp-hero-content p { margin: 0 auto 32px; }
+  .lp-hero-actions { justify-content: center; }
+  .lp-hero-visual { flex-direction: row; flex-wrap: wrap; justify-content: center; }
+  .lp-hero-card { min-width: 200px; }
+}
+
+@media (max-width: 600px) {
+  .lp-hero-content h1 { font-size: 30px; }
+  .lp-nav { gap: 20px; padding: 0 16px; }
+  .lp-card { width: 100%; max-width: 340px; }
+  .lp-hero-visual { display: none; }
+}
